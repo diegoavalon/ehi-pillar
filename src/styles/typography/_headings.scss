@@ -1,0 +1,61 @@
+$content__spacer: 30px;
+$content__spacer--mobile: 20px;
+
+.hero {
+    @include fluid-type(600px, 1200px, 48px, 48px);
+    line-height: 48px;
+    font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    margin: 0;
+    line-height: 1.1;
+}
+
+h1,
+.h1 {
+    @include fluid-type(600px, 1200px, 24px, 55px);
+    font-weight: 900;
+    // line-height: 30px;
+}
+
+h2,
+.h2 {
+    @include fluid-type(600px, 820px, 24px, 34px);
+    font-weight: 600;
+    // line-height: 30px;
+}
+
+// h3,
+// .h3 {
+//     @include fluid-type(600px, 820px, 24px, 28px);
+// }
+
+// h4,
+// .h4 {
+//     @include fluid-type(600px, 820px, 20px, 25px);
+// }
+
+// h5,
+// .h5 {
+//     @include font-size(19px);
+
+//     @media only screen and (min-width: 600px) {
+//         @include font-size(20px);
+//     }
+// }
+
+// h6,
+// .h6 {
+//     @include font-size(17px);
+
+//     @media only screen and (min-width: 600px) {
+//         @include font-size(18px);
+//     }
+// }

@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+
+docs/
+
+.eslintrc.js
+.gitignore
+.stylelintrc.js
+index.html
+yarn.lock
+yarn-error.log
+
+HISTORY.md

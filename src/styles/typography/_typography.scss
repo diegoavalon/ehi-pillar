@@ -1,0 +1,96 @@
+@import "fonts";
+
+$font__size_base: 18px;
+
+$font__line-height-body: 23px;
+$font__line-height-pre: 1.6;
+
+$font__body: "Source Sans Pro", sans-serif;
+
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
+}
+
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+@mixin letter-spacing($size) {
+    letter-spacing: $size;
+    letter-spacing: calculateRem($size);
+}
+
+@mixin font-smoothing {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
+
+    @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
+        & {
+            font-size: $min-font-size;
+
+            @media screen and (min-width: $min-vw) {
+                font-size: calc(
+                    #{$min-font-size} + #{strip-unit(
+                            $max-font-size - $min-font-size
+                        )} *
+                        (
+                            (100vw - #{$min-vw}) / #{strip-unit(
+                                    $max-vw - $min-vw
+                                )}
+                        )
+                );
+            }
+
+            @media screen and (min-width: $max-vw) {
+                font-size: $max-font-size;
+            }
+        }
+    }
+}
+
+@mixin fluid-line-height(
+    $min_width,
+    $max_width,
+    $sml_line-height,
+    $mid_line-height,
+    $lrg_line-height
+) {
+    line-height: $sml_line-height;
+
+    @media screen and (min-width: $min_width) {
+        line-height: $mid_line-height;
+    }
+
+    @media screen and (min-width: $max_width) {
+        line-height: $lrg_line-height;
+    }
+}
+
+body {
+    @include fluid-type(600px, 1200px, 18px, 19px);
+    color: var(--black);
+    font-family: $font__body;
+    line-height: $font__line-height-body;
+
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    word-wrap: break-word;
+}
+
+@import "headings";
+
+@import "copy";

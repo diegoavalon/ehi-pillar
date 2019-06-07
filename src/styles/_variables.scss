@@ -1,0 +1,31 @@
+:root {
+    // Animation
+    --cubic-bezier: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+    // Spacing
+    --space-unit: 1em;
+
+    // Colors
+    --black: #000000;
+    --white: #ffffff;
+
+    --grey-dark: #333333;
+    --grey: #666666;
+    --grey-light: #f4f4f4;
+
+    --primary: #2f69fc;
+    --primary-light: #749bff;
+    --primary-lightest: #eaf0ff;
+
+    --func-primary: #00b05c;
+    --func-secondary: #ef994a;
+    --func-secondary-light: #fff3e8;
+}
+
+@supports (--css: variables) {
+    :root {
+        @media screen and (min-width: 760px) {
+            --space-unit: 1.25em;
+        }
+    }
+}

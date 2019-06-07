@@ -1,0 +1,14 @@
+# Editors
+/.idea/
+/.vscode/
+
+/.log/
+/dist/js
+/esdoc/
+/node_modules/
+/test/unit/dist
+/.DS_Store
+/.sass-cache
+/npm-debug.log*
+/stats.html
+/yarn-error.log
