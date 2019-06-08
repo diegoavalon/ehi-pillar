@@ -2,14 +2,24 @@
 
 A design system built as a utility class framework to be consumed by all eHealth products.
 
-## Installation
+## Install library
 
 ```
-npm install --save ehi-pillar
+npm install -D ehi-pillar
 ```
 
-## Usage
+## Step 2: Import style library
 
--   Imported fully by js and optimized by project build system
--   Config file shared and built within project with other modular styles added
--   Imported fully by CDN in `.html` pages.
+```js
+import "ehi-pillar/dist/css/main.css";
+```
+
+<br>
+
+Or by CDN directly in your HTML `<head>`
+
+```shell
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ehi-pillar/dist/css/main.css">
+```
+
+<br>
