@@ -1,7 +1,7 @@
 $content__spacer: 30px;
 $content__spacer--mobile: 20px;
 
-.hero {
+.headline {
     @include fluid-type(600px, 1200px, 48px, 48px);
     line-height: 48px;
     font-weight: 900;

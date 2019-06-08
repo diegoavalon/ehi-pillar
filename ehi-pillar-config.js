@@ -99,6 +99,8 @@ module.exports = {
     variants: {},
     corePlugins: {
         fontSize: false,
+        letterSpacing: false,
+        lineHeight: false,
         negativeMargin: false
     },
     plugins: []

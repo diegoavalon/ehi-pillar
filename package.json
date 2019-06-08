@@ -1,6 +1,7 @@
 {
     "name": "ehi-pillar",
     "version": "0.0.1",
+    "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/diegoavalon/ehi-pillar.git"
@@ -15,7 +16,8 @@
         "esdoc": "esdoc",
         "clean": "rm -rf dist",
         "start": "yarn watch",
-        "watch": "yarn clean && rollup -c --environment DEVELOPMENT --watch"
+        "watch": "yarn clean && rollup -c --environment DEVELOPMENT --watch",
+        "release": "np"
     },
     "homepage": "https://ehealthinsurance.com",
     "license": "MIT",
@@ -46,6 +48,7 @@
         "glob": "^7.1.3",
         "http-server": "^0.11.1",
         "mutationobserver-shim": "^0.3.3",
+        "np": "^5.0.3",
         "postcss": "^7.0.14",
         "postcss-import": "^12.0.1",
         "replace": "^1.1.0",

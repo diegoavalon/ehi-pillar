@@ -13,21 +13,65 @@
         />
         <link rel="stylesheet" href="/ehi-pillar/dist/css/main.css" />
     </head>
-    <body>
+    <body class="flex flex-col">
         <!-- Begin your markup here -->
-        <header class="py-md shadow-12dp">
-            <div class="wrapper">
-                <h1>eHealth</h1>
+        <header class="py-md">
+            <div class="wrapper flex justify-between">
+                <a href="/" class="h2 font-black text-primary">
+                    eHealth <span class="font-regular text-black">Pillar</span>
+                </a>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    width="24"
+                    viewBox="0 0 18 18"
+                >
+                    <path
+                        d="M12.07692 7.76923c0-1.1859-.42147-2.20032-1.26442-3.04327-.84295-.84295-1.85737-1.26442-3.04327-1.26442-1.1859 0-2.20032.42147-3.04327 1.26442-.84295.84295-1.26442 1.85737-1.26442 3.04327 0 1.1859.42147 2.20032 1.26442 3.04327.84295.84295 1.85737 1.26442 3.04327 1.26442 1.1859 0 2.20032-.42147 3.04327-1.26442.84295-.84295 1.26442-1.85737 1.26442-3.04327zm4.92308 8c0 .33334-.1218.6218-.36538.86539-.2436.24359-.53205.36538-.86539.36538-.34615 0-.63461-.1218-.86538-.36538l-3.29808-3.28847c-1.14744.79488-2.42628 1.19231-3.83654 1.19231-.91667 0-1.79326-.17788-2.6298-.53365-.83655-.35577-1.5577-.83654-2.16347-1.44231-.60577-.60577-1.08654-1.32692-1.4423-2.16346C1.17787 9.5625 1 8.6859 1 7.76924c0-.91668.17788-1.79327.53365-2.62982.35577-.83654.83654-1.55769 1.44231-2.16346.60577-.60577 1.32692-1.08654 2.16346-1.4423C5.97597 1.17787 6.85256 1 7.76923 1c.91667 0 1.79327.17788 2.6298.53365.83655.35577 1.5577.83654 2.16347 1.44231.60577.60577 1.08654 1.32692 1.4423 2.16346.35578.83655.53366 1.71314.53366 2.62981 0 1.41026-.39743 2.6891-1.1923 3.83654l3.29807 3.29808c.23718.23718.35577.52564.35577.86538z"
+                        fill="#000"
+                        fill-rule="evenodd"
+                    />
+                </svg>
             </div>
         </header>
 
-        <div class="hero bg-black text-white text-center py-lg wrapper">
-            sup gina
-        </div>
+        <main class="flex-1">
+            <div class="wrapper">
+                <h1 class="w-2-3 py-md" style="max-width: 760px">
+                    Ship
+                    <span class="text-primary relative"
+                        >consistent
+                        <svg
+                            class="absolute bottom-0 left-0"
+                            style="bottom: -7px"
+                            width="100%"
+                            viewBox="0 0 119 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M113.292 4.07356c-18.9911-.43249-39.3447-2.2245-62.0954-1.41409-17.5597.6255-32.0136 1.90997-49.45728 4.35803-.82039.11513-1.60154.54315-1.71668-.27724-.11513-.82038.93-1.08759 1.75039-1.20272C19.3027 3.07742 32.3881 1.2681 50.0673.63834 72.9113-.17539 97.173.20812 116.172.64078c.828.01886 2.198.05263 2.164 1.55224-.023.99974-1.045 1.9716-5.044 1.88054z"
+                                fill="currentColor"
+                            />
+                        </svg>
+                    </span>
+                    experiences across all of eHealth products.
+                </h1>
+                <nav class="flex">
+                    <a href="/classes.html" class="h3 mr-lg">Classes</a>
+                    <a href="/styles.html" class="h3 mr-lg">Styles</a>
+                    <a href="/components.html" class="h3 mr-lg">Components</a>
+                    <a href="/modules.html" class="h3 mr-lg">Modules</a>
+                    <a href="/pages.html" class="h3 mr-lg">Pages</a>
+                </nav>
+            </div>
+        </main>
 
-        <div class="wrapper">
-            <div class="bg-primary">hello</div>
-        </div>
+        <footer class="wrapper py-sm text-primary-light text-center">
+            &copy; 2019 eHealth Insurance Engineering
+        </footer>
 
         <!-- Add your script to this file -->
         <script src="/ehi-pillar/dist/js/main.js"></script>
