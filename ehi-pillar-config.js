@@ -14,6 +14,7 @@ module.exports = {
             "func-secondary-light": "var(--func-secondary-light)"
         },
         spacing: {
+            "0": "0",
             xxxxs: "calc(0.125 * var(--space-unit))",
             xxxs: "calc(0.25 * var(--space-unit))",
             xxs: "calc(0.375 * var(--space-unit))",
