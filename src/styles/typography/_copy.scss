@@ -78,6 +78,7 @@ p {
     font-weight: 400;
     font-family: "Libre Baskerville", serif;
     margin: 0 0 1em;
+    color: var(--gray-dark);
 }
 
 .font-sm,
@@ -86,6 +87,7 @@ p {
     font-weight: 400;
     line-height: 15px;
     font-family: "Muli", sans-serif;
+    color: var(--gray-dark);
 }
 
 .font-md {
@@ -93,12 +95,37 @@ p {
     font-weight: 400;
     line-height: 18px;
     font-family: "Muli", sans-serif;
+    color: var(--gray-dark);
 }
 
 label,
 .label {
+    display: block;
     @include font-size(14px);
     line-height: 18px;
     font-weight: 600;
     font-family: "Muli", sans-serif;
+    color: var(--gray-dark);
+}
+
+input,
+button,
+select,
+optgroup,
+textarea,
+table {
+    color: var(--black);
+}
+
+input {
+    font-weight: 400;
+    @include font-size(14px);
+}
+
+::placeholder {
+    @include font-size(14px);
+    line-height: 18px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    color: var(--gray);
 }

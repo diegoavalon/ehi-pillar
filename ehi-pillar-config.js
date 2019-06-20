@@ -83,38 +83,44 @@ module.exports = {
             full: "9999px"
         },
         screens: {
-            phone: "calc(600px + 40px)",
+            phablet: "calc(576px + 40px)",
             tablet: "calc(768px + 80px)",
-            laptop: "calc(1024px + 120px)",
+            laptop: "calc(992px + 120px)",
             desktop: "calc(1200px + 200px)"
         },
         fontWeight: {
             regular: "400",
             "semi-bold": "600",
+            bold: "700",
+            "extra-bold": "800",
             black: "900"
         },
-        boxShadow: {
-            "1dp":
-                "0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)",
-            "2dp":
-                "0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)",
-            "3dp":
-                "0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)",
-            "4dp":
-                "0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)",
-            "6dp":
-                "0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)",
-            "8dp":
-                "0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)",
-            "9dp":
-                "0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)",
-            "12dp":
-                "0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)",
-            "16dp":
-                "0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)",
-            "24dp":
-                "0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)"
+        fontFamily: {
+            sans: ["Muli", "sans-serif"],
+            serif: ["Libre Baskerville", "serif"]
         },
+        // boxShadow: {
+        //     "1dp":
+        //         "0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)",
+        //     "2dp":
+        //         "0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)",
+        //     "3dp":
+        //         "0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)",
+        //     "4dp":
+        //         "0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)",
+        //     "6dp":
+        //         "0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)",
+        //     "8dp":
+        //         "0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)",
+        //     "9dp":
+        //         "0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)",
+        //     "12dp":
+        //         "0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)",
+        //     "16dp":
+        //         "0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)",
+        //     "24dp":
+        //         "0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)"
+        // },
         margin: theme => ({
             auto: "auto",
             ...theme("spacing")

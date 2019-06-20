@@ -1389,15 +1389,11 @@
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  font-family: Muli, sans-serif
 }
 
 .font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+  font-family: Libre Baskerville, serif
 }
 
 .font-regular {
@@ -1406,6 +1402,14 @@
 
 .font-semi-bold {
   font-weight: 600
+}
+
+.font-bold {
+  font-weight: 700
+}
+
+.font-extra-bold {
+  font-weight: 800
 }
 
 .font-black {
@@ -1420,6 +1424,14 @@
   font-weight: 600
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700
+}
+
+.hover\:font-extra-bold:hover {
+  font-weight: 800
+}
+
 .hover\:font-black:hover {
   font-weight: 900
 }
@@ -1430,6 +1442,14 @@
 
 .focus\:font-semi-bold:focus {
   font-weight: 600
+}
+
+.focus\:font-bold:focus {
+  font-weight: 700
+}
+
+.focus\:font-extra-bold:focus {
+  font-weight: 800
 }
 
 .focus\:font-black:focus {
@@ -2720,124 +2740,100 @@
   resize: both
 }
 
-.shadow-1dp {
-  box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
 }
 
-.shadow-2dp {
-  box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
 }
 
-.shadow-3dp {
-  box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
 }
 
-.shadow-4dp {
-  box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
 }
 
-.shadow-6dp {
-  box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
 }
 
-.shadow-8dp {
-  box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+.shadow-inner {
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
 }
 
-.shadow-9dp {
-  box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+.shadow-outline {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
 }
 
-.shadow-12dp {
-  box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+.shadow-none {
+  box-shadow: none
 }
 
-.shadow-16dp {
-  box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+.hover\:shadow:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
 }
 
-.shadow-24dp {
-  box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+.hover\:shadow-md:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
 }
 
-.hover\:shadow-1dp:hover {
-  box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+.hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
 }
 
-.hover\:shadow-2dp:hover {
-  box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+.hover\:shadow-xl:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
 }
 
-.hover\:shadow-3dp:hover {
-  box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+.hover\:shadow-2xl:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
 }
 
-.hover\:shadow-4dp:hover {
-  box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+.hover\:shadow-inner:hover {
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
 }
 
-.hover\:shadow-6dp:hover {
-  box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+.hover\:shadow-outline:hover {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
 }
 
-.hover\:shadow-8dp:hover {
-  box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+.hover\:shadow-none:hover {
+  box-shadow: none
 }
 
-.hover\:shadow-9dp:hover {
-  box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+.focus\:shadow:focus {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
 }
 
-.hover\:shadow-12dp:hover {
-  box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+.focus\:shadow-md:focus {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
 }
 
-.hover\:shadow-16dp:hover {
-  box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+.focus\:shadow-lg:focus {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
 }
 
-.hover\:shadow-24dp:hover {
-  box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+.focus\:shadow-xl:focus {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
 }
 
-.focus\:shadow-1dp:focus {
-  box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+.focus\:shadow-2xl:focus {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
 }
 
-.focus\:shadow-2dp:focus {
-  box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+.focus\:shadow-inner:focus {
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
 }
 
-.focus\:shadow-3dp:focus {
-  box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+.focus\:shadow-outline:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
 }
 
-.focus\:shadow-4dp:focus {
-  box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-6dp:focus {
-  box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-8dp:focus {
-  box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-9dp:focus {
-  box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-12dp:focus {
-  box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-16dp:focus {
-  box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
-}
-
-.focus\:shadow-24dp:focus {
-  box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+.focus\:shadow-none:focus {
+  box-shadow: none
 }
 
 .fill-current {
@@ -3457,3463 +3453,3459 @@
   z-index: auto
 }
 
-@media (min-width: calc(600px + 40px)) {
-  .phone\:appearance-none {
+@media (min-width: calc(576px + 40px)) {
+  .phablet\:appearance-none {
     appearance: none
   }
 
-  .phone\:bg-fixed {
+  .phablet\:bg-fixed {
     background-attachment: fixed
   }
 
-  .phone\:bg-local {
+  .phablet\:bg-local {
     background-attachment: local
   }
 
-  .phone\:bg-scroll {
+  .phablet\:bg-scroll {
     background-attachment: scroll
   }
 
-  .phone\:bg-black {
+  .phablet\:bg-black {
     background-color: var(--black)
   }
 
-  .phone\:bg-white {
+  .phablet\:bg-white {
     background-color: var(--white)
   }
 
-  .phone\:bg-gray-active {
+  .phablet\:bg-gray-active {
     background-color: var(--gray-active)
   }
 
-  .phone\:bg-gray-hover {
+  .phablet\:bg-gray-hover {
     background-color: var(--gray-hover)
   }
 
-  .phone\:bg-gray-dark {
+  .phablet\:bg-gray-dark {
     background-color: var(--gray-dark)
   }
 
-  .phone\:bg-gray {
+  .phablet\:bg-gray {
     background-color: var(--gray)
   }
 
-  .phone\:bg-gray-lighter {
+  .phablet\:bg-gray-lighter {
     background-color: var(--gray-lighter)
   }
 
-  .phone\:bg-gray-lightest {
+  .phablet\:bg-gray-lightest {
     background-color: var(--gray-lightest)
   }
 
-  .phone\:bg-red-active {
+  .phablet\:bg-red-active {
     background-color: var(--red-active)
   }
 
-  .phone\:bg-red-hover {
+  .phablet\:bg-red-hover {
     background-color: var(--red-hover)
   }
 
-  .phone\:bg-red-text {
+  .phablet\:bg-red-text {
     background-color: var(--red-text)
   }
 
-  .phone\:bg-red-dark {
+  .phablet\:bg-red-dark {
     background-color: var(--red-dark)
   }
 
-  .phone\:bg-red {
+  .phablet\:bg-red {
     background-color: var(--red)
   }
 
-  .phone\:bg-blue-active {
+  .phablet\:bg-blue-active {
     background-color: var(--blue-active)
   }
 
-  .phone\:bg-blue-hover {
+  .phablet\:bg-blue-hover {
     background-color: var(--blue-hover)
   }
 
-  .phone\:bg-blue-text {
+  .phablet\:bg-blue-text {
     background-color: var(--blue-text)
   }
 
-  .phone\:bg-blue {
+  .phablet\:bg-blue {
     background-color: var(--blue)
   }
 
-  .phone\:bg-blue-light {
+  .phablet\:bg-blue-light {
     background-color: var(--blue-light)
   }
 
-  .phone\:bg-blue-lightest {
+  .phablet\:bg-blue-lightest {
     background-color: var(--blue-lightest)
   }
 
-  .phone\:bg-orange-active {
+  .phablet\:bg-orange-active {
     background-color: var(--orange-active)
   }
 
-  .phone\:bg-orange-hover {
+  .phablet\:bg-orange-hover {
     background-color: var(--orange-hover)
   }
 
-  .phone\:bg-orange-text {
+  .phablet\:bg-orange-text {
     background-color: var(--orange-text)
   }
 
-  .phone\:bg-orange {
+  .phablet\:bg-orange {
     background-color: var(--orange)
   }
 
-  .phone\:bg-orange-lightest {
+  .phablet\:bg-orange-lightest {
     background-color: var(--orange-lightest)
   }
 
-  .phone\:bg-green-active {
+  .phablet\:bg-green-active {
     background-color: var(--green-active)
   }
 
-  .phone\:bg-green-hover {
+  .phablet\:bg-green-hover {
     background-color: var(--green-hover)
   }
 
-  .phone\:bg-green-text {
+  .phablet\:bg-green-text {
     background-color: var(--green-text)
   }
 
-  .phone\:bg-green {
+  .phablet\:bg-green {
     background-color: var(--green)
   }
 
-  .phone\:bg-green-light {
+  .phablet\:bg-green-light {
     background-color: var(--green-light)
   }
 
-  .phone\:hover\:bg-black:hover {
+  .phablet\:hover\:bg-black:hover {
     background-color: var(--black)
   }
 
-  .phone\:hover\:bg-white:hover {
+  .phablet\:hover\:bg-white:hover {
     background-color: var(--white)
   }
 
-  .phone\:hover\:bg-gray-active:hover {
+  .phablet\:hover\:bg-gray-active:hover {
     background-color: var(--gray-active)
   }
 
-  .phone\:hover\:bg-gray-hover:hover {
+  .phablet\:hover\:bg-gray-hover:hover {
     background-color: var(--gray-hover)
   }
 
-  .phone\:hover\:bg-gray-dark:hover {
+  .phablet\:hover\:bg-gray-dark:hover {
     background-color: var(--gray-dark)
   }
 
-  .phone\:hover\:bg-gray:hover {
+  .phablet\:hover\:bg-gray:hover {
     background-color: var(--gray)
   }
 
-  .phone\:hover\:bg-gray-lighter:hover {
+  .phablet\:hover\:bg-gray-lighter:hover {
     background-color: var(--gray-lighter)
   }
 
-  .phone\:hover\:bg-gray-lightest:hover {
+  .phablet\:hover\:bg-gray-lightest:hover {
     background-color: var(--gray-lightest)
   }
 
-  .phone\:hover\:bg-red-active:hover {
+  .phablet\:hover\:bg-red-active:hover {
     background-color: var(--red-active)
   }
 
-  .phone\:hover\:bg-red-hover:hover {
+  .phablet\:hover\:bg-red-hover:hover {
     background-color: var(--red-hover)
   }
 
-  .phone\:hover\:bg-red-text:hover {
+  .phablet\:hover\:bg-red-text:hover {
     background-color: var(--red-text)
   }
 
-  .phone\:hover\:bg-red-dark:hover {
+  .phablet\:hover\:bg-red-dark:hover {
     background-color: var(--red-dark)
   }
 
-  .phone\:hover\:bg-red:hover {
+  .phablet\:hover\:bg-red:hover {
     background-color: var(--red)
   }
 
-  .phone\:hover\:bg-blue-active:hover {
+  .phablet\:hover\:bg-blue-active:hover {
     background-color: var(--blue-active)
   }
 
-  .phone\:hover\:bg-blue-hover:hover {
+  .phablet\:hover\:bg-blue-hover:hover {
     background-color: var(--blue-hover)
   }
 
-  .phone\:hover\:bg-blue-text:hover {
+  .phablet\:hover\:bg-blue-text:hover {
     background-color: var(--blue-text)
   }
 
-  .phone\:hover\:bg-blue:hover {
+  .phablet\:hover\:bg-blue:hover {
     background-color: var(--blue)
   }
 
-  .phone\:hover\:bg-blue-light:hover {
+  .phablet\:hover\:bg-blue-light:hover {
     background-color: var(--blue-light)
   }
 
-  .phone\:hover\:bg-blue-lightest:hover {
+  .phablet\:hover\:bg-blue-lightest:hover {
     background-color: var(--blue-lightest)
   }
 
-  .phone\:hover\:bg-orange-active:hover {
+  .phablet\:hover\:bg-orange-active:hover {
     background-color: var(--orange-active)
   }
 
-  .phone\:hover\:bg-orange-hover:hover {
+  .phablet\:hover\:bg-orange-hover:hover {
     background-color: var(--orange-hover)
   }
 
-  .phone\:hover\:bg-orange-text:hover {
+  .phablet\:hover\:bg-orange-text:hover {
     background-color: var(--orange-text)
   }
 
-  .phone\:hover\:bg-orange:hover {
+  .phablet\:hover\:bg-orange:hover {
     background-color: var(--orange)
   }
 
-  .phone\:hover\:bg-orange-lightest:hover {
+  .phablet\:hover\:bg-orange-lightest:hover {
     background-color: var(--orange-lightest)
   }
 
-  .phone\:hover\:bg-green-active:hover {
+  .phablet\:hover\:bg-green-active:hover {
     background-color: var(--green-active)
   }
 
-  .phone\:hover\:bg-green-hover:hover {
+  .phablet\:hover\:bg-green-hover:hover {
     background-color: var(--green-hover)
   }
 
-  .phone\:hover\:bg-green-text:hover {
+  .phablet\:hover\:bg-green-text:hover {
     background-color: var(--green-text)
   }
 
-  .phone\:hover\:bg-green:hover {
+  .phablet\:hover\:bg-green:hover {
     background-color: var(--green)
   }
 
-  .phone\:hover\:bg-green-light:hover {
+  .phablet\:hover\:bg-green-light:hover {
     background-color: var(--green-light)
   }
 
-  .phone\:focus\:bg-black:focus {
+  .phablet\:focus\:bg-black:focus {
     background-color: var(--black)
   }
 
-  .phone\:focus\:bg-white:focus {
+  .phablet\:focus\:bg-white:focus {
     background-color: var(--white)
   }
 
-  .phone\:focus\:bg-gray-active:focus {
+  .phablet\:focus\:bg-gray-active:focus {
     background-color: var(--gray-active)
   }
 
-  .phone\:focus\:bg-gray-hover:focus {
+  .phablet\:focus\:bg-gray-hover:focus {
     background-color: var(--gray-hover)
   }
 
-  .phone\:focus\:bg-gray-dark:focus {
+  .phablet\:focus\:bg-gray-dark:focus {
     background-color: var(--gray-dark)
   }
 
-  .phone\:focus\:bg-gray:focus {
+  .phablet\:focus\:bg-gray:focus {
     background-color: var(--gray)
   }
 
-  .phone\:focus\:bg-gray-lighter:focus {
+  .phablet\:focus\:bg-gray-lighter:focus {
     background-color: var(--gray-lighter)
   }
 
-  .phone\:focus\:bg-gray-lightest:focus {
+  .phablet\:focus\:bg-gray-lightest:focus {
     background-color: var(--gray-lightest)
   }
 
-  .phone\:focus\:bg-red-active:focus {
+  .phablet\:focus\:bg-red-active:focus {
     background-color: var(--red-active)
   }
 
-  .phone\:focus\:bg-red-hover:focus {
+  .phablet\:focus\:bg-red-hover:focus {
     background-color: var(--red-hover)
   }
 
-  .phone\:focus\:bg-red-text:focus {
+  .phablet\:focus\:bg-red-text:focus {
     background-color: var(--red-text)
   }
 
-  .phone\:focus\:bg-red-dark:focus {
+  .phablet\:focus\:bg-red-dark:focus {
     background-color: var(--red-dark)
   }
 
-  .phone\:focus\:bg-red:focus {
+  .phablet\:focus\:bg-red:focus {
     background-color: var(--red)
   }
 
-  .phone\:focus\:bg-blue-active:focus {
+  .phablet\:focus\:bg-blue-active:focus {
     background-color: var(--blue-active)
   }
 
-  .phone\:focus\:bg-blue-hover:focus {
+  .phablet\:focus\:bg-blue-hover:focus {
     background-color: var(--blue-hover)
   }
 
-  .phone\:focus\:bg-blue-text:focus {
+  .phablet\:focus\:bg-blue-text:focus {
     background-color: var(--blue-text)
   }
 
-  .phone\:focus\:bg-blue:focus {
+  .phablet\:focus\:bg-blue:focus {
     background-color: var(--blue)
   }
 
-  .phone\:focus\:bg-blue-light:focus {
+  .phablet\:focus\:bg-blue-light:focus {
     background-color: var(--blue-light)
   }
 
-  .phone\:focus\:bg-blue-lightest:focus {
+  .phablet\:focus\:bg-blue-lightest:focus {
     background-color: var(--blue-lightest)
   }
 
-  .phone\:focus\:bg-orange-active:focus {
+  .phablet\:focus\:bg-orange-active:focus {
     background-color: var(--orange-active)
   }
 
-  .phone\:focus\:bg-orange-hover:focus {
+  .phablet\:focus\:bg-orange-hover:focus {
     background-color: var(--orange-hover)
   }
 
-  .phone\:focus\:bg-orange-text:focus {
+  .phablet\:focus\:bg-orange-text:focus {
     background-color: var(--orange-text)
   }
 
-  .phone\:focus\:bg-orange:focus {
+  .phablet\:focus\:bg-orange:focus {
     background-color: var(--orange)
   }
 
-  .phone\:focus\:bg-orange-lightest:focus {
+  .phablet\:focus\:bg-orange-lightest:focus {
     background-color: var(--orange-lightest)
   }
 
-  .phone\:focus\:bg-green-active:focus {
+  .phablet\:focus\:bg-green-active:focus {
     background-color: var(--green-active)
   }
 
-  .phone\:focus\:bg-green-hover:focus {
+  .phablet\:focus\:bg-green-hover:focus {
     background-color: var(--green-hover)
   }
 
-  .phone\:focus\:bg-green-text:focus {
+  .phablet\:focus\:bg-green-text:focus {
     background-color: var(--green-text)
   }
 
-  .phone\:focus\:bg-green:focus {
+  .phablet\:focus\:bg-green:focus {
     background-color: var(--green)
   }
 
-  .phone\:focus\:bg-green-light:focus {
+  .phablet\:focus\:bg-green-light:focus {
     background-color: var(--green-light)
   }
 
-  .phone\:bg-bottom {
+  .phablet\:bg-bottom {
     background-position: bottom
   }
 
-  .phone\:bg-center {
+  .phablet\:bg-center {
     background-position: center
   }
 
-  .phone\:bg-left {
+  .phablet\:bg-left {
     background-position: left
   }
 
-  .phone\:bg-left-bottom {
+  .phablet\:bg-left-bottom {
     background-position: left bottom
   }
 
-  .phone\:bg-left-top {
+  .phablet\:bg-left-top {
     background-position: left top
   }
 
-  .phone\:bg-right {
+  .phablet\:bg-right {
     background-position: right
   }
 
-  .phone\:bg-right-bottom {
+  .phablet\:bg-right-bottom {
     background-position: right bottom
   }
 
-  .phone\:bg-right-top {
+  .phablet\:bg-right-top {
     background-position: right top
   }
 
-  .phone\:bg-top {
+  .phablet\:bg-top {
     background-position: top
   }
 
-  .phone\:bg-repeat {
+  .phablet\:bg-repeat {
     background-repeat: repeat
   }
 
-  .phone\:bg-no-repeat {
+  .phablet\:bg-no-repeat {
     background-repeat: no-repeat
   }
 
-  .phone\:bg-repeat-x {
+  .phablet\:bg-repeat-x {
     background-repeat: repeat-x
   }
 
-  .phone\:bg-repeat-y {
+  .phablet\:bg-repeat-y {
     background-repeat: repeat-y
   }
 
-  .phone\:bg-repeat-round {
+  .phablet\:bg-repeat-round {
     background-repeat: round
   }
 
-  .phone\:bg-repeat-space {
+  .phablet\:bg-repeat-space {
     background-repeat: space
   }
 
-  .phone\:bg-auto {
+  .phablet\:bg-auto {
     background-size: auto
   }
 
-  .phone\:bg-cover {
+  .phablet\:bg-cover {
     background-size: cover
   }
 
-  .phone\:bg-contain {
+  .phablet\:bg-contain {
     background-size: contain
   }
 
-  .phone\:border-collapse {
+  .phablet\:border-collapse {
     border-collapse: collapse
   }
 
-  .phone\:border-separate {
+  .phablet\:border-separate {
     border-collapse: separate
   }
 
-  .phone\:border-black {
+  .phablet\:border-black {
     border-color: var(--black)
   }
 
-  .phone\:border-white {
+  .phablet\:border-white {
     border-color: var(--white)
   }
 
-  .phone\:border-gray-active {
+  .phablet\:border-gray-active {
     border-color: var(--gray-active)
   }
 
-  .phone\:border-gray-hover {
+  .phablet\:border-gray-hover {
     border-color: var(--gray-hover)
   }
 
-  .phone\:border-gray-dark {
+  .phablet\:border-gray-dark {
     border-color: var(--gray-dark)
   }
 
-  .phone\:border-gray {
+  .phablet\:border-gray {
     border-color: var(--gray)
   }
 
-  .phone\:border-gray-lighter {
+  .phablet\:border-gray-lighter {
     border-color: var(--gray-lighter)
   }
 
-  .phone\:border-gray-lightest {
+  .phablet\:border-gray-lightest {
     border-color: var(--gray-lightest)
   }
 
-  .phone\:border-red-active {
+  .phablet\:border-red-active {
     border-color: var(--red-active)
   }
 
-  .phone\:border-red-hover {
+  .phablet\:border-red-hover {
     border-color: var(--red-hover)
   }
 
-  .phone\:border-red-text {
+  .phablet\:border-red-text {
     border-color: var(--red-text)
   }
 
-  .phone\:border-red-dark {
+  .phablet\:border-red-dark {
     border-color: var(--red-dark)
   }
 
-  .phone\:border-red {
+  .phablet\:border-red {
     border-color: var(--red)
   }
 
-  .phone\:border-blue-active {
+  .phablet\:border-blue-active {
     border-color: var(--blue-active)
   }
 
-  .phone\:border-blue-hover {
+  .phablet\:border-blue-hover {
     border-color: var(--blue-hover)
   }
 
-  .phone\:border-blue-text {
+  .phablet\:border-blue-text {
     border-color: var(--blue-text)
   }
 
-  .phone\:border-blue {
+  .phablet\:border-blue {
     border-color: var(--blue)
   }
 
-  .phone\:border-blue-light {
+  .phablet\:border-blue-light {
     border-color: var(--blue-light)
   }
 
-  .phone\:border-blue-lightest {
+  .phablet\:border-blue-lightest {
     border-color: var(--blue-lightest)
   }
 
-  .phone\:border-orange-active {
+  .phablet\:border-orange-active {
     border-color: var(--orange-active)
   }
 
-  .phone\:border-orange-hover {
+  .phablet\:border-orange-hover {
     border-color: var(--orange-hover)
   }
 
-  .phone\:border-orange-text {
+  .phablet\:border-orange-text {
     border-color: var(--orange-text)
   }
 
-  .phone\:border-orange {
+  .phablet\:border-orange {
     border-color: var(--orange)
   }
 
-  .phone\:border-orange-lightest {
+  .phablet\:border-orange-lightest {
     border-color: var(--orange-lightest)
   }
 
-  .phone\:border-green-active {
+  .phablet\:border-green-active {
     border-color: var(--green-active)
   }
 
-  .phone\:border-green-hover {
+  .phablet\:border-green-hover {
     border-color: var(--green-hover)
   }
 
-  .phone\:border-green-text {
+  .phablet\:border-green-text {
     border-color: var(--green-text)
   }
 
-  .phone\:border-green {
+  .phablet\:border-green {
     border-color: var(--green)
   }
 
-  .phone\:border-green-light {
+  .phablet\:border-green-light {
     border-color: var(--green-light)
   }
 
-  .phone\:hover\:border-black:hover {
+  .phablet\:hover\:border-black:hover {
     border-color: var(--black)
   }
 
-  .phone\:hover\:border-white:hover {
+  .phablet\:hover\:border-white:hover {
     border-color: var(--white)
   }
 
-  .phone\:hover\:border-gray-active:hover {
+  .phablet\:hover\:border-gray-active:hover {
     border-color: var(--gray-active)
   }
 
-  .phone\:hover\:border-gray-hover:hover {
+  .phablet\:hover\:border-gray-hover:hover {
     border-color: var(--gray-hover)
   }
 
-  .phone\:hover\:border-gray-dark:hover {
+  .phablet\:hover\:border-gray-dark:hover {
     border-color: var(--gray-dark)
   }
 
-  .phone\:hover\:border-gray:hover {
+  .phablet\:hover\:border-gray:hover {
     border-color: var(--gray)
   }
 
-  .phone\:hover\:border-gray-lighter:hover {
+  .phablet\:hover\:border-gray-lighter:hover {
     border-color: var(--gray-lighter)
   }
 
-  .phone\:hover\:border-gray-lightest:hover {
+  .phablet\:hover\:border-gray-lightest:hover {
     border-color: var(--gray-lightest)
   }
 
-  .phone\:hover\:border-red-active:hover {
+  .phablet\:hover\:border-red-active:hover {
     border-color: var(--red-active)
   }
 
-  .phone\:hover\:border-red-hover:hover {
+  .phablet\:hover\:border-red-hover:hover {
     border-color: var(--red-hover)
   }
 
-  .phone\:hover\:border-red-text:hover {
+  .phablet\:hover\:border-red-text:hover {
     border-color: var(--red-text)
   }
 
-  .phone\:hover\:border-red-dark:hover {
+  .phablet\:hover\:border-red-dark:hover {
     border-color: var(--red-dark)
   }
 
-  .phone\:hover\:border-red:hover {
+  .phablet\:hover\:border-red:hover {
     border-color: var(--red)
   }
 
-  .phone\:hover\:border-blue-active:hover {
+  .phablet\:hover\:border-blue-active:hover {
     border-color: var(--blue-active)
   }
 
-  .phone\:hover\:border-blue-hover:hover {
+  .phablet\:hover\:border-blue-hover:hover {
     border-color: var(--blue-hover)
   }
 
-  .phone\:hover\:border-blue-text:hover {
+  .phablet\:hover\:border-blue-text:hover {
     border-color: var(--blue-text)
   }
 
-  .phone\:hover\:border-blue:hover {
+  .phablet\:hover\:border-blue:hover {
     border-color: var(--blue)
   }
 
-  .phone\:hover\:border-blue-light:hover {
+  .phablet\:hover\:border-blue-light:hover {
     border-color: var(--blue-light)
   }
 
-  .phone\:hover\:border-blue-lightest:hover {
+  .phablet\:hover\:border-blue-lightest:hover {
     border-color: var(--blue-lightest)
   }
 
-  .phone\:hover\:border-orange-active:hover {
+  .phablet\:hover\:border-orange-active:hover {
     border-color: var(--orange-active)
   }
 
-  .phone\:hover\:border-orange-hover:hover {
+  .phablet\:hover\:border-orange-hover:hover {
     border-color: var(--orange-hover)
   }
 
-  .phone\:hover\:border-orange-text:hover {
+  .phablet\:hover\:border-orange-text:hover {
     border-color: var(--orange-text)
   }
 
-  .phone\:hover\:border-orange:hover {
+  .phablet\:hover\:border-orange:hover {
     border-color: var(--orange)
   }
 
-  .phone\:hover\:border-orange-lightest:hover {
+  .phablet\:hover\:border-orange-lightest:hover {
     border-color: var(--orange-lightest)
   }
 
-  .phone\:hover\:border-green-active:hover {
+  .phablet\:hover\:border-green-active:hover {
     border-color: var(--green-active)
   }
 
-  .phone\:hover\:border-green-hover:hover {
+  .phablet\:hover\:border-green-hover:hover {
     border-color: var(--green-hover)
   }
 
-  .phone\:hover\:border-green-text:hover {
+  .phablet\:hover\:border-green-text:hover {
     border-color: var(--green-text)
   }
 
-  .phone\:hover\:border-green:hover {
+  .phablet\:hover\:border-green:hover {
     border-color: var(--green)
   }
 
-  .phone\:hover\:border-green-light:hover {
+  .phablet\:hover\:border-green-light:hover {
     border-color: var(--green-light)
   }
 
-  .phone\:focus\:border-black:focus {
+  .phablet\:focus\:border-black:focus {
     border-color: var(--black)
   }
 
-  .phone\:focus\:border-white:focus {
+  .phablet\:focus\:border-white:focus {
     border-color: var(--white)
   }
 
-  .phone\:focus\:border-gray-active:focus {
+  .phablet\:focus\:border-gray-active:focus {
     border-color: var(--gray-active)
   }
 
-  .phone\:focus\:border-gray-hover:focus {
+  .phablet\:focus\:border-gray-hover:focus {
     border-color: var(--gray-hover)
   }
 
-  .phone\:focus\:border-gray-dark:focus {
+  .phablet\:focus\:border-gray-dark:focus {
     border-color: var(--gray-dark)
   }
 
-  .phone\:focus\:border-gray:focus {
+  .phablet\:focus\:border-gray:focus {
     border-color: var(--gray)
   }
 
-  .phone\:focus\:border-gray-lighter:focus {
+  .phablet\:focus\:border-gray-lighter:focus {
     border-color: var(--gray-lighter)
   }
 
-  .phone\:focus\:border-gray-lightest:focus {
+  .phablet\:focus\:border-gray-lightest:focus {
     border-color: var(--gray-lightest)
   }
 
-  .phone\:focus\:border-red-active:focus {
+  .phablet\:focus\:border-red-active:focus {
     border-color: var(--red-active)
   }
 
-  .phone\:focus\:border-red-hover:focus {
+  .phablet\:focus\:border-red-hover:focus {
     border-color: var(--red-hover)
   }
 
-  .phone\:focus\:border-red-text:focus {
+  .phablet\:focus\:border-red-text:focus {
     border-color: var(--red-text)
   }
 
-  .phone\:focus\:border-red-dark:focus {
+  .phablet\:focus\:border-red-dark:focus {
     border-color: var(--red-dark)
   }
 
-  .phone\:focus\:border-red:focus {
+  .phablet\:focus\:border-red:focus {
     border-color: var(--red)
   }
 
-  .phone\:focus\:border-blue-active:focus {
+  .phablet\:focus\:border-blue-active:focus {
     border-color: var(--blue-active)
   }
 
-  .phone\:focus\:border-blue-hover:focus {
+  .phablet\:focus\:border-blue-hover:focus {
     border-color: var(--blue-hover)
   }
 
-  .phone\:focus\:border-blue-text:focus {
+  .phablet\:focus\:border-blue-text:focus {
     border-color: var(--blue-text)
   }
 
-  .phone\:focus\:border-blue:focus {
+  .phablet\:focus\:border-blue:focus {
     border-color: var(--blue)
   }
 
-  .phone\:focus\:border-blue-light:focus {
+  .phablet\:focus\:border-blue-light:focus {
     border-color: var(--blue-light)
   }
 
-  .phone\:focus\:border-blue-lightest:focus {
+  .phablet\:focus\:border-blue-lightest:focus {
     border-color: var(--blue-lightest)
   }
 
-  .phone\:focus\:border-orange-active:focus {
+  .phablet\:focus\:border-orange-active:focus {
     border-color: var(--orange-active)
   }
 
-  .phone\:focus\:border-orange-hover:focus {
+  .phablet\:focus\:border-orange-hover:focus {
     border-color: var(--orange-hover)
   }
 
-  .phone\:focus\:border-orange-text:focus {
+  .phablet\:focus\:border-orange-text:focus {
     border-color: var(--orange-text)
   }
 
-  .phone\:focus\:border-orange:focus {
+  .phablet\:focus\:border-orange:focus {
     border-color: var(--orange)
   }
 
-  .phone\:focus\:border-orange-lightest:focus {
+  .phablet\:focus\:border-orange-lightest:focus {
     border-color: var(--orange-lightest)
   }
 
-  .phone\:focus\:border-green-active:focus {
+  .phablet\:focus\:border-green-active:focus {
     border-color: var(--green-active)
   }
 
-  .phone\:focus\:border-green-hover:focus {
+  .phablet\:focus\:border-green-hover:focus {
     border-color: var(--green-hover)
   }
 
-  .phone\:focus\:border-green-text:focus {
+  .phablet\:focus\:border-green-text:focus {
     border-color: var(--green-text)
   }
 
-  .phone\:focus\:border-green:focus {
+  .phablet\:focus\:border-green:focus {
     border-color: var(--green)
   }
 
-  .phone\:focus\:border-green-light:focus {
+  .phablet\:focus\:border-green-light:focus {
     border-color: var(--green-light)
   }
 
-  .phone\:rounded-none {
+  .phablet\:rounded-none {
     border-radius: 0
   }
 
-  .phone\:rounded-sm {
+  .phablet\:rounded-sm {
     border-radius: 5px
   }
 
-  .phone\:rounded {
+  .phablet\:rounded {
     border-radius: 10px
   }
 
-  .phone\:rounded-lg {
+  .phablet\:rounded-lg {
     border-radius: 15px
   }
 
-  .phone\:rounded-full {
+  .phablet\:rounded-full {
     border-radius: 9999px
   }
 
-  .phone\:rounded-t-none {
+  .phablet\:rounded-t-none {
     border-top-left-radius: 0;
     border-top-right-radius: 0
   }
 
-  .phone\:rounded-r-none {
+  .phablet\:rounded-r-none {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0
   }
 
-  .phone\:rounded-b-none {
+  .phablet\:rounded-b-none {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0
   }
 
-  .phone\:rounded-l-none {
+  .phablet\:rounded-l-none {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0
   }
 
-  .phone\:rounded-t-sm {
+  .phablet\:rounded-t-sm {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px
   }
 
-  .phone\:rounded-r-sm {
+  .phablet\:rounded-r-sm {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px
   }
 
-  .phone\:rounded-b-sm {
+  .phablet\:rounded-b-sm {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px
   }
 
-  .phone\:rounded-l-sm {
+  .phablet\:rounded-l-sm {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px
   }
 
-  .phone\:rounded-t {
+  .phablet\:rounded-t {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px
   }
 
-  .phone\:rounded-r {
+  .phablet\:rounded-r {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px
   }
 
-  .phone\:rounded-b {
+  .phablet\:rounded-b {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px
   }
 
-  .phone\:rounded-l {
+  .phablet\:rounded-l {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px
   }
 
-  .phone\:rounded-t-lg {
+  .phablet\:rounded-t-lg {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px
   }
 
-  .phone\:rounded-r-lg {
+  .phablet\:rounded-r-lg {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px
   }
 
-  .phone\:rounded-b-lg {
+  .phablet\:rounded-b-lg {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px
   }
 
-  .phone\:rounded-l-lg {
+  .phablet\:rounded-l-lg {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px
   }
 
-  .phone\:rounded-t-full {
+  .phablet\:rounded-t-full {
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px
   }
 
-  .phone\:rounded-r-full {
+  .phablet\:rounded-r-full {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px
   }
 
-  .phone\:rounded-b-full {
+  .phablet\:rounded-b-full {
     border-bottom-right-radius: 9999px;
     border-bottom-left-radius: 9999px
   }
 
-  .phone\:rounded-l-full {
+  .phablet\:rounded-l-full {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px
   }
 
-  .phone\:rounded-tl-none {
+  .phablet\:rounded-tl-none {
     border-top-left-radius: 0
   }
 
-  .phone\:rounded-tr-none {
+  .phablet\:rounded-tr-none {
     border-top-right-radius: 0
   }
 
-  .phone\:rounded-br-none {
+  .phablet\:rounded-br-none {
     border-bottom-right-radius: 0
   }
 
-  .phone\:rounded-bl-none {
+  .phablet\:rounded-bl-none {
     border-bottom-left-radius: 0
   }
 
-  .phone\:rounded-tl-sm {
+  .phablet\:rounded-tl-sm {
     border-top-left-radius: 5px
   }
 
-  .phone\:rounded-tr-sm {
+  .phablet\:rounded-tr-sm {
     border-top-right-radius: 5px
   }
 
-  .phone\:rounded-br-sm {
+  .phablet\:rounded-br-sm {
     border-bottom-right-radius: 5px
   }
 
-  .phone\:rounded-bl-sm {
+  .phablet\:rounded-bl-sm {
     border-bottom-left-radius: 5px
   }
 
-  .phone\:rounded-tl {
+  .phablet\:rounded-tl {
     border-top-left-radius: 10px
   }
 
-  .phone\:rounded-tr {
+  .phablet\:rounded-tr {
     border-top-right-radius: 10px
   }
 
-  .phone\:rounded-br {
+  .phablet\:rounded-br {
     border-bottom-right-radius: 10px
   }
 
-  .phone\:rounded-bl {
+  .phablet\:rounded-bl {
     border-bottom-left-radius: 10px
   }
 
-  .phone\:rounded-tl-lg {
+  .phablet\:rounded-tl-lg {
     border-top-left-radius: 15px
   }
 
-  .phone\:rounded-tr-lg {
+  .phablet\:rounded-tr-lg {
     border-top-right-radius: 15px
   }
 
-  .phone\:rounded-br-lg {
+  .phablet\:rounded-br-lg {
     border-bottom-right-radius: 15px
   }
 
-  .phone\:rounded-bl-lg {
+  .phablet\:rounded-bl-lg {
     border-bottom-left-radius: 15px
   }
 
-  .phone\:rounded-tl-full {
+  .phablet\:rounded-tl-full {
     border-top-left-radius: 9999px
   }
 
-  .phone\:rounded-tr-full {
+  .phablet\:rounded-tr-full {
     border-top-right-radius: 9999px
   }
 
-  .phone\:rounded-br-full {
+  .phablet\:rounded-br-full {
     border-bottom-right-radius: 9999px
   }
 
-  .phone\:rounded-bl-full {
+  .phablet\:rounded-bl-full {
     border-bottom-left-radius: 9999px
   }
 
-  .phone\:border-solid {
+  .phablet\:border-solid {
     border-style: solid
   }
 
-  .phone\:border-dashed {
+  .phablet\:border-dashed {
     border-style: dashed
   }
 
-  .phone\:border-dotted {
+  .phablet\:border-dotted {
     border-style: dotted
   }
 
-  .phone\:border-none {
+  .phablet\:border-none {
     border-style: none
   }
 
-  .phone\:border-0 {
+  .phablet\:border-0 {
     border-width: 0
   }
 
-  .phone\:border-2 {
+  .phablet\:border-2 {
     border-width: 2px
   }
 
-  .phone\:border-4 {
+  .phablet\:border-4 {
     border-width: 4px
   }
 
-  .phone\:border-8 {
+  .phablet\:border-8 {
     border-width: 8px
   }
 
-  .phone\:border {
+  .phablet\:border {
     border-width: 1px
   }
 
-  .phone\:border-t-0 {
+  .phablet\:border-t-0 {
     border-top-width: 0
   }
 
-  .phone\:border-r-0 {
+  .phablet\:border-r-0 {
     border-right-width: 0
   }
 
-  .phone\:border-b-0 {
+  .phablet\:border-b-0 {
     border-bottom-width: 0
   }
 
-  .phone\:border-l-0 {
+  .phablet\:border-l-0 {
     border-left-width: 0
   }
 
-  .phone\:border-t-2 {
+  .phablet\:border-t-2 {
     border-top-width: 2px
   }
 
-  .phone\:border-r-2 {
+  .phablet\:border-r-2 {
     border-right-width: 2px
   }
 
-  .phone\:border-b-2 {
+  .phablet\:border-b-2 {
     border-bottom-width: 2px
   }
 
-  .phone\:border-l-2 {
+  .phablet\:border-l-2 {
     border-left-width: 2px
   }
 
-  .phone\:border-t-4 {
+  .phablet\:border-t-4 {
     border-top-width: 4px
   }
 
-  .phone\:border-r-4 {
+  .phablet\:border-r-4 {
     border-right-width: 4px
   }
 
-  .phone\:border-b-4 {
+  .phablet\:border-b-4 {
     border-bottom-width: 4px
   }
 
-  .phone\:border-l-4 {
+  .phablet\:border-l-4 {
     border-left-width: 4px
   }
 
-  .phone\:border-t-8 {
+  .phablet\:border-t-8 {
     border-top-width: 8px
   }
 
-  .phone\:border-r-8 {
+  .phablet\:border-r-8 {
     border-right-width: 8px
   }
 
-  .phone\:border-b-8 {
+  .phablet\:border-b-8 {
     border-bottom-width: 8px
   }
 
-  .phone\:border-l-8 {
+  .phablet\:border-l-8 {
     border-left-width: 8px
   }
 
-  .phone\:border-t {
+  .phablet\:border-t {
     border-top-width: 1px
   }
 
-  .phone\:border-r {
+  .phablet\:border-r {
     border-right-width: 1px
   }
 
-  .phone\:border-b {
+  .phablet\:border-b {
     border-bottom-width: 1px
   }
 
-  .phone\:border-l {
+  .phablet\:border-l {
     border-left-width: 1px
   }
 
-  .phone\:cursor-auto {
+  .phablet\:cursor-auto {
     cursor: auto
   }
 
-  .phone\:cursor-default {
+  .phablet\:cursor-default {
     cursor: default
   }
 
-  .phone\:cursor-pointer {
+  .phablet\:cursor-pointer {
     cursor: pointer
   }
 
-  .phone\:cursor-wait {
+  .phablet\:cursor-wait {
     cursor: wait
   }
 
-  .phone\:cursor-text {
+  .phablet\:cursor-text {
     cursor: text
   }
 
-  .phone\:cursor-move {
+  .phablet\:cursor-move {
     cursor: move
   }
 
-  .phone\:cursor-not-allowed {
+  .phablet\:cursor-not-allowed {
     cursor: not-allowed
   }
 
-  .phone\:block {
+  .phablet\:block {
     display: block
   }
 
-  .phone\:inline-block {
+  .phablet\:inline-block {
     display: inline-block
   }
 
-  .phone\:inline {
+  .phablet\:inline {
     display: inline
   }
 
-  .phone\:flex {
+  .phablet\:flex {
     display: flex
   }
 
-  .phone\:inline-flex {
+  .phablet\:inline-flex {
     display: inline-flex
   }
 
-  .phone\:table {
+  .phablet\:table {
     display: table
   }
 
-  .phone\:table-row {
+  .phablet\:table-row {
     display: table-row
   }
 
-  .phone\:table-cell {
+  .phablet\:table-cell {
     display: table-cell
   }
 
-  .phone\:hidden {
+  .phablet\:hidden {
     display: none
   }
 
-  .phone\:flex-row {
+  .phablet\:flex-row {
     flex-direction: row
   }
 
-  .phone\:flex-row-reverse {
+  .phablet\:flex-row-reverse {
     flex-direction: row-reverse
   }
 
-  .phone\:flex-col {
+  .phablet\:flex-col {
     flex-direction: column
   }
 
-  .phone\:flex-col-reverse {
+  .phablet\:flex-col-reverse {
     flex-direction: column-reverse
   }
 
-  .phone\:flex-wrap {
+  .phablet\:flex-wrap {
     flex-wrap: wrap
   }
 
-  .phone\:flex-wrap-reverse {
+  .phablet\:flex-wrap-reverse {
     flex-wrap: wrap-reverse
   }
 
-  .phone\:flex-no-wrap {
+  .phablet\:flex-no-wrap {
     flex-wrap: nowrap
   }
 
-  .phone\:items-start {
+  .phablet\:items-start {
     align-items: flex-start
   }
 
-  .phone\:items-end {
+  .phablet\:items-end {
     align-items: flex-end
   }
 
-  .phone\:items-center {
+  .phablet\:items-center {
     align-items: center
   }
 
-  .phone\:items-baseline {
+  .phablet\:items-baseline {
     align-items: baseline
   }
 
-  .phone\:items-stretch {
+  .phablet\:items-stretch {
     align-items: stretch
   }
 
-  .phone\:self-auto {
+  .phablet\:self-auto {
     align-self: auto
   }
 
-  .phone\:self-start {
+  .phablet\:self-start {
     align-self: flex-start
   }
 
-  .phone\:self-end {
+  .phablet\:self-end {
     align-self: flex-end
   }
 
-  .phone\:self-center {
+  .phablet\:self-center {
     align-self: center
   }
 
-  .phone\:self-stretch {
+  .phablet\:self-stretch {
     align-self: stretch
   }
 
-  .phone\:justify-start {
+  .phablet\:justify-start {
     justify-content: flex-start
   }
 
-  .phone\:justify-end {
+  .phablet\:justify-end {
     justify-content: flex-end
   }
 
-  .phone\:justify-center {
+  .phablet\:justify-center {
     justify-content: center
   }
 
-  .phone\:justify-between {
+  .phablet\:justify-between {
     justify-content: space-between
   }
 
-  .phone\:justify-around {
+  .phablet\:justify-around {
     justify-content: space-around
   }
 
-  .phone\:content-center {
+  .phablet\:content-center {
     align-content: center
   }
 
-  .phone\:content-start {
+  .phablet\:content-start {
     align-content: flex-start
   }
 
-  .phone\:content-end {
+  .phablet\:content-end {
     align-content: flex-end
   }
 
-  .phone\:content-between {
+  .phablet\:content-between {
     align-content: space-between
   }
 
-  .phone\:content-around {
+  .phablet\:content-around {
     align-content: space-around
   }
 
-  .phone\:flex-1 {
+  .phablet\:flex-1 {
     flex: 1 1 0%
   }
 
-  .phone\:flex-auto {
+  .phablet\:flex-auto {
     flex: 1 1 auto
   }
 
-  .phone\:flex-initial {
+  .phablet\:flex-initial {
     flex: 0 1 auto
   }
 
-  .phone\:flex-none {
+  .phablet\:flex-none {
     flex: none
   }
 
-  .phone\:flex-grow-0 {
+  .phablet\:flex-grow-0 {
     flex-grow: 0
   }
 
-  .phone\:flex-grow {
+  .phablet\:flex-grow {
     flex-grow: 1
   }
 
-  .phone\:flex-shrink-0 {
+  .phablet\:flex-shrink-0 {
     flex-shrink: 0
   }
 
-  .phone\:flex-shrink {
+  .phablet\:flex-shrink {
     flex-shrink: 1
   }
 
-  .phone\:order-1 {
+  .phablet\:order-1 {
     order: 1
   }
 
-  .phone\:order-2 {
+  .phablet\:order-2 {
     order: 2
   }
 
-  .phone\:order-3 {
+  .phablet\:order-3 {
     order: 3
   }
 
-  .phone\:order-4 {
+  .phablet\:order-4 {
     order: 4
   }
 
-  .phone\:order-5 {
+  .phablet\:order-5 {
     order: 5
   }
 
-  .phone\:order-6 {
+  .phablet\:order-6 {
     order: 6
   }
 
-  .phone\:order-7 {
+  .phablet\:order-7 {
     order: 7
   }
 
-  .phone\:order-8 {
+  .phablet\:order-8 {
     order: 8
   }
 
-  .phone\:order-9 {
+  .phablet\:order-9 {
     order: 9
   }
 
-  .phone\:order-10 {
+  .phablet\:order-10 {
     order: 10
   }
 
-  .phone\:order-11 {
+  .phablet\:order-11 {
     order: 11
   }
 
-  .phone\:order-12 {
+  .phablet\:order-12 {
     order: 12
   }
 
-  .phone\:order-first {
+  .phablet\:order-first {
     order: -9999
   }
 
-  .phone\:order-last {
+  .phablet\:order-last {
     order: 9999
   }
 
-  .phone\:order-none {
+  .phablet\:order-none {
     order: 0
   }
 
-  .phone\:float-right {
+  .phablet\:float-right {
     float: right
   }
 
-  .phone\:float-left {
+  .phablet\:float-left {
     float: left
   }
 
-  .phone\:float-none {
+  .phablet\:float-none {
     float: none
   }
 
-  .phone\:clearfix:after {
+  .phablet\:clearfix:after {
     content: "";
     display: table;
     clear: both
   }
 
-  .phone\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  .phablet\:font-sans {
+    font-family: Muli, sans-serif
   }
 
-  .phone\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+  .phablet\:font-serif {
+    font-family: Libre Baskerville, serif
   }
 
-  .phone\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
-  }
-
-  .phone\:font-regular {
+  .phablet\:font-regular {
     font-weight: 400
   }
 
-  .phone\:font-semi-bold {
+  .phablet\:font-semi-bold {
     font-weight: 600
   }
 
-  .phone\:font-black {
+  .phablet\:font-bold {
+    font-weight: 700
+  }
+
+  .phablet\:font-extra-bold {
+    font-weight: 800
+  }
+
+  .phablet\:font-black {
     font-weight: 900
   }
 
-  .phone\:hover\:font-regular:hover {
+  .phablet\:hover\:font-regular:hover {
     font-weight: 400
   }
 
-  .phone\:hover\:font-semi-bold:hover {
+  .phablet\:hover\:font-semi-bold:hover {
     font-weight: 600
   }
 
-  .phone\:hover\:font-black:hover {
+  .phablet\:hover\:font-bold:hover {
+    font-weight: 700
+  }
+
+  .phablet\:hover\:font-extra-bold:hover {
+    font-weight: 800
+  }
+
+  .phablet\:hover\:font-black:hover {
     font-weight: 900
   }
 
-  .phone\:focus\:font-regular:focus {
+  .phablet\:focus\:font-regular:focus {
     font-weight: 400
   }
 
-  .phone\:focus\:font-semi-bold:focus {
+  .phablet\:focus\:font-semi-bold:focus {
     font-weight: 600
   }
 
-  .phone\:focus\:font-black:focus {
+  .phablet\:focus\:font-bold:focus {
+    font-weight: 700
+  }
+
+  .phablet\:focus\:font-extra-bold:focus {
+    font-weight: 800
+  }
+
+  .phablet\:focus\:font-black:focus {
     font-weight: 900
   }
 
-  .phone\:h-0 {
+  .phablet\:h-0 {
     height: 0
   }
 
-  .phone\:h-auto {
+  .phablet\:h-auto {
     height: auto
   }
 
-  .phone\:h-xxxxs {
+  .phablet\:h-xxxxs {
     height: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:h-xxxs {
+  .phablet\:h-xxxs {
     height: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:h-xxs {
+  .phablet\:h-xxs {
     height: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:h-xs {
+  .phablet\:h-xs {
     height: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:h-sm {
+  .phablet\:h-sm {
     height: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:h-base {
+  .phablet\:h-base {
     height: var(--space-unit)
   }
 
-  .phone\:h-md {
+  .phablet\:h-md {
     height: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:h-lg {
+  .phablet\:h-lg {
     height: calc(2 * var(--space-unit))
   }
 
-  .phone\:h-xl {
+  .phablet\:h-xl {
     height: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:h-xxl {
+  .phablet\:h-xxl {
     height: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:h-xxxl {
+  .phablet\:h-xxxl {
     height: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:h-xxxxl {
+  .phablet\:h-xxxxl {
     height: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:h-component {
+  .phablet\:h-component {
     height: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:h-full {
+  .phablet\:h-full {
     height: 100%
   }
 
-  .phone\:h-screen {
+  .phablet\:h-screen {
     height: 100vh
   }
 
-  .phone\:list-inside {
+  .phablet\:list-inside {
     list-style-position: inside
   }
 
-  .phone\:list-outside {
+  .phablet\:list-outside {
     list-style-position: outside
   }
 
-  .phone\:list-none {
+  .phablet\:list-none {
     list-style-type: none
   }
 
-  .phone\:list-disc {
+  .phablet\:list-disc {
     list-style-type: disc
   }
 
-  .phone\:list-decimal {
+  .phablet\:list-decimal {
     list-style-type: decimal
   }
 
-  .phone\:m-0 {
+  .phablet\:m-0 {
     margin: 0
   }
 
-  .phone\:m-auto {
+  .phablet\:m-auto {
     margin: auto
   }
 
-  .phone\:m-xxxxs {
+  .phablet\:m-xxxxs {
     margin: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:m-xxxs {
+  .phablet\:m-xxxs {
     margin: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:m-xxs {
+  .phablet\:m-xxs {
     margin: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:m-xs {
+  .phablet\:m-xs {
     margin: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:m-sm {
+  .phablet\:m-sm {
     margin: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:m-base {
+  .phablet\:m-base {
     margin: var(--space-unit)
   }
 
-  .phone\:m-md {
+  .phablet\:m-md {
     margin: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:m-lg {
+  .phablet\:m-lg {
     margin: calc(2 * var(--space-unit))
   }
 
-  .phone\:m-xl {
+  .phablet\:m-xl {
     margin: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:m-xxl {
+  .phablet\:m-xxl {
     margin: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:m-xxxl {
+  .phablet\:m-xxxl {
     margin: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:m-xxxxl {
+  .phablet\:m-xxxxl {
     margin: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:m-component {
+  .phablet\:m-component {
     margin: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:my-0 {
+  .phablet\:my-0 {
     margin-top: 0;
     margin-bottom: 0
   }
 
-  .phone\:mx-0 {
+  .phablet\:mx-0 {
     margin-left: 0;
     margin-right: 0
   }
 
-  .phone\:my-auto {
+  .phablet\:my-auto {
     margin-top: auto;
     margin-bottom: auto
   }
 
-  .phone\:mx-auto {
+  .phablet\:mx-auto {
     margin-left: auto;
     margin-right: auto
   }
 
-  .phone\:my-xxxxs {
+  .phablet\:my-xxxxs {
     margin-top: calc(0.125 * var(--space-unit));
     margin-bottom: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:mx-xxxxs {
+  .phablet\:mx-xxxxs {
     margin-left: calc(0.125 * var(--space-unit));
     margin-right: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:my-xxxs {
+  .phablet\:my-xxxs {
     margin-top: calc(0.25 * var(--space-unit));
     margin-bottom: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:mx-xxxs {
+  .phablet\:mx-xxxs {
     margin-left: calc(0.25 * var(--space-unit));
     margin-right: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:my-xxs {
+  .phablet\:my-xxs {
     margin-top: calc(0.375 * var(--space-unit));
     margin-bottom: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:mx-xxs {
+  .phablet\:mx-xxs {
     margin-left: calc(0.375 * var(--space-unit));
     margin-right: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:my-xs {
+  .phablet\:my-xs {
     margin-top: calc(0.5 * var(--space-unit));
     margin-bottom: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:mx-xs {
+  .phablet\:mx-xs {
     margin-left: calc(0.5 * var(--space-unit));
     margin-right: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:my-sm {
+  .phablet\:my-sm {
     margin-top: calc(0.75 * var(--space-unit));
     margin-bottom: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:mx-sm {
+  .phablet\:mx-sm {
     margin-left: calc(0.75 * var(--space-unit));
     margin-right: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:my-base {
+  .phablet\:my-base {
     margin-top: var(--space-unit);
     margin-bottom: var(--space-unit)
   }
 
-  .phone\:mx-base {
+  .phablet\:mx-base {
     margin-left: var(--space-unit);
     margin-right: var(--space-unit)
   }
 
-  .phone\:my-md {
+  .phablet\:my-md {
     margin-top: calc(1.25 * var(--space-unit));
     margin-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mx-md {
+  .phablet\:mx-md {
     margin-left: calc(1.25 * var(--space-unit));
     margin-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:my-lg {
+  .phablet\:my-lg {
     margin-top: calc(2 * var(--space-unit));
     margin-bottom: calc(2 * var(--space-unit))
   }
 
-  .phone\:mx-lg {
+  .phablet\:mx-lg {
     margin-left: calc(2 * var(--space-unit));
     margin-right: calc(2 * var(--space-unit))
   }
 
-  .phone\:my-xl {
+  .phablet\:my-xl {
     margin-top: calc(3.25 * var(--space-unit));
     margin-bottom: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:mx-xl {
+  .phablet\:mx-xl {
     margin-left: calc(3.25 * var(--space-unit));
     margin-right: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:my-xxl {
+  .phablet\:my-xxl {
     margin-top: calc(5.25 * var(--space-unit));
     margin-bottom: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:mx-xxl {
+  .phablet\:mx-xxl {
     margin-left: calc(5.25 * var(--space-unit));
     margin-right: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:my-xxxl {
+  .phablet\:my-xxxl {
     margin-top: calc(8.5 * var(--space-unit));
     margin-bottom: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:mx-xxxl {
+  .phablet\:mx-xxxl {
     margin-left: calc(8.5 * var(--space-unit));
     margin-right: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:my-xxxxl {
+  .phablet\:my-xxxxl {
     margin-top: calc(13.75 * var(--space-unit));
     margin-bottom: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:mx-xxxxl {
+  .phablet\:mx-xxxxl {
     margin-left: calc(13.75 * var(--space-unit));
     margin-right: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:my-component {
+  .phablet\:my-component {
     margin-top: calc(1.25 * var(--space-unit));
     margin-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mx-component {
+  .phablet\:mx-component {
     margin-left: calc(1.25 * var(--space-unit));
     margin-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mt-0 {
+  .phablet\:mt-0 {
     margin-top: 0
   }
 
-  .phone\:mr-0 {
+  .phablet\:mr-0 {
     margin-right: 0
   }
 
-  .phone\:mb-0 {
+  .phablet\:mb-0 {
     margin-bottom: 0
   }
 
-  .phone\:ml-0 {
+  .phablet\:ml-0 {
     margin-left: 0
   }
 
-  .phone\:mt-auto {
+  .phablet\:mt-auto {
     margin-top: auto
   }
 
-  .phone\:mr-auto {
+  .phablet\:mr-auto {
     margin-right: auto
   }
 
-  .phone\:mb-auto {
+  .phablet\:mb-auto {
     margin-bottom: auto
   }
 
-  .phone\:ml-auto {
+  .phablet\:ml-auto {
     margin-left: auto
   }
 
-  .phone\:mt-xxxxs {
+  .phablet\:mt-xxxxs {
     margin-top: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:mr-xxxxs {
+  .phablet\:mr-xxxxs {
     margin-right: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:mb-xxxxs {
+  .phablet\:mb-xxxxs {
     margin-bottom: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:ml-xxxxs {
+  .phablet\:ml-xxxxs {
     margin-left: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:mt-xxxs {
+  .phablet\:mt-xxxs {
     margin-top: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:mr-xxxs {
+  .phablet\:mr-xxxs {
     margin-right: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:mb-xxxs {
+  .phablet\:mb-xxxs {
     margin-bottom: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:ml-xxxs {
+  .phablet\:ml-xxxs {
     margin-left: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:mt-xxs {
+  .phablet\:mt-xxs {
     margin-top: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:mr-xxs {
+  .phablet\:mr-xxs {
     margin-right: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:mb-xxs {
+  .phablet\:mb-xxs {
     margin-bottom: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:ml-xxs {
+  .phablet\:ml-xxs {
     margin-left: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:mt-xs {
+  .phablet\:mt-xs {
     margin-top: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:mr-xs {
+  .phablet\:mr-xs {
     margin-right: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:mb-xs {
+  .phablet\:mb-xs {
     margin-bottom: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:ml-xs {
+  .phablet\:ml-xs {
     margin-left: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:mt-sm {
+  .phablet\:mt-sm {
     margin-top: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:mr-sm {
+  .phablet\:mr-sm {
     margin-right: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:mb-sm {
+  .phablet\:mb-sm {
     margin-bottom: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:ml-sm {
+  .phablet\:ml-sm {
     margin-left: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:mt-base {
+  .phablet\:mt-base {
     margin-top: var(--space-unit)
   }
 
-  .phone\:mr-base {
+  .phablet\:mr-base {
     margin-right: var(--space-unit)
   }
 
-  .phone\:mb-base {
+  .phablet\:mb-base {
     margin-bottom: var(--space-unit)
   }
 
-  .phone\:ml-base {
+  .phablet\:ml-base {
     margin-left: var(--space-unit)
   }
 
-  .phone\:mt-md {
+  .phablet\:mt-md {
     margin-top: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mr-md {
+  .phablet\:mr-md {
     margin-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mb-md {
+  .phablet\:mb-md {
     margin-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:ml-md {
+  .phablet\:ml-md {
     margin-left: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mt-lg {
+  .phablet\:mt-lg {
     margin-top: calc(2 * var(--space-unit))
   }
 
-  .phone\:mr-lg {
+  .phablet\:mr-lg {
     margin-right: calc(2 * var(--space-unit))
   }
 
-  .phone\:mb-lg {
+  .phablet\:mb-lg {
     margin-bottom: calc(2 * var(--space-unit))
   }
 
-  .phone\:ml-lg {
+  .phablet\:ml-lg {
     margin-left: calc(2 * var(--space-unit))
   }
 
-  .phone\:mt-xl {
+  .phablet\:mt-xl {
     margin-top: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:mr-xl {
+  .phablet\:mr-xl {
     margin-right: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:mb-xl {
+  .phablet\:mb-xl {
     margin-bottom: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:ml-xl {
+  .phablet\:ml-xl {
     margin-left: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:mt-xxl {
+  .phablet\:mt-xxl {
     margin-top: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:mr-xxl {
+  .phablet\:mr-xxl {
     margin-right: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:mb-xxl {
+  .phablet\:mb-xxl {
     margin-bottom: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:ml-xxl {
+  .phablet\:ml-xxl {
     margin-left: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:mt-xxxl {
+  .phablet\:mt-xxxl {
     margin-top: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:mr-xxxl {
+  .phablet\:mr-xxxl {
     margin-right: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:mb-xxxl {
+  .phablet\:mb-xxxl {
     margin-bottom: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:ml-xxxl {
+  .phablet\:ml-xxxl {
     margin-left: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:mt-xxxxl {
+  .phablet\:mt-xxxxl {
     margin-top: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:mr-xxxxl {
+  .phablet\:mr-xxxxl {
     margin-right: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:mb-xxxxl {
+  .phablet\:mb-xxxxl {
     margin-bottom: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:ml-xxxxl {
+  .phablet\:ml-xxxxl {
     margin-left: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:mt-component {
+  .phablet\:mt-component {
     margin-top: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mr-component {
+  .phablet\:mr-component {
     margin-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:mb-component {
+  .phablet\:mb-component {
     margin-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:ml-component {
+  .phablet\:ml-component {
     margin-left: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:max-h-full {
+  .phablet\:max-h-full {
     max-height: 100%
   }
 
-  .phone\:max-h-screen {
+  .phablet\:max-h-screen {
     max-height: 100vh
   }
 
-  .phone\:max-w-xs {
+  .phablet\:max-w-xs {
     max-width: 20rem
   }
 
-  .phone\:max-w-sm {
+  .phablet\:max-w-sm {
     max-width: 24rem
   }
 
-  .phone\:max-w-md {
+  .phablet\:max-w-md {
     max-width: 28rem
   }
 
-  .phone\:max-w-lg {
+  .phablet\:max-w-lg {
     max-width: 32rem
   }
 
-  .phone\:max-w-xl {
+  .phablet\:max-w-xl {
     max-width: 36rem
   }
 
-  .phone\:max-w-2xl {
+  .phablet\:max-w-2xl {
     max-width: 42rem
   }
 
-  .phone\:max-w-3xl {
+  .phablet\:max-w-3xl {
     max-width: 48rem
   }
 
-  .phone\:max-w-4xl {
+  .phablet\:max-w-4xl {
     max-width: 56rem
   }
 
-  .phone\:max-w-5xl {
+  .phablet\:max-w-5xl {
     max-width: 64rem
   }
 
-  .phone\:max-w-6xl {
+  .phablet\:max-w-6xl {
     max-width: 72rem
   }
 
-  .phone\:max-w-full {
+  .phablet\:max-w-full {
     max-width: 100%
   }
 
-  .phone\:min-h-0 {
+  .phablet\:min-h-0 {
     min-height: 0
   }
 
-  .phone\:min-h-full {
+  .phablet\:min-h-full {
     min-height: 100%
   }
 
-  .phone\:min-h-screen {
+  .phablet\:min-h-screen {
     min-height: 100vh
   }
 
-  .phone\:min-w-0 {
+  .phablet\:min-w-0 {
     min-width: 0
   }
 
-  .phone\:min-w-full {
+  .phablet\:min-w-full {
     min-width: 100%
   }
 
-  .phone\:object-contain {
+  .phablet\:object-contain {
     object-fit: contain
   }
 
-  .phone\:object-cover {
+  .phablet\:object-cover {
     object-fit: cover
   }
 
-  .phone\:object-fill {
+  .phablet\:object-fill {
     object-fit: fill
   }
 
-  .phone\:object-none {
+  .phablet\:object-none {
     object-fit: none
   }
 
-  .phone\:object-scale-down {
+  .phablet\:object-scale-down {
     object-fit: scale-down
   }
 
-  .phone\:object-bottom {
+  .phablet\:object-bottom {
     object-position: bottom
   }
 
-  .phone\:object-center {
+  .phablet\:object-center {
     object-position: center
   }
 
-  .phone\:object-left {
+  .phablet\:object-left {
     object-position: left
   }
 
-  .phone\:object-left-bottom {
+  .phablet\:object-left-bottom {
     object-position: left bottom
   }
 
-  .phone\:object-left-top {
+  .phablet\:object-left-top {
     object-position: left top
   }
 
-  .phone\:object-right {
+  .phablet\:object-right {
     object-position: right
   }
 
-  .phone\:object-right-bottom {
+  .phablet\:object-right-bottom {
     object-position: right bottom
   }
 
-  .phone\:object-right-top {
+  .phablet\:object-right-top {
     object-position: right top
   }
 
-  .phone\:object-top {
+  .phablet\:object-top {
     object-position: top
   }
 
-  .phone\:opacity-0 {
+  .phablet\:opacity-0 {
     opacity: 0
   }
 
-  .phone\:opacity-20 {
+  .phablet\:opacity-20 {
     opacity: 0.2
   }
 
-  .phone\:opacity-40 {
+  .phablet\:opacity-40 {
     opacity: 0.4
   }
 
-  .phone\:opacity-60 {
+  .phablet\:opacity-60 {
     opacity: 0.6
   }
 
-  .phone\:opacity-80 {
+  .phablet\:opacity-80 {
     opacity: 0.8
   }
 
-  .phone\:opacity-100 {
+  .phablet\:opacity-100 {
     opacity: 1
   }
 
-  .phone\:outline-none {
+  .phablet\:outline-none {
     outline: 0
   }
 
-  .phone\:focus\:outline-none:focus {
+  .phablet\:focus\:outline-none:focus {
     outline: 0
   }
 
-  .phone\:overflow-auto {
+  .phablet\:overflow-auto {
     overflow: auto
   }
 
-  .phone\:overflow-hidden {
+  .phablet\:overflow-hidden {
     overflow: hidden
   }
 
-  .phone\:overflow-visible {
+  .phablet\:overflow-visible {
     overflow: visible
   }
 
-  .phone\:overflow-scroll {
+  .phablet\:overflow-scroll {
     overflow: scroll
   }
 
-  .phone\:overflow-x-auto {
+  .phablet\:overflow-x-auto {
     overflow-x: auto
   }
 
-  .phone\:overflow-y-auto {
+  .phablet\:overflow-y-auto {
     overflow-y: auto
   }
 
-  .phone\:overflow-x-hidden {
+  .phablet\:overflow-x-hidden {
     overflow-x: hidden
   }
 
-  .phone\:overflow-y-hidden {
+  .phablet\:overflow-y-hidden {
     overflow-y: hidden
   }
 
-  .phone\:overflow-x-visible {
+  .phablet\:overflow-x-visible {
     overflow-x: visible
   }
 
-  .phone\:overflow-y-visible {
+  .phablet\:overflow-y-visible {
     overflow-y: visible
   }
 
-  .phone\:overflow-x-scroll {
+  .phablet\:overflow-x-scroll {
     overflow-x: scroll
   }
 
-  .phone\:overflow-y-scroll {
+  .phablet\:overflow-y-scroll {
     overflow-y: scroll
   }
 
-  .phone\:scrolling-touch {
+  .phablet\:scrolling-touch {
     -webkit-overflow-scrolling: touch
   }
 
-  .phone\:scrolling-auto {
+  .phablet\:scrolling-auto {
     -webkit-overflow-scrolling: auto
   }
 
-  .phone\:p-0 {
+  .phablet\:p-0 {
     padding: 0
   }
 
-  .phone\:p-xxxxs {
+  .phablet\:p-xxxxs {
     padding: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:p-xxxs {
+  .phablet\:p-xxxs {
     padding: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:p-xxs {
+  .phablet\:p-xxs {
     padding: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:p-xs {
+  .phablet\:p-xs {
     padding: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:p-sm {
+  .phablet\:p-sm {
     padding: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:p-base {
+  .phablet\:p-base {
     padding: var(--space-unit)
   }
 
-  .phone\:p-md {
+  .phablet\:p-md {
     padding: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:p-lg {
+  .phablet\:p-lg {
     padding: calc(2 * var(--space-unit))
   }
 
-  .phone\:p-xl {
+  .phablet\:p-xl {
     padding: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:p-xxl {
+  .phablet\:p-xxl {
     padding: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:p-xxxl {
+  .phablet\:p-xxxl {
     padding: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:p-xxxxl {
+  .phablet\:p-xxxxl {
     padding: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:p-component {
+  .phablet\:p-component {
     padding: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:py-0 {
+  .phablet\:py-0 {
     padding-top: 0;
     padding-bottom: 0
   }
 
-  .phone\:px-0 {
+  .phablet\:px-0 {
     padding-left: 0;
     padding-right: 0
   }
 
-  .phone\:py-xxxxs {
+  .phablet\:py-xxxxs {
     padding-top: calc(0.125 * var(--space-unit));
     padding-bottom: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:px-xxxxs {
+  .phablet\:px-xxxxs {
     padding-left: calc(0.125 * var(--space-unit));
     padding-right: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:py-xxxs {
+  .phablet\:py-xxxs {
     padding-top: calc(0.25 * var(--space-unit));
     padding-bottom: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:px-xxxs {
+  .phablet\:px-xxxs {
     padding-left: calc(0.25 * var(--space-unit));
     padding-right: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:py-xxs {
+  .phablet\:py-xxs {
     padding-top: calc(0.375 * var(--space-unit));
     padding-bottom: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:px-xxs {
+  .phablet\:px-xxs {
     padding-left: calc(0.375 * var(--space-unit));
     padding-right: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:py-xs {
+  .phablet\:py-xs {
     padding-top: calc(0.5 * var(--space-unit));
     padding-bottom: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:px-xs {
+  .phablet\:px-xs {
     padding-left: calc(0.5 * var(--space-unit));
     padding-right: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:py-sm {
+  .phablet\:py-sm {
     padding-top: calc(0.75 * var(--space-unit));
     padding-bottom: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:px-sm {
+  .phablet\:px-sm {
     padding-left: calc(0.75 * var(--space-unit));
     padding-right: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:py-base {
+  .phablet\:py-base {
     padding-top: var(--space-unit);
     padding-bottom: var(--space-unit)
   }
 
-  .phone\:px-base {
+  .phablet\:px-base {
     padding-left: var(--space-unit);
     padding-right: var(--space-unit)
   }
 
-  .phone\:py-md {
+  .phablet\:py-md {
     padding-top: calc(1.25 * var(--space-unit));
     padding-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:px-md {
+  .phablet\:px-md {
     padding-left: calc(1.25 * var(--space-unit));
     padding-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:py-lg {
+  .phablet\:py-lg {
     padding-top: calc(2 * var(--space-unit));
     padding-bottom: calc(2 * var(--space-unit))
   }
 
-  .phone\:px-lg {
+  .phablet\:px-lg {
     padding-left: calc(2 * var(--space-unit));
     padding-right: calc(2 * var(--space-unit))
   }
 
-  .phone\:py-xl {
+  .phablet\:py-xl {
     padding-top: calc(3.25 * var(--space-unit));
     padding-bottom: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:px-xl {
+  .phablet\:px-xl {
     padding-left: calc(3.25 * var(--space-unit));
     padding-right: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:py-xxl {
+  .phablet\:py-xxl {
     padding-top: calc(5.25 * var(--space-unit));
     padding-bottom: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:px-xxl {
+  .phablet\:px-xxl {
     padding-left: calc(5.25 * var(--space-unit));
     padding-right: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:py-xxxl {
+  .phablet\:py-xxxl {
     padding-top: calc(8.5 * var(--space-unit));
     padding-bottom: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:px-xxxl {
+  .phablet\:px-xxxl {
     padding-left: calc(8.5 * var(--space-unit));
     padding-right: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:py-xxxxl {
+  .phablet\:py-xxxxl {
     padding-top: calc(13.75 * var(--space-unit));
     padding-bottom: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:px-xxxxl {
+  .phablet\:px-xxxxl {
     padding-left: calc(13.75 * var(--space-unit));
     padding-right: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:py-component {
+  .phablet\:py-component {
     padding-top: calc(1.25 * var(--space-unit));
     padding-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:px-component {
+  .phablet\:px-component {
     padding-left: calc(1.25 * var(--space-unit));
     padding-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pt-0 {
+  .phablet\:pt-0 {
     padding-top: 0
   }
 
-  .phone\:pr-0 {
+  .phablet\:pr-0 {
     padding-right: 0
   }
 
-  .phone\:pb-0 {
+  .phablet\:pb-0 {
     padding-bottom: 0
   }
 
-  .phone\:pl-0 {
+  .phablet\:pl-0 {
     padding-left: 0
   }
 
-  .phone\:pt-xxxxs {
+  .phablet\:pt-xxxxs {
     padding-top: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:pr-xxxxs {
+  .phablet\:pr-xxxxs {
     padding-right: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:pb-xxxxs {
+  .phablet\:pb-xxxxs {
     padding-bottom: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:pl-xxxxs {
+  .phablet\:pl-xxxxs {
     padding-left: calc(0.125 * var(--space-unit))
   }
 
-  .phone\:pt-xxxs {
+  .phablet\:pt-xxxs {
     padding-top: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:pr-xxxs {
+  .phablet\:pr-xxxs {
     padding-right: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:pb-xxxs {
+  .phablet\:pb-xxxs {
     padding-bottom: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:pl-xxxs {
+  .phablet\:pl-xxxs {
     padding-left: calc(0.25 * var(--space-unit))
   }
 
-  .phone\:pt-xxs {
+  .phablet\:pt-xxs {
     padding-top: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:pr-xxs {
+  .phablet\:pr-xxs {
     padding-right: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:pb-xxs {
+  .phablet\:pb-xxs {
     padding-bottom: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:pl-xxs {
+  .phablet\:pl-xxs {
     padding-left: calc(0.375 * var(--space-unit))
   }
 
-  .phone\:pt-xs {
+  .phablet\:pt-xs {
     padding-top: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:pr-xs {
+  .phablet\:pr-xs {
     padding-right: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:pb-xs {
+  .phablet\:pb-xs {
     padding-bottom: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:pl-xs {
+  .phablet\:pl-xs {
     padding-left: calc(0.5 * var(--space-unit))
   }
 
-  .phone\:pt-sm {
+  .phablet\:pt-sm {
     padding-top: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:pr-sm {
+  .phablet\:pr-sm {
     padding-right: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:pb-sm {
+  .phablet\:pb-sm {
     padding-bottom: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:pl-sm {
+  .phablet\:pl-sm {
     padding-left: calc(0.75 * var(--space-unit))
   }
 
-  .phone\:pt-base {
+  .phablet\:pt-base {
     padding-top: var(--space-unit)
   }
 
-  .phone\:pr-base {
+  .phablet\:pr-base {
     padding-right: var(--space-unit)
   }
 
-  .phone\:pb-base {
+  .phablet\:pb-base {
     padding-bottom: var(--space-unit)
   }
 
-  .phone\:pl-base {
+  .phablet\:pl-base {
     padding-left: var(--space-unit)
   }
 
-  .phone\:pt-md {
+  .phablet\:pt-md {
     padding-top: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pr-md {
+  .phablet\:pr-md {
     padding-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pb-md {
+  .phablet\:pb-md {
     padding-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pl-md {
+  .phablet\:pl-md {
     padding-left: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pt-lg {
+  .phablet\:pt-lg {
     padding-top: calc(2 * var(--space-unit))
   }
 
-  .phone\:pr-lg {
+  .phablet\:pr-lg {
     padding-right: calc(2 * var(--space-unit))
   }
 
-  .phone\:pb-lg {
+  .phablet\:pb-lg {
     padding-bottom: calc(2 * var(--space-unit))
   }
 
-  .phone\:pl-lg {
+  .phablet\:pl-lg {
     padding-left: calc(2 * var(--space-unit))
   }
 
-  .phone\:pt-xl {
+  .phablet\:pt-xl {
     padding-top: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:pr-xl {
+  .phablet\:pr-xl {
     padding-right: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:pb-xl {
+  .phablet\:pb-xl {
     padding-bottom: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:pl-xl {
+  .phablet\:pl-xl {
     padding-left: calc(3.25 * var(--space-unit))
   }
 
-  .phone\:pt-xxl {
+  .phablet\:pt-xxl {
     padding-top: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:pr-xxl {
+  .phablet\:pr-xxl {
     padding-right: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:pb-xxl {
+  .phablet\:pb-xxl {
     padding-bottom: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:pl-xxl {
+  .phablet\:pl-xxl {
     padding-left: calc(5.25 * var(--space-unit))
   }
 
-  .phone\:pt-xxxl {
+  .phablet\:pt-xxxl {
     padding-top: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:pr-xxxl {
+  .phablet\:pr-xxxl {
     padding-right: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:pb-xxxl {
+  .phablet\:pb-xxxl {
     padding-bottom: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:pl-xxxl {
+  .phablet\:pl-xxxl {
     padding-left: calc(8.5 * var(--space-unit))
   }
 
-  .phone\:pt-xxxxl {
+  .phablet\:pt-xxxxl {
     padding-top: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:pr-xxxxl {
+  .phablet\:pr-xxxxl {
     padding-right: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:pb-xxxxl {
+  .phablet\:pb-xxxxl {
     padding-bottom: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:pl-xxxxl {
+  .phablet\:pl-xxxxl {
     padding-left: calc(13.75 * var(--space-unit))
   }
 
-  .phone\:pt-component {
+  .phablet\:pt-component {
     padding-top: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pr-component {
+  .phablet\:pr-component {
     padding-right: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pb-component {
+  .phablet\:pb-component {
     padding-bottom: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pl-component {
+  .phablet\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
   }
 
-  .phone\:pointer-events-none {
+  .phablet\:pointer-events-none {
     pointer-events: none
   }
 
-  .phone\:pointer-events-auto {
+  .phablet\:pointer-events-auto {
     pointer-events: auto
   }
 
-  .phone\:static {
+  .phablet\:static {
     position: static
   }
 
-  .phone\:fixed {
+  .phablet\:fixed {
     position: fixed
   }
 
-  .phone\:absolute {
+  .phablet\:absolute {
     position: absolute
   }
 
-  .phone\:relative {
+  .phablet\:relative {
     position: relative
   }
 
-  .phone\:sticky {
+  .phablet\:sticky {
     position: sticky
   }
 
-  .phone\:inset-0 {
+  .phablet\:inset-0 {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0
   }
 
-  .phone\:inset-auto {
+  .phablet\:inset-auto {
     top: auto;
     right: auto;
     bottom: auto;
     left: auto
   }
 
-  .phone\:inset-y-0 {
+  .phablet\:inset-y-0 {
     top: 0;
     bottom: 0
   }
 
-  .phone\:inset-x-0 {
+  .phablet\:inset-x-0 {
     right: 0;
     left: 0
   }
 
-  .phone\:inset-y-auto {
+  .phablet\:inset-y-auto {
     top: auto;
     bottom: auto
   }
 
-  .phone\:inset-x-auto {
+  .phablet\:inset-x-auto {
     right: auto;
     left: auto
   }
 
-  .phone\:top-0 {
+  .phablet\:top-0 {
     top: 0
   }
 
-  .phone\:right-0 {
+  .phablet\:right-0 {
     right: 0
   }
 
-  .phone\:bottom-0 {
+  .phablet\:bottom-0 {
     bottom: 0
   }
 
-  .phone\:left-0 {
+  .phablet\:left-0 {
     left: 0
   }
 
-  .phone\:top-auto {
+  .phablet\:top-auto {
     top: auto
   }
 
-  .phone\:right-auto {
+  .phablet\:right-auto {
     right: auto
   }
 
-  .phone\:bottom-auto {
+  .phablet\:bottom-auto {
     bottom: auto
   }
 
-  .phone\:left-auto {
+  .phablet\:left-auto {
     left: auto
   }
 
-  .phone\:resize-none {
+  .phablet\:resize-none {
     resize: none
   }
 
-  .phone\:resize-y {
+  .phablet\:resize-y {
     resize: vertical
   }
 
-  .phone\:resize-x {
+  .phablet\:resize-x {
     resize: horizontal
   }
 
-  .phone\:resize {
+  .phablet\:resize {
     resize: both
   }
 
-  .phone\:shadow-1dp {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .phablet\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:shadow-2dp {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .phablet\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:shadow-3dp {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .phablet\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .phone\:shadow-4dp {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .phablet\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .phone\:shadow-6dp {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .phablet\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .phone\:shadow-8dp {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .phablet\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:shadow-9dp {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .phablet\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .phone\:shadow-12dp {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .phablet\:shadow-none {
+    box-shadow: none
   }
 
-  .phone\:shadow-16dp {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:shadow-24dp {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-md:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:hover\:shadow-1dp:hover {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .phone\:hover\:shadow-2dp:hover {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .phone\:hover\:shadow-3dp:hover {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-2xl:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .phone\:hover\:shadow-4dp:hover {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-inner:hover {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:hover\:shadow-6dp:hover {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-outline:hover {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .phone\:hover\:shadow-8dp:hover {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .phablet\:hover\:shadow-none:hover {
+    box-shadow: none
   }
 
-  .phone\:hover\:shadow-9dp:hover {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow:focus {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:hover\:shadow-12dp:hover {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-md:focus {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:hover\:shadow-16dp:hover {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-lg:focus {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .phone\:hover\:shadow-24dp:hover {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-xl:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .phone\:focus\:shadow-1dp:focus {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-2xl:focus {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .phone\:focus\:shadow-2dp:focus {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-inner:focus {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .phone\:focus\:shadow-3dp:focus {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .phone\:focus\:shadow-4dp:focus {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .phablet\:focus\:shadow-none:focus {
+    box-shadow: none
   }
 
-  .phone\:focus\:shadow-6dp:focus {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:focus\:shadow-8dp:focus {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:focus\:shadow-9dp:focus {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:focus\:shadow-12dp:focus {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:focus\:shadow-16dp:focus {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:focus\:shadow-24dp:focus {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
-  }
-
-  .phone\:fill-current {
+  .phablet\:fill-current {
     fill: currentColor
   }
 
-  .phone\:stroke-current {
+  .phablet\:stroke-current {
     stroke: currentColor
   }
 
-  .phone\:table-auto {
+  .phablet\:table-auto {
     table-layout: auto
   }
 
-  .phone\:table-fixed {
+  .phablet\:table-fixed {
     table-layout: fixed
   }
 
-  .phone\:text-left {
+  .phablet\:text-left {
     text-align: left
   }
 
-  .phone\:text-center {
+  .phablet\:text-center {
     text-align: center
   }
 
-  .phone\:text-right {
+  .phablet\:text-right {
     text-align: right
   }
 
-  .phone\:text-justify {
+  .phablet\:text-justify {
     text-align: justify
   }
 
-  .phone\:text-black {
+  .phablet\:text-black {
     color: var(--black)
   }
 
-  .phone\:text-white {
+  .phablet\:text-white {
     color: var(--white)
   }
 
-  .phone\:text-gray-active {
+  .phablet\:text-gray-active {
     color: var(--gray-active)
   }
 
-  .phone\:text-gray-hover {
+  .phablet\:text-gray-hover {
     color: var(--gray-hover)
   }
 
-  .phone\:text-gray-dark {
+  .phablet\:text-gray-dark {
     color: var(--gray-dark)
   }
 
-  .phone\:text-gray {
+  .phablet\:text-gray {
     color: var(--gray)
   }
 
-  .phone\:text-gray-lighter {
+  .phablet\:text-gray-lighter {
     color: var(--gray-lighter)
   }
 
-  .phone\:text-gray-lightest {
+  .phablet\:text-gray-lightest {
     color: var(--gray-lightest)
   }
 
-  .phone\:text-red-active {
+  .phablet\:text-red-active {
     color: var(--red-active)
   }
 
-  .phone\:text-red-hover {
+  .phablet\:text-red-hover {
     color: var(--red-hover)
   }
 
-  .phone\:text-red-text {
+  .phablet\:text-red-text {
     color: var(--red-text)
   }
 
-  .phone\:text-red-dark {
+  .phablet\:text-red-dark {
     color: var(--red-dark)
   }
 
-  .phone\:text-red {
+  .phablet\:text-red {
     color: var(--red)
   }
 
-  .phone\:text-blue-active {
+  .phablet\:text-blue-active {
     color: var(--blue-active)
   }
 
-  .phone\:text-blue-hover {
+  .phablet\:text-blue-hover {
     color: var(--blue-hover)
   }
 
-  .phone\:text-blue-text {
+  .phablet\:text-blue-text {
     color: var(--blue-text)
   }
 
-  .phone\:text-blue {
+  .phablet\:text-blue {
     color: var(--blue)
   }
 
-  .phone\:text-blue-light {
+  .phablet\:text-blue-light {
     color: var(--blue-light)
   }
 
-  .phone\:text-blue-lightest {
+  .phablet\:text-blue-lightest {
     color: var(--blue-lightest)
   }
 
-  .phone\:text-orange-active {
+  .phablet\:text-orange-active {
     color: var(--orange-active)
   }
 
-  .phone\:text-orange-hover {
+  .phablet\:text-orange-hover {
     color: var(--orange-hover)
   }
 
-  .phone\:text-orange-text {
+  .phablet\:text-orange-text {
     color: var(--orange-text)
   }
 
-  .phone\:text-orange {
+  .phablet\:text-orange {
     color: var(--orange)
   }
 
-  .phone\:text-orange-lightest {
+  .phablet\:text-orange-lightest {
     color: var(--orange-lightest)
   }
 
-  .phone\:text-green-active {
+  .phablet\:text-green-active {
     color: var(--green-active)
   }
 
-  .phone\:text-green-hover {
+  .phablet\:text-green-hover {
     color: var(--green-hover)
   }
 
-  .phone\:text-green-text {
+  .phablet\:text-green-text {
     color: var(--green-text)
   }
 
-  .phone\:text-green {
+  .phablet\:text-green {
     color: var(--green)
   }
 
-  .phone\:text-green-light {
+  .phablet\:text-green-light {
     color: var(--green-light)
   }
 
-  .phone\:hover\:text-black:hover {
+  .phablet\:hover\:text-black:hover {
     color: var(--black)
   }
 
-  .phone\:hover\:text-white:hover {
+  .phablet\:hover\:text-white:hover {
     color: var(--white)
   }
 
-  .phone\:hover\:text-gray-active:hover {
+  .phablet\:hover\:text-gray-active:hover {
     color: var(--gray-active)
   }
 
-  .phone\:hover\:text-gray-hover:hover {
+  .phablet\:hover\:text-gray-hover:hover {
     color: var(--gray-hover)
   }
 
-  .phone\:hover\:text-gray-dark:hover {
+  .phablet\:hover\:text-gray-dark:hover {
     color: var(--gray-dark)
   }
 
-  .phone\:hover\:text-gray:hover {
+  .phablet\:hover\:text-gray:hover {
     color: var(--gray)
   }
 
-  .phone\:hover\:text-gray-lighter:hover {
+  .phablet\:hover\:text-gray-lighter:hover {
     color: var(--gray-lighter)
   }
 
-  .phone\:hover\:text-gray-lightest:hover {
+  .phablet\:hover\:text-gray-lightest:hover {
     color: var(--gray-lightest)
   }
 
-  .phone\:hover\:text-red-active:hover {
+  .phablet\:hover\:text-red-active:hover {
     color: var(--red-active)
   }
 
-  .phone\:hover\:text-red-hover:hover {
+  .phablet\:hover\:text-red-hover:hover {
     color: var(--red-hover)
   }
 
-  .phone\:hover\:text-red-text:hover {
+  .phablet\:hover\:text-red-text:hover {
     color: var(--red-text)
   }
 
-  .phone\:hover\:text-red-dark:hover {
+  .phablet\:hover\:text-red-dark:hover {
     color: var(--red-dark)
   }
 
-  .phone\:hover\:text-red:hover {
+  .phablet\:hover\:text-red:hover {
     color: var(--red)
   }
 
-  .phone\:hover\:text-blue-active:hover {
+  .phablet\:hover\:text-blue-active:hover {
     color: var(--blue-active)
   }
 
-  .phone\:hover\:text-blue-hover:hover {
+  .phablet\:hover\:text-blue-hover:hover {
     color: var(--blue-hover)
   }
 
-  .phone\:hover\:text-blue-text:hover {
+  .phablet\:hover\:text-blue-text:hover {
     color: var(--blue-text)
   }
 
-  .phone\:hover\:text-blue:hover {
+  .phablet\:hover\:text-blue:hover {
     color: var(--blue)
   }
 
-  .phone\:hover\:text-blue-light:hover {
+  .phablet\:hover\:text-blue-light:hover {
     color: var(--blue-light)
   }
 
-  .phone\:hover\:text-blue-lightest:hover {
+  .phablet\:hover\:text-blue-lightest:hover {
     color: var(--blue-lightest)
   }
 
-  .phone\:hover\:text-orange-active:hover {
+  .phablet\:hover\:text-orange-active:hover {
     color: var(--orange-active)
   }
 
-  .phone\:hover\:text-orange-hover:hover {
+  .phablet\:hover\:text-orange-hover:hover {
     color: var(--orange-hover)
   }
 
-  .phone\:hover\:text-orange-text:hover {
+  .phablet\:hover\:text-orange-text:hover {
     color: var(--orange-text)
   }
 
-  .phone\:hover\:text-orange:hover {
+  .phablet\:hover\:text-orange:hover {
     color: var(--orange)
   }
 
-  .phone\:hover\:text-orange-lightest:hover {
+  .phablet\:hover\:text-orange-lightest:hover {
     color: var(--orange-lightest)
   }
 
-  .phone\:hover\:text-green-active:hover {
+  .phablet\:hover\:text-green-active:hover {
     color: var(--green-active)
   }
 
-  .phone\:hover\:text-green-hover:hover {
+  .phablet\:hover\:text-green-hover:hover {
     color: var(--green-hover)
   }
 
-  .phone\:hover\:text-green-text:hover {
+  .phablet\:hover\:text-green-text:hover {
     color: var(--green-text)
   }
 
-  .phone\:hover\:text-green:hover {
+  .phablet\:hover\:text-green:hover {
     color: var(--green)
   }
 
-  .phone\:hover\:text-green-light:hover {
+  .phablet\:hover\:text-green-light:hover {
     color: var(--green-light)
   }
 
-  .phone\:focus\:text-black:focus {
+  .phablet\:focus\:text-black:focus {
     color: var(--black)
   }
 
-  .phone\:focus\:text-white:focus {
+  .phablet\:focus\:text-white:focus {
     color: var(--white)
   }
 
-  .phone\:focus\:text-gray-active:focus {
+  .phablet\:focus\:text-gray-active:focus {
     color: var(--gray-active)
   }
 
-  .phone\:focus\:text-gray-hover:focus {
+  .phablet\:focus\:text-gray-hover:focus {
     color: var(--gray-hover)
   }
 
-  .phone\:focus\:text-gray-dark:focus {
+  .phablet\:focus\:text-gray-dark:focus {
     color: var(--gray-dark)
   }
 
-  .phone\:focus\:text-gray:focus {
+  .phablet\:focus\:text-gray:focus {
     color: var(--gray)
   }
 
-  .phone\:focus\:text-gray-lighter:focus {
+  .phablet\:focus\:text-gray-lighter:focus {
     color: var(--gray-lighter)
   }
 
-  .phone\:focus\:text-gray-lightest:focus {
+  .phablet\:focus\:text-gray-lightest:focus {
     color: var(--gray-lightest)
   }
 
-  .phone\:focus\:text-red-active:focus {
+  .phablet\:focus\:text-red-active:focus {
     color: var(--red-active)
   }
 
-  .phone\:focus\:text-red-hover:focus {
+  .phablet\:focus\:text-red-hover:focus {
     color: var(--red-hover)
   }
 
-  .phone\:focus\:text-red-text:focus {
+  .phablet\:focus\:text-red-text:focus {
     color: var(--red-text)
   }
 
-  .phone\:focus\:text-red-dark:focus {
+  .phablet\:focus\:text-red-dark:focus {
     color: var(--red-dark)
   }
 
-  .phone\:focus\:text-red:focus {
+  .phablet\:focus\:text-red:focus {
     color: var(--red)
   }
 
-  .phone\:focus\:text-blue-active:focus {
+  .phablet\:focus\:text-blue-active:focus {
     color: var(--blue-active)
   }
 
-  .phone\:focus\:text-blue-hover:focus {
+  .phablet\:focus\:text-blue-hover:focus {
     color: var(--blue-hover)
   }
 
-  .phone\:focus\:text-blue-text:focus {
+  .phablet\:focus\:text-blue-text:focus {
     color: var(--blue-text)
   }
 
-  .phone\:focus\:text-blue:focus {
+  .phablet\:focus\:text-blue:focus {
     color: var(--blue)
   }
 
-  .phone\:focus\:text-blue-light:focus {
+  .phablet\:focus\:text-blue-light:focus {
     color: var(--blue-light)
   }
 
-  .phone\:focus\:text-blue-lightest:focus {
+  .phablet\:focus\:text-blue-lightest:focus {
     color: var(--blue-lightest)
   }
 
-  .phone\:focus\:text-orange-active:focus {
+  .phablet\:focus\:text-orange-active:focus {
     color: var(--orange-active)
   }
 
-  .phone\:focus\:text-orange-hover:focus {
+  .phablet\:focus\:text-orange-hover:focus {
     color: var(--orange-hover)
   }
 
-  .phone\:focus\:text-orange-text:focus {
+  .phablet\:focus\:text-orange-text:focus {
     color: var(--orange-text)
   }
 
-  .phone\:focus\:text-orange:focus {
+  .phablet\:focus\:text-orange:focus {
     color: var(--orange)
   }
 
-  .phone\:focus\:text-orange-lightest:focus {
+  .phablet\:focus\:text-orange-lightest:focus {
     color: var(--orange-lightest)
   }
 
-  .phone\:focus\:text-green-active:focus {
+  .phablet\:focus\:text-green-active:focus {
     color: var(--green-active)
   }
 
-  .phone\:focus\:text-green-hover:focus {
+  .phablet\:focus\:text-green-hover:focus {
     color: var(--green-hover)
   }
 
-  .phone\:focus\:text-green-text:focus {
+  .phablet\:focus\:text-green-text:focus {
     color: var(--green-text)
   }
 
-  .phone\:focus\:text-green:focus {
+  .phablet\:focus\:text-green:focus {
     color: var(--green)
   }
 
-  .phone\:focus\:text-green-light:focus {
+  .phablet\:focus\:text-green-light:focus {
     color: var(--green-light)
   }
 
-  .phone\:italic {
+  .phablet\:italic {
     font-style: italic
   }
 
-  .phone\:not-italic {
+  .phablet\:not-italic {
     font-style: normal
   }
 
-  .phone\:uppercase {
+  .phablet\:uppercase {
     text-transform: uppercase
   }
 
-  .phone\:lowercase {
+  .phablet\:lowercase {
     text-transform: lowercase
   }
 
-  .phone\:capitalize {
+  .phablet\:capitalize {
     text-transform: capitalize
   }
 
-  .phone\:normal-case {
+  .phablet\:normal-case {
     text-transform: none
   }
 
-  .phone\:underline {
+  .phablet\:underline {
     text-decoration: underline
   }
 
-  .phone\:line-through {
+  .phablet\:line-through {
     text-decoration: line-through
   }
 
-  .phone\:no-underline {
+  .phablet\:no-underline {
     text-decoration: none
   }
 
-  .phone\:hover\:underline:hover {
+  .phablet\:hover\:underline:hover {
     text-decoration: underline
   }
 
-  .phone\:hover\:line-through:hover {
+  .phablet\:hover\:line-through:hover {
     text-decoration: line-through
   }
 
-  .phone\:hover\:no-underline:hover {
+  .phablet\:hover\:no-underline:hover {
     text-decoration: none
   }
 
-  .phone\:focus\:underline:focus {
+  .phablet\:focus\:underline:focus {
     text-decoration: underline
   }
 
-  .phone\:focus\:line-through:focus {
+  .phablet\:focus\:line-through:focus {
     text-decoration: line-through
   }
 
-  .phone\:focus\:no-underline:focus {
+  .phablet\:focus\:no-underline:focus {
     text-decoration: none
   }
 
-  .phone\:antialiased {
+  .phablet\:antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
   }
 
-  .phone\:subpixel-antialiased {
+  .phablet\:subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto
   }
 
-  .phone\:select-none {
+  .phablet\:select-none {
     user-select: none
   }
 
-  .phone\:select-text {
+  .phablet\:select-text {
     user-select: text
   }
 
-  .phone\:select-all {
+  .phablet\:select-all {
     user-select: all
   }
 
-  .phone\:select-auto {
+  .phablet\:select-auto {
     user-select: auto
   }
 
-  .phone\:align-baseline {
+  .phablet\:align-baseline {
     vertical-align: baseline
   }
 
-  .phone\:align-top {
+  .phablet\:align-top {
     vertical-align: top
   }
 
-  .phone\:align-middle {
+  .phablet\:align-middle {
     vertical-align: middle
   }
 
-  .phone\:align-bottom {
+  .phablet\:align-bottom {
     vertical-align: bottom
   }
 
-  .phone\:align-text-top {
+  .phablet\:align-text-top {
     vertical-align: text-top
   }
 
-  .phone\:align-text-bottom {
+  .phablet\:align-text-bottom {
     vertical-align: text-bottom
   }
 
-  .phone\:visible {
+  .phablet\:visible {
     visibility: visible
   }
 
-  .phone\:invisible {
+  .phablet\:invisible {
     visibility: hidden
   }
 
-  .phone\:whitespace-normal {
+  .phablet\:whitespace-normal {
     white-space: normal
   }
 
-  .phone\:whitespace-no-wrap {
+  .phablet\:whitespace-no-wrap {
     white-space: nowrap
   }
 
-  .phone\:whitespace-pre {
+  .phablet\:whitespace-pre {
     white-space: pre
   }
 
-  .phone\:whitespace-pre-line {
+  .phablet\:whitespace-pre-line {
     white-space: pre-line
   }
 
-  .phone\:whitespace-pre-wrap {
+  .phablet\:whitespace-pre-wrap {
     white-space: pre-wrap
   }
 
-  .phone\:break-normal {
+  .phablet\:break-normal {
     overflow-wrap: normal;
     word-break: normal
   }
 
-  .phone\:break-words {
+  .phablet\:break-words {
     overflow-wrap: break-word
   }
 
-  .phone\:break-all {
+  .phablet\:break-all {
     word-break: break-all
   }
 
-  .phone\:truncate {
+  .phablet\:truncate {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
   }
 
-  .phone\:w-1-2 {
+  .phablet\:w-1-2 {
     width: 50%
   }
 
-  .phone\:w-1-3 {
+  .phablet\:w-1-3 {
     width: 33.33333%
   }
 
-  .phone\:w-2-3 {
+  .phablet\:w-2-3 {
     width: 66.66667%
   }
 
-  .phone\:w-1-4 {
+  .phablet\:w-1-4 {
     width: 25%
   }
 
-  .phone\:w-3-4 {
+  .phablet\:w-3-4 {
     width: 75%
   }
 
-  .phone\:w-1-5 {
+  .phablet\:w-1-5 {
     width: 20%
   }
 
-  .phone\:w-2-5 {
+  .phablet\:w-2-5 {
     width: 40%
   }
 
-  .phone\:w-3-5 {
+  .phablet\:w-3-5 {
     width: 60%
   }
 
-  .phone\:w-4-5 {
+  .phablet\:w-4-5 {
     width: 80%
   }
 
-  .phone\:w-1-6 {
+  .phablet\:w-1-6 {
     width: 16.66667%
   }
 
-  .phone\:w-5-6 {
+  .phablet\:w-5-6 {
     width: 83.33333%
   }
 
-  .phone\:w-full {
+  .phablet\:w-full {
     width: 100%
   }
 
-  .phone\:w-screen {
+  .phablet\:w-screen {
     width: 100vw
   }
 
-  .phone\:z-0 {
+  .phablet\:z-0 {
     z-index: 0
   }
 
-  .phone\:z-10 {
+  .phablet\:z-10 {
     z-index: 10
   }
 
-  .phone\:z-20 {
+  .phablet\:z-20 {
     z-index: 20
   }
 
-  .phone\:z-30 {
+  .phablet\:z-30 {
     z-index: 30
   }
 
-  .phone\:z-40 {
+  .phablet\:z-40 {
     z-index: 40
   }
 
-  .phone\:z-50 {
+  .phablet\:z-50 {
     z-index: 50
   }
 
-  .phone\:z-auto {
+  .phablet\:z-auto {
     z-index: auto
   }
 }
@@ -8310,15 +8302,11 @@
   }
 
   .tablet\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    font-family: Muli, sans-serif
   }
 
   .tablet\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
-  }
-
-  .tablet\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    font-family: Libre Baskerville, serif
   }
 
   .tablet\:font-regular {
@@ -8327,6 +8315,14 @@
 
   .tablet\:font-semi-bold {
     font-weight: 600
+  }
+
+  .tablet\:font-bold {
+    font-weight: 700
+  }
+
+  .tablet\:font-extra-bold {
+    font-weight: 800
   }
 
   .tablet\:font-black {
@@ -8341,6 +8337,14 @@
     font-weight: 600
   }
 
+  .tablet\:hover\:font-bold:hover {
+    font-weight: 700
+  }
+
+  .tablet\:hover\:font-extra-bold:hover {
+    font-weight: 800
+  }
+
   .tablet\:hover\:font-black:hover {
     font-weight: 900
   }
@@ -8351,6 +8355,14 @@
 
   .tablet\:focus\:font-semi-bold:focus {
     font-weight: 600
+  }
+
+  .tablet\:focus\:font-bold:focus {
+    font-weight: 700
+  }
+
+  .tablet\:focus\:font-extra-bold:focus {
+    font-weight: 800
   }
 
   .tablet\:focus\:font-black:focus {
@@ -9641,124 +9653,100 @@
     resize: both
   }
 
-  .tablet\:shadow-1dp {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .tablet\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:shadow-2dp {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .tablet\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:shadow-3dp {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .tablet\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .tablet\:shadow-4dp {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .tablet\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .tablet\:shadow-6dp {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .tablet\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .tablet\:shadow-8dp {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .tablet\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:shadow-9dp {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .tablet\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .tablet\:shadow-12dp {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .tablet\:shadow-none {
+    box-shadow: none
   }
 
-  .tablet\:shadow-16dp {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:shadow-24dp {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-md:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:hover\:shadow-1dp:hover {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .tablet\:hover\:shadow-2dp:hover {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .tablet\:hover\:shadow-3dp:hover {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-2xl:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .tablet\:hover\:shadow-4dp:hover {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-inner:hover {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:hover\:shadow-6dp:hover {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-outline:hover {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .tablet\:hover\:shadow-8dp:hover {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .tablet\:hover\:shadow-none:hover {
+    box-shadow: none
   }
 
-  .tablet\:hover\:shadow-9dp:hover {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow:focus {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:hover\:shadow-12dp:hover {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-md:focus {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:hover\:shadow-16dp:hover {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-lg:focus {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .tablet\:hover\:shadow-24dp:hover {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-xl:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .tablet\:focus\:shadow-1dp:focus {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-2xl:focus {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .tablet\:focus\:shadow-2dp:focus {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-inner:focus {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .tablet\:focus\:shadow-3dp:focus {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .tablet\:focus\:shadow-4dp:focus {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-6dp:focus {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-8dp:focus {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-9dp:focus {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-12dp:focus {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-16dp:focus {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
-  }
-
-  .tablet\:focus\:shadow-24dp:focus {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .tablet\:focus\:shadow-none:focus {
+    box-shadow: none
   }
 
   .tablet\:fill-current {
@@ -10379,7 +10367,7 @@
   }
 }
 
-@media (min-width: calc(1024px + 120px)) {
+@media (min-width: calc(992px + 120px)) {
   .laptop\:appearance-none {
     appearance: none
   }
@@ -11771,15 +11759,11 @@
   }
 
   .laptop\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    font-family: Muli, sans-serif
   }
 
   .laptop\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
-  }
-
-  .laptop\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    font-family: Libre Baskerville, serif
   }
 
   .laptop\:font-regular {
@@ -11788,6 +11772,14 @@
 
   .laptop\:font-semi-bold {
     font-weight: 600
+  }
+
+  .laptop\:font-bold {
+    font-weight: 700
+  }
+
+  .laptop\:font-extra-bold {
+    font-weight: 800
   }
 
   .laptop\:font-black {
@@ -11802,6 +11794,14 @@
     font-weight: 600
   }
 
+  .laptop\:hover\:font-bold:hover {
+    font-weight: 700
+  }
+
+  .laptop\:hover\:font-extra-bold:hover {
+    font-weight: 800
+  }
+
   .laptop\:hover\:font-black:hover {
     font-weight: 900
   }
@@ -11812,6 +11812,14 @@
 
   .laptop\:focus\:font-semi-bold:focus {
     font-weight: 600
+  }
+
+  .laptop\:focus\:font-bold:focus {
+    font-weight: 700
+  }
+
+  .laptop\:focus\:font-extra-bold:focus {
+    font-weight: 800
   }
 
   .laptop\:focus\:font-black:focus {
@@ -13102,124 +13110,100 @@
     resize: both
   }
 
-  .laptop\:shadow-1dp {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .laptop\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:shadow-2dp {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .laptop\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:shadow-3dp {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .laptop\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .laptop\:shadow-4dp {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .laptop\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .laptop\:shadow-6dp {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .laptop\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .laptop\:shadow-8dp {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .laptop\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:shadow-9dp {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .laptop\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .laptop\:shadow-12dp {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .laptop\:shadow-none {
+    box-shadow: none
   }
 
-  .laptop\:shadow-16dp {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:shadow-24dp {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-md:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:hover\:shadow-1dp:hover {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .laptop\:hover\:shadow-2dp:hover {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .laptop\:hover\:shadow-3dp:hover {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-2xl:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .laptop\:hover\:shadow-4dp:hover {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-inner:hover {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:hover\:shadow-6dp:hover {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-outline:hover {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .laptop\:hover\:shadow-8dp:hover {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .laptop\:hover\:shadow-none:hover {
+    box-shadow: none
   }
 
-  .laptop\:hover\:shadow-9dp:hover {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow:focus {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:hover\:shadow-12dp:hover {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-md:focus {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:hover\:shadow-16dp:hover {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-lg:focus {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .laptop\:hover\:shadow-24dp:hover {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-xl:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .laptop\:focus\:shadow-1dp:focus {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-2xl:focus {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .laptop\:focus\:shadow-2dp:focus {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-inner:focus {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .laptop\:focus\:shadow-3dp:focus {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .laptop\:focus\:shadow-4dp:focus {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-6dp:focus {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-8dp:focus {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-9dp:focus {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-12dp:focus {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-16dp:focus {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
-  }
-
-  .laptop\:focus\:shadow-24dp:focus {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .laptop\:focus\:shadow-none:focus {
+    box-shadow: none
   }
 
   .laptop\:fill-current {
@@ -15232,15 +15216,11 @@
   }
 
   .desktop\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    font-family: Muli, sans-serif
   }
 
   .desktop\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
-  }
-
-  .desktop\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    font-family: Libre Baskerville, serif
   }
 
   .desktop\:font-regular {
@@ -15249,6 +15229,14 @@
 
   .desktop\:font-semi-bold {
     font-weight: 600
+  }
+
+  .desktop\:font-bold {
+    font-weight: 700
+  }
+
+  .desktop\:font-extra-bold {
+    font-weight: 800
   }
 
   .desktop\:font-black {
@@ -15263,6 +15251,14 @@
     font-weight: 600
   }
 
+  .desktop\:hover\:font-bold:hover {
+    font-weight: 700
+  }
+
+  .desktop\:hover\:font-extra-bold:hover {
+    font-weight: 800
+  }
+
   .desktop\:hover\:font-black:hover {
     font-weight: 900
   }
@@ -15273,6 +15269,14 @@
 
   .desktop\:focus\:font-semi-bold:focus {
     font-weight: 600
+  }
+
+  .desktop\:focus\:font-bold:focus {
+    font-weight: 700
+  }
+
+  .desktop\:focus\:font-extra-bold:focus {
+    font-weight: 800
   }
 
   .desktop\:focus\:font-black:focus {
@@ -16563,124 +16567,100 @@
     resize: both
   }
 
-  .desktop\:shadow-1dp {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .desktop\:shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:shadow-2dp {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .desktop\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:shadow-3dp {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .desktop\:shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .desktop\:shadow-4dp {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .desktop\:shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .desktop\:shadow-6dp {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .desktop\:shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .desktop\:shadow-8dp {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .desktop\:shadow-inner {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:shadow-9dp {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .desktop\:shadow-outline {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .desktop\:shadow-12dp {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .desktop\:shadow-none {
+    box-shadow: none
   }
 
-  .desktop\:shadow-16dp {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:shadow-24dp {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-md:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:hover\:shadow-1dp:hover {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .desktop\:hover\:shadow-2dp:hover {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .desktop\:hover\:shadow-3dp:hover {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-2xl:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .desktop\:hover\:shadow-4dp:hover {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-inner:hover {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:hover\:shadow-6dp:hover {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-outline:hover {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .desktop\:hover\:shadow-8dp:hover {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
+  .desktop\:hover\:shadow-none:hover {
+    box-shadow: none
   }
 
-  .desktop\:hover\:shadow-9dp:hover {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow:focus {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:hover\:shadow-12dp:hover {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-md:focus {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:hover\:shadow-16dp:hover {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-lg:focus {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
   }
 
-  .desktop\:hover\:shadow-24dp:hover {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-xl:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)
   }
 
-  .desktop\:focus\:shadow-1dp:focus {
-    box-shadow: 0 1px 1px 0 rgba(47, 105, 252, .08), 0 2px 1px -1px rgba(47, 105, 252, .08), 0 1px 3px 0 rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-2xl:focus {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
   }
 
-  .desktop\:focus\:shadow-2dp:focus {
-    box-shadow: 0 2px 2px 0 rgba(47, 105, 252, .08), 0 3px 1px -2px rgba(47, 105, 252, .08), 0 1px 5px 0 rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-inner:focus {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)
   }
 
-  .desktop\:focus\:shadow-3dp:focus {
-    box-shadow: 0 3px 4px 0 rgba(47, 105, 252, .08), 0 3px 3px -2px rgba(47, 105, 252, .08), 0 1px 8px 0 rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5)
   }
 
-  .desktop\:focus\:shadow-4dp:focus {
-    box-shadow: 0 4px 5px 0 rgba(47, 105, 252, .08), 0 1px 10px 0 rgba(47, 105, 252, .08), 0 2px 4px -1px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-6dp:focus {
-    box-shadow: 0 6px 10px 0 rgba(47, 105, 252, .08), 0 1px 18px 0 rgba(47, 105, 252, .08), 0 3px 5px -1px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-8dp:focus {
-    box-shadow: 0 8px 10px 1px rgba(47, 105, 252, .08), 0 3px 14px 2px rgba(47, 105, 252, .08), 0 5px 5px -3px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-9dp:focus {
-    box-shadow: 0 9px 12px 1px rgba(47, 105, 252, .08), 0 3px 16px 2px rgba(47, 105, 252, .08), 0 5px 6px -3px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-12dp:focus {
-    box-shadow: 0 12px 17px 2px rgba(47, 105, 252, .08), 0 5px 22px 4px rgba(47, 105, 252, .08), 0 7px 8px -4px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-16dp:focus {
-    box-shadow: 0 16px 24px 2px rgba(47, 105, 252, .08), 0 6px 30px 5px rgba(47, 105, 252, .08), 0 8px 10px -5px rgba(47, 105, 252, .12)
-  }
-
-  .desktop\:focus\:shadow-24dp:focus {
-    box-shadow: 0 24px 38px 3px rgba(47, 105, 252, .08), 0 9px 46px 8px rgba(47, 105, 252, .08), 0 11px 15px -7px rgba(47, 105, 252, .12)
+  .desktop\:focus\:shadow-none:focus {
+    box-shadow: none
   }
 
   .desktop\:fill-current {
