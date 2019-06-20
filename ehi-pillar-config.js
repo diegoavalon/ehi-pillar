@@ -3,15 +3,38 @@ module.exports = {
         colors: {
             black: "var(--black)",
             white: "var(--white)",
-            "grey-dark": "var(--grey-dark)",
-            grey: "var(--grey)",
-            "grey-light": "var(--grey-light)",
-            primary: "var(--primary)",
-            "primary-light": "var(--primary-light)",
-            "primary-lightest": "var(--primary-lightest)",
-            "func-primary": "var(--func-primary)",
-            "func-secondary": "var(--func-secondary)",
-            "func-secondary-light": "var(--func-secondary-light)"
+
+            "gray-active": "var(--gray-active)",
+            "gray-hover": "var(--gray-hover)",
+            "gray-dark": "var(--gray-dark)",
+            gray: "var(--gray)",
+            "gray-lighter": "var(--gray-lighter)",
+            "gray-lightest": "var(--gray-lightest)",
+
+            "red-active": "var(--red-active)",
+            "red-hover": "var(--red-hover)",
+            "red-text": "var(--red-text)",
+            "red-dark": "var(--red-dark)",
+            red: "var(--red)",
+
+            "blue-active": "var(--blue-active)",
+            "blue-hover": "var(--blue-hover)",
+            "blue-text": "var(--blue-text)",
+            blue: "var(--blue)",
+            "blue-light": "var(--blue-light)",
+            "blue-lightest": "var(--blue-lightest)",
+
+            "orange-active": "var(--orange-active)",
+            "orange-hover": "var(--orange-hover)",
+            "orange-text": "var(--orange-text)",
+            orange: "var(--orange)",
+            "orange-lightest": "var(--orange-lightest)",
+
+            "green-active": "var(--green-active)",
+            "green-hover": "var(--green-hover)",
+            "green-text": "var(--green-text)",
+            green: "var(--green)",
+            "green-light": "var(--green-light)"
         },
         spacing: {
             "0": "0",

@@ -1,32 +1,42 @@
 // States
-:hover\:bg-red-hover {
+.hover\:bg-red:hover {
     background-color: var(--red-hover);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:hover\:bg-blue-hover {
+.hover\:bg-blue:hover {
     background-color: var(--blue-hover);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:hover\:bg-orange-hover {
+.hover\:bg-orange:hover {
     background-color: var(--orange-hover);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:hover\:bg-green-hover {
+.hover\:bg-green:hover {
     background-color: var(--green-hover);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:hover\:bg-gray-hover {
+.hover\:bg-gray:hover {
     background-color: var(--gray-hover);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
 
-:active\:bg-red-active {
+.active\:bg-red:active {
     background-color: var(--red-active);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:active\:bg-blue-active {
+.active\:bg-blue:active {
     background-color: var(--blue-active);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:active\:bg-orange-active {
+.active\:bg-orange:active {
     background-color: var(--orange-active);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:active\:bg-green-active {
+.active\:bg-green:active {
     background-color: var(--green-active);
+    transition: background-color 0.24s var(--cubic-bezier);
 }
-:active\:bg-gray-active {
+.active\:bg-gray:active {
     background-color: var(--gray-active);
+    transition: background-color 0.24s var(--cubic-bezier);
 }

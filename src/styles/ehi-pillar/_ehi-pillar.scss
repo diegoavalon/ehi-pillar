@@ -22,40 +22,112 @@
   background-color: var(--white)
 }
 
-.bg-grey-dark {
-  background-color: var(--grey-dark)
+.bg-gray-active {
+  background-color: var(--gray-active)
 }
 
-.bg-grey {
-  background-color: var(--grey)
+.bg-gray-hover {
+  background-color: var(--gray-hover)
 }
 
-.bg-grey-light {
-  background-color: var(--grey-light)
+.bg-gray-dark {
+  background-color: var(--gray-dark)
 }
 
-.bg-primary {
-  background-color: var(--primary)
+.bg-gray {
+  background-color: var(--gray)
 }
 
-.bg-primary-light {
-  background-color: var(--primary-light)
+.bg-gray-lighter {
+  background-color: var(--gray-lighter)
 }
 
-.bg-primary-lightest {
-  background-color: var(--primary-lightest)
+.bg-gray-lightest {
+  background-color: var(--gray-lightest)
 }
 
-.bg-func-primary {
-  background-color: var(--func-primary)
+.bg-red-active {
+  background-color: var(--red-active)
 }
 
-.bg-func-secondary {
-  background-color: var(--func-secondary)
+.bg-red-hover {
+  background-color: var(--red-hover)
 }
 
-.bg-func-secondary-light {
-  background-color: var(--func-secondary-light)
+.bg-red-text {
+  background-color: var(--red-text)
+}
+
+.bg-red-dark {
+  background-color: var(--red-dark)
+}
+
+.bg-red {
+  background-color: var(--red)
+}
+
+.bg-blue-active {
+  background-color: var(--blue-active)
+}
+
+.bg-blue-hover {
+  background-color: var(--blue-hover)
+}
+
+.bg-blue-text {
+  background-color: var(--blue-text)
+}
+
+.bg-blue {
+  background-color: var(--blue)
+}
+
+.bg-blue-light {
+  background-color: var(--blue-light)
+}
+
+.bg-blue-lightest {
+  background-color: var(--blue-lightest)
+}
+
+.bg-orange-active {
+  background-color: var(--orange-active)
+}
+
+.bg-orange-hover {
+  background-color: var(--orange-hover)
+}
+
+.bg-orange-text {
+  background-color: var(--orange-text)
+}
+
+.bg-orange {
+  background-color: var(--orange)
+}
+
+.bg-orange-lightest {
+  background-color: var(--orange-lightest)
+}
+
+.bg-green-active {
+  background-color: var(--green-active)
+}
+
+.bg-green-hover {
+  background-color: var(--green-hover)
+}
+
+.bg-green-text {
+  background-color: var(--green-text)
+}
+
+.bg-green {
+  background-color: var(--green)
+}
+
+.bg-green-light {
+  background-color: var(--green-light)
 }
 
 .hover\:bg-black:hover {
@@ -66,40 +138,112 @@
   background-color: var(--white)
 }
 
-.hover\:bg-grey-dark:hover {
-  background-color: var(--grey-dark)
+.hover\:bg-gray-active:hover {
+  background-color: var(--gray-active)
 }
 
-.hover\:bg-grey:hover {
-  background-color: var(--grey)
+.hover\:bg-gray-hover:hover {
+  background-color: var(--gray-hover)
 }
 
-.hover\:bg-grey-light:hover {
-  background-color: var(--grey-light)
+.hover\:bg-gray-dark:hover {
+  background-color: var(--gray-dark)
 }
 
-.hover\:bg-primary:hover {
-  background-color: var(--primary)
+.hover\:bg-gray:hover {
+  background-color: var(--gray)
 }
 
-.hover\:bg-primary-light:hover {
-  background-color: var(--primary-light)
+.hover\:bg-gray-lighter:hover {
+  background-color: var(--gray-lighter)
 }
 
-.hover\:bg-primary-lightest:hover {
-  background-color: var(--primary-lightest)
+.hover\:bg-gray-lightest:hover {
+  background-color: var(--gray-lightest)
 }
 
-.hover\:bg-func-primary:hover {
-  background-color: var(--func-primary)
+.hover\:bg-red-active:hover {
+  background-color: var(--red-active)
 }
 
-.hover\:bg-func-secondary:hover {
-  background-color: var(--func-secondary)
+.hover\:bg-red-hover:hover {
+  background-color: var(--red-hover)
 }
 
-.hover\:bg-func-secondary-light:hover {
-  background-color: var(--func-secondary-light)
+.hover\:bg-red-text:hover {
+  background-color: var(--red-text)
+}
+
+.hover\:bg-red-dark:hover {
+  background-color: var(--red-dark)
+}
+
+.hover\:bg-red:hover {
+  background-color: var(--red)
+}
+
+.hover\:bg-blue-active:hover {
+  background-color: var(--blue-active)
+}
+
+.hover\:bg-blue-hover:hover {
+  background-color: var(--blue-hover)
+}
+
+.hover\:bg-blue-text:hover {
+  background-color: var(--blue-text)
+}
+
+.hover\:bg-blue:hover {
+  background-color: var(--blue)
+}
+
+.hover\:bg-blue-light:hover {
+  background-color: var(--blue-light)
+}
+
+.hover\:bg-blue-lightest:hover {
+  background-color: var(--blue-lightest)
+}
+
+.hover\:bg-orange-active:hover {
+  background-color: var(--orange-active)
+}
+
+.hover\:bg-orange-hover:hover {
+  background-color: var(--orange-hover)
+}
+
+.hover\:bg-orange-text:hover {
+  background-color: var(--orange-text)
+}
+
+.hover\:bg-orange:hover {
+  background-color: var(--orange)
+}
+
+.hover\:bg-orange-lightest:hover {
+  background-color: var(--orange-lightest)
+}
+
+.hover\:bg-green-active:hover {
+  background-color: var(--green-active)
+}
+
+.hover\:bg-green-hover:hover {
+  background-color: var(--green-hover)
+}
+
+.hover\:bg-green-text:hover {
+  background-color: var(--green-text)
+}
+
+.hover\:bg-green:hover {
+  background-color: var(--green)
+}
+
+.hover\:bg-green-light:hover {
+  background-color: var(--green-light)
 }
 
 .focus\:bg-black:focus {
@@ -110,40 +254,112 @@
   background-color: var(--white)
 }
 
-.focus\:bg-grey-dark:focus {
-  background-color: var(--grey-dark)
+.focus\:bg-gray-active:focus {
+  background-color: var(--gray-active)
 }
 
-.focus\:bg-grey:focus {
-  background-color: var(--grey)
+.focus\:bg-gray-hover:focus {
+  background-color: var(--gray-hover)
 }
 
-.focus\:bg-grey-light:focus {
-  background-color: var(--grey-light)
+.focus\:bg-gray-dark:focus {
+  background-color: var(--gray-dark)
 }
 
-.focus\:bg-primary:focus {
-  background-color: var(--primary)
+.focus\:bg-gray:focus {
+  background-color: var(--gray)
 }
 
-.focus\:bg-primary-light:focus {
-  background-color: var(--primary-light)
+.focus\:bg-gray-lighter:focus {
+  background-color: var(--gray-lighter)
 }
 
-.focus\:bg-primary-lightest:focus {
-  background-color: var(--primary-lightest)
+.focus\:bg-gray-lightest:focus {
+  background-color: var(--gray-lightest)
 }
 
-.focus\:bg-func-primary:focus {
-  background-color: var(--func-primary)
+.focus\:bg-red-active:focus {
+  background-color: var(--red-active)
 }
 
-.focus\:bg-func-secondary:focus {
-  background-color: var(--func-secondary)
+.focus\:bg-red-hover:focus {
+  background-color: var(--red-hover)
 }
 
-.focus\:bg-func-secondary-light:focus {
-  background-color: var(--func-secondary-light)
+.focus\:bg-red-text:focus {
+  background-color: var(--red-text)
+}
+
+.focus\:bg-red-dark:focus {
+  background-color: var(--red-dark)
+}
+
+.focus\:bg-red:focus {
+  background-color: var(--red)
+}
+
+.focus\:bg-blue-active:focus {
+  background-color: var(--blue-active)
+}
+
+.focus\:bg-blue-hover:focus {
+  background-color: var(--blue-hover)
+}
+
+.focus\:bg-blue-text:focus {
+  background-color: var(--blue-text)
+}
+
+.focus\:bg-blue:focus {
+  background-color: var(--blue)
+}
+
+.focus\:bg-blue-light:focus {
+  background-color: var(--blue-light)
+}
+
+.focus\:bg-blue-lightest:focus {
+  background-color: var(--blue-lightest)
+}
+
+.focus\:bg-orange-active:focus {
+  background-color: var(--orange-active)
+}
+
+.focus\:bg-orange-hover:focus {
+  background-color: var(--orange-hover)
+}
+
+.focus\:bg-orange-text:focus {
+  background-color: var(--orange-text)
+}
+
+.focus\:bg-orange:focus {
+  background-color: var(--orange)
+}
+
+.focus\:bg-orange-lightest:focus {
+  background-color: var(--orange-lightest)
+}
+
+.focus\:bg-green-active:focus {
+  background-color: var(--green-active)
+}
+
+.focus\:bg-green-hover:focus {
+  background-color: var(--green-hover)
+}
+
+.focus\:bg-green-text:focus {
+  background-color: var(--green-text)
+}
+
+.focus\:bg-green:focus {
+  background-color: var(--green)
+}
+
+.focus\:bg-green-light:focus {
+  background-color: var(--green-light)
 }
 
 .bg-bottom {
@@ -234,40 +450,112 @@
   border-color: var(--white)
 }
 
-.border-grey-dark {
-  border-color: var(--grey-dark)
+.border-gray-active {
+  border-color: var(--gray-active)
 }
 
-.border-grey {
-  border-color: var(--grey)
+.border-gray-hover {
+  border-color: var(--gray-hover)
 }
 
-.border-grey-light {
-  border-color: var(--grey-light)
+.border-gray-dark {
+  border-color: var(--gray-dark)
 }
 
-.border-primary {
-  border-color: var(--primary)
+.border-gray {
+  border-color: var(--gray)
 }
 
-.border-primary-light {
-  border-color: var(--primary-light)
+.border-gray-lighter {
+  border-color: var(--gray-lighter)
 }
 
-.border-primary-lightest {
-  border-color: var(--primary-lightest)
+.border-gray-lightest {
+  border-color: var(--gray-lightest)
 }
 
-.border-func-primary {
-  border-color: var(--func-primary)
+.border-red-active {
+  border-color: var(--red-active)
 }
 
-.border-func-secondary {
-  border-color: var(--func-secondary)
+.border-red-hover {
+  border-color: var(--red-hover)
 }
 
-.border-func-secondary-light {
-  border-color: var(--func-secondary-light)
+.border-red-text {
+  border-color: var(--red-text)
+}
+
+.border-red-dark {
+  border-color: var(--red-dark)
+}
+
+.border-red {
+  border-color: var(--red)
+}
+
+.border-blue-active {
+  border-color: var(--blue-active)
+}
+
+.border-blue-hover {
+  border-color: var(--blue-hover)
+}
+
+.border-blue-text {
+  border-color: var(--blue-text)
+}
+
+.border-blue {
+  border-color: var(--blue)
+}
+
+.border-blue-light {
+  border-color: var(--blue-light)
+}
+
+.border-blue-lightest {
+  border-color: var(--blue-lightest)
+}
+
+.border-orange-active {
+  border-color: var(--orange-active)
+}
+
+.border-orange-hover {
+  border-color: var(--orange-hover)
+}
+
+.border-orange-text {
+  border-color: var(--orange-text)
+}
+
+.border-orange {
+  border-color: var(--orange)
+}
+
+.border-orange-lightest {
+  border-color: var(--orange-lightest)
+}
+
+.border-green-active {
+  border-color: var(--green-active)
+}
+
+.border-green-hover {
+  border-color: var(--green-hover)
+}
+
+.border-green-text {
+  border-color: var(--green-text)
+}
+
+.border-green {
+  border-color: var(--green)
+}
+
+.border-green-light {
+  border-color: var(--green-light)
 }
 
 .hover\:border-black:hover {
@@ -278,40 +566,112 @@
   border-color: var(--white)
 }
 
-.hover\:border-grey-dark:hover {
-  border-color: var(--grey-dark)
+.hover\:border-gray-active:hover {
+  border-color: var(--gray-active)
 }
 
-.hover\:border-grey:hover {
-  border-color: var(--grey)
+.hover\:border-gray-hover:hover {
+  border-color: var(--gray-hover)
 }
 
-.hover\:border-grey-light:hover {
-  border-color: var(--grey-light)
+.hover\:border-gray-dark:hover {
+  border-color: var(--gray-dark)
 }
 
-.hover\:border-primary:hover {
-  border-color: var(--primary)
+.hover\:border-gray:hover {
+  border-color: var(--gray)
 }
 
-.hover\:border-primary-light:hover {
-  border-color: var(--primary-light)
+.hover\:border-gray-lighter:hover {
+  border-color: var(--gray-lighter)
 }
 
-.hover\:border-primary-lightest:hover {
-  border-color: var(--primary-lightest)
+.hover\:border-gray-lightest:hover {
+  border-color: var(--gray-lightest)
 }
 
-.hover\:border-func-primary:hover {
-  border-color: var(--func-primary)
+.hover\:border-red-active:hover {
+  border-color: var(--red-active)
 }
 
-.hover\:border-func-secondary:hover {
-  border-color: var(--func-secondary)
+.hover\:border-red-hover:hover {
+  border-color: var(--red-hover)
 }
 
-.hover\:border-func-secondary-light:hover {
-  border-color: var(--func-secondary-light)
+.hover\:border-red-text:hover {
+  border-color: var(--red-text)
+}
+
+.hover\:border-red-dark:hover {
+  border-color: var(--red-dark)
+}
+
+.hover\:border-red:hover {
+  border-color: var(--red)
+}
+
+.hover\:border-blue-active:hover {
+  border-color: var(--blue-active)
+}
+
+.hover\:border-blue-hover:hover {
+  border-color: var(--blue-hover)
+}
+
+.hover\:border-blue-text:hover {
+  border-color: var(--blue-text)
+}
+
+.hover\:border-blue:hover {
+  border-color: var(--blue)
+}
+
+.hover\:border-blue-light:hover {
+  border-color: var(--blue-light)
+}
+
+.hover\:border-blue-lightest:hover {
+  border-color: var(--blue-lightest)
+}
+
+.hover\:border-orange-active:hover {
+  border-color: var(--orange-active)
+}
+
+.hover\:border-orange-hover:hover {
+  border-color: var(--orange-hover)
+}
+
+.hover\:border-orange-text:hover {
+  border-color: var(--orange-text)
+}
+
+.hover\:border-orange:hover {
+  border-color: var(--orange)
+}
+
+.hover\:border-orange-lightest:hover {
+  border-color: var(--orange-lightest)
+}
+
+.hover\:border-green-active:hover {
+  border-color: var(--green-active)
+}
+
+.hover\:border-green-hover:hover {
+  border-color: var(--green-hover)
+}
+
+.hover\:border-green-text:hover {
+  border-color: var(--green-text)
+}
+
+.hover\:border-green:hover {
+  border-color: var(--green)
+}
+
+.hover\:border-green-light:hover {
+  border-color: var(--green-light)
 }
 
 .focus\:border-black:focus {
@@ -322,40 +682,112 @@
   border-color: var(--white)
 }
 
-.focus\:border-grey-dark:focus {
-  border-color: var(--grey-dark)
+.focus\:border-gray-active:focus {
+  border-color: var(--gray-active)
 }
 
-.focus\:border-grey:focus {
-  border-color: var(--grey)
+.focus\:border-gray-hover:focus {
+  border-color: var(--gray-hover)
 }
 
-.focus\:border-grey-light:focus {
-  border-color: var(--grey-light)
+.focus\:border-gray-dark:focus {
+  border-color: var(--gray-dark)
 }
 
-.focus\:border-primary:focus {
-  border-color: var(--primary)
+.focus\:border-gray:focus {
+  border-color: var(--gray)
 }
 
-.focus\:border-primary-light:focus {
-  border-color: var(--primary-light)
+.focus\:border-gray-lighter:focus {
+  border-color: var(--gray-lighter)
 }
 
-.focus\:border-primary-lightest:focus {
-  border-color: var(--primary-lightest)
+.focus\:border-gray-lightest:focus {
+  border-color: var(--gray-lightest)
 }
 
-.focus\:border-func-primary:focus {
-  border-color: var(--func-primary)
+.focus\:border-red-active:focus {
+  border-color: var(--red-active)
 }
 
-.focus\:border-func-secondary:focus {
-  border-color: var(--func-secondary)
+.focus\:border-red-hover:focus {
+  border-color: var(--red-hover)
 }
 
-.focus\:border-func-secondary-light:focus {
-  border-color: var(--func-secondary-light)
+.focus\:border-red-text:focus {
+  border-color: var(--red-text)
+}
+
+.focus\:border-red-dark:focus {
+  border-color: var(--red-dark)
+}
+
+.focus\:border-red:focus {
+  border-color: var(--red)
+}
+
+.focus\:border-blue-active:focus {
+  border-color: var(--blue-active)
+}
+
+.focus\:border-blue-hover:focus {
+  border-color: var(--blue-hover)
+}
+
+.focus\:border-blue-text:focus {
+  border-color: var(--blue-text)
+}
+
+.focus\:border-blue:focus {
+  border-color: var(--blue)
+}
+
+.focus\:border-blue-light:focus {
+  border-color: var(--blue-light)
+}
+
+.focus\:border-blue-lightest:focus {
+  border-color: var(--blue-lightest)
+}
+
+.focus\:border-orange-active:focus {
+  border-color: var(--orange-active)
+}
+
+.focus\:border-orange-hover:focus {
+  border-color: var(--orange-hover)
+}
+
+.focus\:border-orange-text:focus {
+  border-color: var(--orange-text)
+}
+
+.focus\:border-orange:focus {
+  border-color: var(--orange)
+}
+
+.focus\:border-orange-lightest:focus {
+  border-color: var(--orange-lightest)
+}
+
+.focus\:border-green-active:focus {
+  border-color: var(--green-active)
+}
+
+.focus\:border-green-hover:focus {
+  border-color: var(--green-hover)
+}
+
+.focus\:border-green-text:focus {
+  border-color: var(--green-text)
+}
+
+.focus\:border-green:focus {
+  border-color: var(--green)
+}
+
+.focus\:border-green-light:focus {
+  border-color: var(--green-light)
 }
 
 .rounded-none {
@@ -2448,40 +2880,112 @@
   color: var(--white)
 }
 
-.text-grey-dark {
-  color: var(--grey-dark)
+.text-gray-active {
+  color: var(--gray-active)
 }
 
-.text-grey {
-  color: var(--grey)
+.text-gray-hover {
+  color: var(--gray-hover)
 }
 
-.text-grey-light {
-  color: var(--grey-light)
+.text-gray-dark {
+  color: var(--gray-dark)
 }
 
-.text-primary {
-  color: var(--primary)
+.text-gray {
+  color: var(--gray)
 }
 
-.text-primary-light {
-  color: var(--primary-light)
+.text-gray-lighter {
+  color: var(--gray-lighter)
 }
 
-.text-primary-lightest {
-  color: var(--primary-lightest)
+.text-gray-lightest {
+  color: var(--gray-lightest)
 }
 
-.text-func-primary {
-  color: var(--func-primary)
+.text-red-active {
+  color: var(--red-active)
 }
 
-.text-func-secondary {
-  color: var(--func-secondary)
+.text-red-hover {
+  color: var(--red-hover)
 }
 
-.text-func-secondary-light {
-  color: var(--func-secondary-light)
+.text-red-text {
+  color: var(--red-text)
+}
+
+.text-red-dark {
+  color: var(--red-dark)
+}
+
+.text-red {
+  color: var(--red)
+}
+
+.text-blue-active {
+  color: var(--blue-active)
+}
+
+.text-blue-hover {
+  color: var(--blue-hover)
+}
+
+.text-blue-text {
+  color: var(--blue-text)
+}
+
+.text-blue {
+  color: var(--blue)
+}
+
+.text-blue-light {
+  color: var(--blue-light)
+}
+
+.text-blue-lightest {
+  color: var(--blue-lightest)
+}
+
+.text-orange-active {
+  color: var(--orange-active)
+}
+
+.text-orange-hover {
+  color: var(--orange-hover)
+}
+
+.text-orange-text {
+  color: var(--orange-text)
+}
+
+.text-orange {
+  color: var(--orange)
+}
+
+.text-orange-lightest {
+  color: var(--orange-lightest)
+}
+
+.text-green-active {
+  color: var(--green-active)
+}
+
+.text-green-hover {
+  color: var(--green-hover)
+}
+
+.text-green-text {
+  color: var(--green-text)
+}
+
+.text-green {
+  color: var(--green)
+}
+
+.text-green-light {
+  color: var(--green-light)
 }
 
 .hover\:text-black:hover {
@@ -2492,40 +2996,112 @@
   color: var(--white)
 }
 
-.hover\:text-grey-dark:hover {
-  color: var(--grey-dark)
+.hover\:text-gray-active:hover {
+  color: var(--gray-active)
 }
 
-.hover\:text-grey:hover {
-  color: var(--grey)
+.hover\:text-gray-hover:hover {
+  color: var(--gray-hover)
 }
 
-.hover\:text-grey-light:hover {
-  color: var(--grey-light)
+.hover\:text-gray-dark:hover {
+  color: var(--gray-dark)
 }
 
-.hover\:text-primary:hover {
-  color: var(--primary)
+.hover\:text-gray:hover {
+  color: var(--gray)
 }
 
-.hover\:text-primary-light:hover {
-  color: var(--primary-light)
+.hover\:text-gray-lighter:hover {
+  color: var(--gray-lighter)
 }
 
-.hover\:text-primary-lightest:hover {
-  color: var(--primary-lightest)
+.hover\:text-gray-lightest:hover {
+  color: var(--gray-lightest)
 }
 
-.hover\:text-func-primary:hover {
-  color: var(--func-primary)
+.hover\:text-red-active:hover {
+  color: var(--red-active)
 }
 
-.hover\:text-func-secondary:hover {
-  color: var(--func-secondary)
+.hover\:text-red-hover:hover {
+  color: var(--red-hover)
 }
 
-.hover\:text-func-secondary-light:hover {
-  color: var(--func-secondary-light)
+.hover\:text-red-text:hover {
+  color: var(--red-text)
+}
+
+.hover\:text-red-dark:hover {
+  color: var(--red-dark)
+}
+
+.hover\:text-red:hover {
+  color: var(--red)
+}
+
+.hover\:text-blue-active:hover {
+  color: var(--blue-active)
+}
+
+.hover\:text-blue-hover:hover {
+  color: var(--blue-hover)
+}
+
+.hover\:text-blue-text:hover {
+  color: var(--blue-text)
+}
+
+.hover\:text-blue:hover {
+  color: var(--blue)
+}
+
+.hover\:text-blue-light:hover {
+  color: var(--blue-light)
+}
+
+.hover\:text-blue-lightest:hover {
+  color: var(--blue-lightest)
+}
+
+.hover\:text-orange-active:hover {
+  color: var(--orange-active)
+}
+
+.hover\:text-orange-hover:hover {
+  color: var(--orange-hover)
+}
+
+.hover\:text-orange-text:hover {
+  color: var(--orange-text)
+}
+
+.hover\:text-orange:hover {
+  color: var(--orange)
+}
+
+.hover\:text-orange-lightest:hover {
+  color: var(--orange-lightest)
+}
+
+.hover\:text-green-active:hover {
+  color: var(--green-active)
+}
+
+.hover\:text-green-hover:hover {
+  color: var(--green-hover)
+}
+
+.hover\:text-green-text:hover {
+  color: var(--green-text)
+}
+
+.hover\:text-green:hover {
+  color: var(--green)
+}
+
+.hover\:text-green-light:hover {
+  color: var(--green-light)
 }
 
 .focus\:text-black:focus {
@@ -2536,40 +3112,112 @@
   color: var(--white)
 }
 
-.focus\:text-grey-dark:focus {
-  color: var(--grey-dark)
+.focus\:text-gray-active:focus {
+  color: var(--gray-active)
 }
 
-.focus\:text-grey:focus {
-  color: var(--grey)
+.focus\:text-gray-hover:focus {
+  color: var(--gray-hover)
 }
 
-.focus\:text-grey-light:focus {
-  color: var(--grey-light)
+.focus\:text-gray-dark:focus {
+  color: var(--gray-dark)
 }
 
-.focus\:text-primary:focus {
-  color: var(--primary)
+.focus\:text-gray:focus {
+  color: var(--gray)
 }
 
-.focus\:text-primary-light:focus {
-  color: var(--primary-light)
+.focus\:text-gray-lighter:focus {
+  color: var(--gray-lighter)
 }
 
-.focus\:text-primary-lightest:focus {
-  color: var(--primary-lightest)
+.focus\:text-gray-lightest:focus {
+  color: var(--gray-lightest)
 }
 
-.focus\:text-func-primary:focus {
-  color: var(--func-primary)
+.focus\:text-red-active:focus {
+  color: var(--red-active)
 }
 
-.focus\:text-func-secondary:focus {
-  color: var(--func-secondary)
+.focus\:text-red-hover:focus {
+  color: var(--red-hover)
 }
 
-.focus\:text-func-secondary-light:focus {
-  color: var(--func-secondary-light)
+.focus\:text-red-text:focus {
+  color: var(--red-text)
+}
+
+.focus\:text-red-dark:focus {
+  color: var(--red-dark)
+}
+
+.focus\:text-red:focus {
+  color: var(--red)
+}
+
+.focus\:text-blue-active:focus {
+  color: var(--blue-active)
+}
+
+.focus\:text-blue-hover:focus {
+  color: var(--blue-hover)
+}
+
+.focus\:text-blue-text:focus {
+  color: var(--blue-text)
+}
+
+.focus\:text-blue:focus {
+  color: var(--blue)
+}
+
+.focus\:text-blue-light:focus {
+  color: var(--blue-light)
+}
+
+.focus\:text-blue-lightest:focus {
+  color: var(--blue-lightest)
+}
+
+.focus\:text-orange-active:focus {
+  color: var(--orange-active)
+}
+
+.focus\:text-orange-hover:focus {
+  color: var(--orange-hover)
+}
+
+.focus\:text-orange-text:focus {
+  color: var(--orange-text)
+}
+
+.focus\:text-orange:focus {
+  color: var(--orange)
+}
+
+.focus\:text-orange-lightest:focus {
+  color: var(--orange-lightest)
+}
+
+.focus\:text-green-active:focus {
+  color: var(--green-active)
+}
+
+.focus\:text-green-hover:focus {
+  color: var(--green-hover)
+}
+
+.focus\:text-green-text:focus {
+  color: var(--green-text)
+}
+
+.focus\:text-green:focus {
+  color: var(--green)
+}
+
+.focus\:text-green-light:focus {
+  color: var(--green-light)
 }
 
 .italic {
@@ -2834,40 +3482,112 @@
     background-color: var(--white)
   }
 
-  .phone\:bg-grey-dark {
-    background-color: var(--grey-dark)
+  .phone\:bg-gray-active {
+    background-color: var(--gray-active)
   }
 
-  .phone\:bg-grey {
-    background-color: var(--grey)
+  .phone\:bg-gray-hover {
+    background-color: var(--gray-hover)
   }
 
-  .phone\:bg-grey-light {
-    background-color: var(--grey-light)
+  .phone\:bg-gray-dark {
+    background-color: var(--gray-dark)
   }
 
-  .phone\:bg-primary {
-    background-color: var(--primary)
+  .phone\:bg-gray {
+    background-color: var(--gray)
   }
 
-  .phone\:bg-primary-light {
-    background-color: var(--primary-light)
+  .phone\:bg-gray-lighter {
+    background-color: var(--gray-lighter)
   }
 
-  .phone\:bg-primary-lightest {
-    background-color: var(--primary-lightest)
+  .phone\:bg-gray-lightest {
+    background-color: var(--gray-lightest)
   }
 
-  .phone\:bg-func-primary {
-    background-color: var(--func-primary)
+  .phone\:bg-red-active {
+    background-color: var(--red-active)
   }
 
-  .phone\:bg-func-secondary {
-    background-color: var(--func-secondary)
+  .phone\:bg-red-hover {
+    background-color: var(--red-hover)
   }
 
-  .phone\:bg-func-secondary-light {
-    background-color: var(--func-secondary-light)
+  .phone\:bg-red-text {
+    background-color: var(--red-text)
+  }
+
+  .phone\:bg-red-dark {
+    background-color: var(--red-dark)
+  }
+
+  .phone\:bg-red {
+    background-color: var(--red)
+  }
+
+  .phone\:bg-blue-active {
+    background-color: var(--blue-active)
+  }
+
+  .phone\:bg-blue-hover {
+    background-color: var(--blue-hover)
+  }
+
+  .phone\:bg-blue-text {
+    background-color: var(--blue-text)
+  }
+
+  .phone\:bg-blue {
+    background-color: var(--blue)
+  }
+
+  .phone\:bg-blue-light {
+    background-color: var(--blue-light)
+  }
+
+  .phone\:bg-blue-lightest {
+    background-color: var(--blue-lightest)
+  }
+
+  .phone\:bg-orange-active {
+    background-color: var(--orange-active)
+  }
+
+  .phone\:bg-orange-hover {
+    background-color: var(--orange-hover)
+  }
+
+  .phone\:bg-orange-text {
+    background-color: var(--orange-text)
+  }
+
+  .phone\:bg-orange {
+    background-color: var(--orange)
+  }
+
+  .phone\:bg-orange-lightest {
+    background-color: var(--orange-lightest)
+  }
+
+  .phone\:bg-green-active {
+    background-color: var(--green-active)
+  }
+
+  .phone\:bg-green-hover {
+    background-color: var(--green-hover)
+  }
+
+  .phone\:bg-green-text {
+    background-color: var(--green-text)
+  }
+
+  .phone\:bg-green {
+    background-color: var(--green)
+  }
+
+  .phone\:bg-green-light {
+    background-color: var(--green-light)
   }
 
   .phone\:hover\:bg-black:hover {
@@ -2878,40 +3598,112 @@
     background-color: var(--white)
   }
 
-  .phone\:hover\:bg-grey-dark:hover {
-    background-color: var(--grey-dark)
+  .phone\:hover\:bg-gray-active:hover {
+    background-color: var(--gray-active)
   }
 
-  .phone\:hover\:bg-grey:hover {
-    background-color: var(--grey)
+  .phone\:hover\:bg-gray-hover:hover {
+    background-color: var(--gray-hover)
   }
 
-  .phone\:hover\:bg-grey-light:hover {
-    background-color: var(--grey-light)
+  .phone\:hover\:bg-gray-dark:hover {
+    background-color: var(--gray-dark)
   }
 
-  .phone\:hover\:bg-primary:hover {
-    background-color: var(--primary)
+  .phone\:hover\:bg-gray:hover {
+    background-color: var(--gray)
   }
 
-  .phone\:hover\:bg-primary-light:hover {
-    background-color: var(--primary-light)
+  .phone\:hover\:bg-gray-lighter:hover {
+    background-color: var(--gray-lighter)
   }
 
-  .phone\:hover\:bg-primary-lightest:hover {
-    background-color: var(--primary-lightest)
+  .phone\:hover\:bg-gray-lightest:hover {
+    background-color: var(--gray-lightest)
   }
 
-  .phone\:hover\:bg-func-primary:hover {
-    background-color: var(--func-primary)
+  .phone\:hover\:bg-red-active:hover {
+    background-color: var(--red-active)
   }
 
-  .phone\:hover\:bg-func-secondary:hover {
-    background-color: var(--func-secondary)
+  .phone\:hover\:bg-red-hover:hover {
+    background-color: var(--red-hover)
   }
 
-  .phone\:hover\:bg-func-secondary-light:hover {
-    background-color: var(--func-secondary-light)
+  .phone\:hover\:bg-red-text:hover {
+    background-color: var(--red-text)
+  }
+
+  .phone\:hover\:bg-red-dark:hover {
+    background-color: var(--red-dark)
+  }
+
+  .phone\:hover\:bg-red:hover {
+    background-color: var(--red)
+  }
+
+  .phone\:hover\:bg-blue-active:hover {
+    background-color: var(--blue-active)
+  }
+
+  .phone\:hover\:bg-blue-hover:hover {
+    background-color: var(--blue-hover)
+  }
+
+  .phone\:hover\:bg-blue-text:hover {
+    background-color: var(--blue-text)
+  }
+
+  .phone\:hover\:bg-blue:hover {
+    background-color: var(--blue)
+  }
+
+  .phone\:hover\:bg-blue-light:hover {
+    background-color: var(--blue-light)
+  }
+
+  .phone\:hover\:bg-blue-lightest:hover {
+    background-color: var(--blue-lightest)
+  }
+
+  .phone\:hover\:bg-orange-active:hover {
+    background-color: var(--orange-active)
+  }
+
+  .phone\:hover\:bg-orange-hover:hover {
+    background-color: var(--orange-hover)
+  }
+
+  .phone\:hover\:bg-orange-text:hover {
+    background-color: var(--orange-text)
+  }
+
+  .phone\:hover\:bg-orange:hover {
+    background-color: var(--orange)
+  }
+
+  .phone\:hover\:bg-orange-lightest:hover {
+    background-color: var(--orange-lightest)
+  }
+
+  .phone\:hover\:bg-green-active:hover {
+    background-color: var(--green-active)
+  }
+
+  .phone\:hover\:bg-green-hover:hover {
+    background-color: var(--green-hover)
+  }
+
+  .phone\:hover\:bg-green-text:hover {
+    background-color: var(--green-text)
+  }
+
+  .phone\:hover\:bg-green:hover {
+    background-color: var(--green)
+  }
+
+  .phone\:hover\:bg-green-light:hover {
+    background-color: var(--green-light)
   }
 
   .phone\:focus\:bg-black:focus {
@@ -2922,40 +3714,112 @@
     background-color: var(--white)
   }
 
-  .phone\:focus\:bg-grey-dark:focus {
-    background-color: var(--grey-dark)
+  .phone\:focus\:bg-gray-active:focus {
+    background-color: var(--gray-active)
   }
 
-  .phone\:focus\:bg-grey:focus {
-    background-color: var(--grey)
+  .phone\:focus\:bg-gray-hover:focus {
+    background-color: var(--gray-hover)
   }
 
-  .phone\:focus\:bg-grey-light:focus {
-    background-color: var(--grey-light)
+  .phone\:focus\:bg-gray-dark:focus {
+    background-color: var(--gray-dark)
   }
 
-  .phone\:focus\:bg-primary:focus {
-    background-color: var(--primary)
+  .phone\:focus\:bg-gray:focus {
+    background-color: var(--gray)
   }
 
-  .phone\:focus\:bg-primary-light:focus {
-    background-color: var(--primary-light)
+  .phone\:focus\:bg-gray-lighter:focus {
+    background-color: var(--gray-lighter)
   }
 
-  .phone\:focus\:bg-primary-lightest:focus {
-    background-color: var(--primary-lightest)
+  .phone\:focus\:bg-gray-lightest:focus {
+    background-color: var(--gray-lightest)
   }
 
-  .phone\:focus\:bg-func-primary:focus {
-    background-color: var(--func-primary)
+  .phone\:focus\:bg-red-active:focus {
+    background-color: var(--red-active)
   }
 
-  .phone\:focus\:bg-func-secondary:focus {
-    background-color: var(--func-secondary)
+  .phone\:focus\:bg-red-hover:focus {
+    background-color: var(--red-hover)
   }
 
-  .phone\:focus\:bg-func-secondary-light:focus {
-    background-color: var(--func-secondary-light)
+  .phone\:focus\:bg-red-text:focus {
+    background-color: var(--red-text)
+  }
+
+  .phone\:focus\:bg-red-dark:focus {
+    background-color: var(--red-dark)
+  }
+
+  .phone\:focus\:bg-red:focus {
+    background-color: var(--red)
+  }
+
+  .phone\:focus\:bg-blue-active:focus {
+    background-color: var(--blue-active)
+  }
+
+  .phone\:focus\:bg-blue-hover:focus {
+    background-color: var(--blue-hover)
+  }
+
+  .phone\:focus\:bg-blue-text:focus {
+    background-color: var(--blue-text)
+  }
+
+  .phone\:focus\:bg-blue:focus {
+    background-color: var(--blue)
+  }
+
+  .phone\:focus\:bg-blue-light:focus {
+    background-color: var(--blue-light)
+  }
+
+  .phone\:focus\:bg-blue-lightest:focus {
+    background-color: var(--blue-lightest)
+  }
+
+  .phone\:focus\:bg-orange-active:focus {
+    background-color: var(--orange-active)
+  }
+
+  .phone\:focus\:bg-orange-hover:focus {
+    background-color: var(--orange-hover)
+  }
+
+  .phone\:focus\:bg-orange-text:focus {
+    background-color: var(--orange-text)
+  }
+
+  .phone\:focus\:bg-orange:focus {
+    background-color: var(--orange)
+  }
+
+  .phone\:focus\:bg-orange-lightest:focus {
+    background-color: var(--orange-lightest)
+  }
+
+  .phone\:focus\:bg-green-active:focus {
+    background-color: var(--green-active)
+  }
+
+  .phone\:focus\:bg-green-hover:focus {
+    background-color: var(--green-hover)
+  }
+
+  .phone\:focus\:bg-green-text:focus {
+    background-color: var(--green-text)
+  }
+
+  .phone\:focus\:bg-green:focus {
+    background-color: var(--green)
+  }
+
+  .phone\:focus\:bg-green-light:focus {
+    background-color: var(--green-light)
   }
 
   .phone\:bg-bottom {
@@ -3046,40 +3910,112 @@
     border-color: var(--white)
   }
 
-  .phone\:border-grey-dark {
-    border-color: var(--grey-dark)
+  .phone\:border-gray-active {
+    border-color: var(--gray-active)
   }
 
-  .phone\:border-grey {
-    border-color: var(--grey)
+  .phone\:border-gray-hover {
+    border-color: var(--gray-hover)
   }
 
-  .phone\:border-grey-light {
-    border-color: var(--grey-light)
+  .phone\:border-gray-dark {
+    border-color: var(--gray-dark)
   }
 
-  .phone\:border-primary {
-    border-color: var(--primary)
+  .phone\:border-gray {
+    border-color: var(--gray)
   }
 
-  .phone\:border-primary-light {
-    border-color: var(--primary-light)
+  .phone\:border-gray-lighter {
+    border-color: var(--gray-lighter)
   }
 
-  .phone\:border-primary-lightest {
-    border-color: var(--primary-lightest)
+  .phone\:border-gray-lightest {
+    border-color: var(--gray-lightest)
   }
 
-  .phone\:border-func-primary {
-    border-color: var(--func-primary)
+  .phone\:border-red-active {
+    border-color: var(--red-active)
   }
 
-  .phone\:border-func-secondary {
-    border-color: var(--func-secondary)
+  .phone\:border-red-hover {
+    border-color: var(--red-hover)
   }
 
-  .phone\:border-func-secondary-light {
-    border-color: var(--func-secondary-light)
+  .phone\:border-red-text {
+    border-color: var(--red-text)
+  }
+
+  .phone\:border-red-dark {
+    border-color: var(--red-dark)
+  }
+
+  .phone\:border-red {
+    border-color: var(--red)
+  }
+
+  .phone\:border-blue-active {
+    border-color: var(--blue-active)
+  }
+
+  .phone\:border-blue-hover {
+    border-color: var(--blue-hover)
+  }
+
+  .phone\:border-blue-text {
+    border-color: var(--blue-text)
+  }
+
+  .phone\:border-blue {
+    border-color: var(--blue)
+  }
+
+  .phone\:border-blue-light {
+    border-color: var(--blue-light)
+  }
+
+  .phone\:border-blue-lightest {
+    border-color: var(--blue-lightest)
+  }
+
+  .phone\:border-orange-active {
+    border-color: var(--orange-active)
+  }
+
+  .phone\:border-orange-hover {
+    border-color: var(--orange-hover)
+  }
+
+  .phone\:border-orange-text {
+    border-color: var(--orange-text)
+  }
+
+  .phone\:border-orange {
+    border-color: var(--orange)
+  }
+
+  .phone\:border-orange-lightest {
+    border-color: var(--orange-lightest)
+  }
+
+  .phone\:border-green-active {
+    border-color: var(--green-active)
+  }
+
+  .phone\:border-green-hover {
+    border-color: var(--green-hover)
+  }
+
+  .phone\:border-green-text {
+    border-color: var(--green-text)
+  }
+
+  .phone\:border-green {
+    border-color: var(--green)
+  }
+
+  .phone\:border-green-light {
+    border-color: var(--green-light)
   }
 
   .phone\:hover\:border-black:hover {
@@ -3090,40 +4026,112 @@
     border-color: var(--white)
   }
 
-  .phone\:hover\:border-grey-dark:hover {
-    border-color: var(--grey-dark)
+  .phone\:hover\:border-gray-active:hover {
+    border-color: var(--gray-active)
   }
 
-  .phone\:hover\:border-grey:hover {
-    border-color: var(--grey)
+  .phone\:hover\:border-gray-hover:hover {
+    border-color: var(--gray-hover)
   }
 
-  .phone\:hover\:border-grey-light:hover {
-    border-color: var(--grey-light)
+  .phone\:hover\:border-gray-dark:hover {
+    border-color: var(--gray-dark)
   }
 
-  .phone\:hover\:border-primary:hover {
-    border-color: var(--primary)
+  .phone\:hover\:border-gray:hover {
+    border-color: var(--gray)
   }
 
-  .phone\:hover\:border-primary-light:hover {
-    border-color: var(--primary-light)
+  .phone\:hover\:border-gray-lighter:hover {
+    border-color: var(--gray-lighter)
   }
 
-  .phone\:hover\:border-primary-lightest:hover {
-    border-color: var(--primary-lightest)
+  .phone\:hover\:border-gray-lightest:hover {
+    border-color: var(--gray-lightest)
   }
 
-  .phone\:hover\:border-func-primary:hover {
-    border-color: var(--func-primary)
+  .phone\:hover\:border-red-active:hover {
+    border-color: var(--red-active)
   }
 
-  .phone\:hover\:border-func-secondary:hover {
-    border-color: var(--func-secondary)
+  .phone\:hover\:border-red-hover:hover {
+    border-color: var(--red-hover)
   }
 
-  .phone\:hover\:border-func-secondary-light:hover {
-    border-color: var(--func-secondary-light)
+  .phone\:hover\:border-red-text:hover {
+    border-color: var(--red-text)
+  }
+
+  .phone\:hover\:border-red-dark:hover {
+    border-color: var(--red-dark)
+  }
+
+  .phone\:hover\:border-red:hover {
+    border-color: var(--red)
+  }
+
+  .phone\:hover\:border-blue-active:hover {
+    border-color: var(--blue-active)
+  }
+
+  .phone\:hover\:border-blue-hover:hover {
+    border-color: var(--blue-hover)
+  }
+
+  .phone\:hover\:border-blue-text:hover {
+    border-color: var(--blue-text)
+  }
+
+  .phone\:hover\:border-blue:hover {
+    border-color: var(--blue)
+  }
+
+  .phone\:hover\:border-blue-light:hover {
+    border-color: var(--blue-light)
+  }
+
+  .phone\:hover\:border-blue-lightest:hover {
+    border-color: var(--blue-lightest)
+  }
+
+  .phone\:hover\:border-orange-active:hover {
+    border-color: var(--orange-active)
+  }
+
+  .phone\:hover\:border-orange-hover:hover {
+    border-color: var(--orange-hover)
+  }
+
+  .phone\:hover\:border-orange-text:hover {
+    border-color: var(--orange-text)
+  }
+
+  .phone\:hover\:border-orange:hover {
+    border-color: var(--orange)
+  }
+
+  .phone\:hover\:border-orange-lightest:hover {
+    border-color: var(--orange-lightest)
+  }
+
+  .phone\:hover\:border-green-active:hover {
+    border-color: var(--green-active)
+  }
+
+  .phone\:hover\:border-green-hover:hover {
+    border-color: var(--green-hover)
+  }
+
+  .phone\:hover\:border-green-text:hover {
+    border-color: var(--green-text)
+  }
+
+  .phone\:hover\:border-green:hover {
+    border-color: var(--green)
+  }
+
+  .phone\:hover\:border-green-light:hover {
+    border-color: var(--green-light)
   }
 
   .phone\:focus\:border-black:focus {
@@ -3134,40 +4142,112 @@
     border-color: var(--white)
   }
 
-  .phone\:focus\:border-grey-dark:focus {
-    border-color: var(--grey-dark)
+  .phone\:focus\:border-gray-active:focus {
+    border-color: var(--gray-active)
   }
 
-  .phone\:focus\:border-grey:focus {
-    border-color: var(--grey)
+  .phone\:focus\:border-gray-hover:focus {
+    border-color: var(--gray-hover)
   }
 
-  .phone\:focus\:border-grey-light:focus {
-    border-color: var(--grey-light)
+  .phone\:focus\:border-gray-dark:focus {
+    border-color: var(--gray-dark)
   }
 
-  .phone\:focus\:border-primary:focus {
-    border-color: var(--primary)
+  .phone\:focus\:border-gray:focus {
+    border-color: var(--gray)
   }
 
-  .phone\:focus\:border-primary-light:focus {
-    border-color: var(--primary-light)
+  .phone\:focus\:border-gray-lighter:focus {
+    border-color: var(--gray-lighter)
   }
 
-  .phone\:focus\:border-primary-lightest:focus {
-    border-color: var(--primary-lightest)
+  .phone\:focus\:border-gray-lightest:focus {
+    border-color: var(--gray-lightest)
   }
 
-  .phone\:focus\:border-func-primary:focus {
-    border-color: var(--func-primary)
+  .phone\:focus\:border-red-active:focus {
+    border-color: var(--red-active)
   }
 
-  .phone\:focus\:border-func-secondary:focus {
-    border-color: var(--func-secondary)
+  .phone\:focus\:border-red-hover:focus {
+    border-color: var(--red-hover)
   }
 
-  .phone\:focus\:border-func-secondary-light:focus {
-    border-color: var(--func-secondary-light)
+  .phone\:focus\:border-red-text:focus {
+    border-color: var(--red-text)
+  }
+
+  .phone\:focus\:border-red-dark:focus {
+    border-color: var(--red-dark)
+  }
+
+  .phone\:focus\:border-red:focus {
+    border-color: var(--red)
+  }
+
+  .phone\:focus\:border-blue-active:focus {
+    border-color: var(--blue-active)
+  }
+
+  .phone\:focus\:border-blue-hover:focus {
+    border-color: var(--blue-hover)
+  }
+
+  .phone\:focus\:border-blue-text:focus {
+    border-color: var(--blue-text)
+  }
+
+  .phone\:focus\:border-blue:focus {
+    border-color: var(--blue)
+  }
+
+  .phone\:focus\:border-blue-light:focus {
+    border-color: var(--blue-light)
+  }
+
+  .phone\:focus\:border-blue-lightest:focus {
+    border-color: var(--blue-lightest)
+  }
+
+  .phone\:focus\:border-orange-active:focus {
+    border-color: var(--orange-active)
+  }
+
+  .phone\:focus\:border-orange-hover:focus {
+    border-color: var(--orange-hover)
+  }
+
+  .phone\:focus\:border-orange-text:focus {
+    border-color: var(--orange-text)
+  }
+
+  .phone\:focus\:border-orange:focus {
+    border-color: var(--orange)
+  }
+
+  .phone\:focus\:border-orange-lightest:focus {
+    border-color: var(--orange-lightest)
+  }
+
+  .phone\:focus\:border-green-active:focus {
+    border-color: var(--green-active)
+  }
+
+  .phone\:focus\:border-green-hover:focus {
+    border-color: var(--green-hover)
+  }
+
+  .phone\:focus\:border-green-text:focus {
+    border-color: var(--green-text)
+  }
+
+  .phone\:focus\:border-green:focus {
+    border-color: var(--green)
+  }
+
+  .phone\:focus\:border-green-light:focus {
+    border-color: var(--green-light)
   }
 
   .phone\:rounded-none {
@@ -5260,40 +6340,112 @@
     color: var(--white)
   }
 
-  .phone\:text-grey-dark {
-    color: var(--grey-dark)
+  .phone\:text-gray-active {
+    color: var(--gray-active)
   }
 
-  .phone\:text-grey {
-    color: var(--grey)
+  .phone\:text-gray-hover {
+    color: var(--gray-hover)
   }
 
-  .phone\:text-grey-light {
-    color: var(--grey-light)
+  .phone\:text-gray-dark {
+    color: var(--gray-dark)
   }
 
-  .phone\:text-primary {
-    color: var(--primary)
+  .phone\:text-gray {
+    color: var(--gray)
   }
 
-  .phone\:text-primary-light {
-    color: var(--primary-light)
+  .phone\:text-gray-lighter {
+    color: var(--gray-lighter)
   }
 
-  .phone\:text-primary-lightest {
-    color: var(--primary-lightest)
+  .phone\:text-gray-lightest {
+    color: var(--gray-lightest)
   }
 
-  .phone\:text-func-primary {
-    color: var(--func-primary)
+  .phone\:text-red-active {
+    color: var(--red-active)
   }
 
-  .phone\:text-func-secondary {
-    color: var(--func-secondary)
+  .phone\:text-red-hover {
+    color: var(--red-hover)
   }
 
-  .phone\:text-func-secondary-light {
-    color: var(--func-secondary-light)
+  .phone\:text-red-text {
+    color: var(--red-text)
+  }
+
+  .phone\:text-red-dark {
+    color: var(--red-dark)
+  }
+
+  .phone\:text-red {
+    color: var(--red)
+  }
+
+  .phone\:text-blue-active {
+    color: var(--blue-active)
+  }
+
+  .phone\:text-blue-hover {
+    color: var(--blue-hover)
+  }
+
+  .phone\:text-blue-text {
+    color: var(--blue-text)
+  }
+
+  .phone\:text-blue {
+    color: var(--blue)
+  }
+
+  .phone\:text-blue-light {
+    color: var(--blue-light)
+  }
+
+  .phone\:text-blue-lightest {
+    color: var(--blue-lightest)
+  }
+
+  .phone\:text-orange-active {
+    color: var(--orange-active)
+  }
+
+  .phone\:text-orange-hover {
+    color: var(--orange-hover)
+  }
+
+  .phone\:text-orange-text {
+    color: var(--orange-text)
+  }
+
+  .phone\:text-orange {
+    color: var(--orange)
+  }
+
+  .phone\:text-orange-lightest {
+    color: var(--orange-lightest)
+  }
+
+  .phone\:text-green-active {
+    color: var(--green-active)
+  }
+
+  .phone\:text-green-hover {
+    color: var(--green-hover)
+  }
+
+  .phone\:text-green-text {
+    color: var(--green-text)
+  }
+
+  .phone\:text-green {
+    color: var(--green)
+  }
+
+  .phone\:text-green-light {
+    color: var(--green-light)
   }
 
   .phone\:hover\:text-black:hover {
@@ -5304,40 +6456,112 @@
     color: var(--white)
   }
 
-  .phone\:hover\:text-grey-dark:hover {
-    color: var(--grey-dark)
+  .phone\:hover\:text-gray-active:hover {
+    color: var(--gray-active)
   }
 
-  .phone\:hover\:text-grey:hover {
-    color: var(--grey)
+  .phone\:hover\:text-gray-hover:hover {
+    color: var(--gray-hover)
   }
 
-  .phone\:hover\:text-grey-light:hover {
-    color: var(--grey-light)
+  .phone\:hover\:text-gray-dark:hover {
+    color: var(--gray-dark)
   }
 
-  .phone\:hover\:text-primary:hover {
-    color: var(--primary)
+  .phone\:hover\:text-gray:hover {
+    color: var(--gray)
   }
 
-  .phone\:hover\:text-primary-light:hover {
-    color: var(--primary-light)
+  .phone\:hover\:text-gray-lighter:hover {
+    color: var(--gray-lighter)
   }
 
-  .phone\:hover\:text-primary-lightest:hover {
-    color: var(--primary-lightest)
+  .phone\:hover\:text-gray-lightest:hover {
+    color: var(--gray-lightest)
   }
 
-  .phone\:hover\:text-func-primary:hover {
-    color: var(--func-primary)
+  .phone\:hover\:text-red-active:hover {
+    color: var(--red-active)
   }
 
-  .phone\:hover\:text-func-secondary:hover {
-    color: var(--func-secondary)
+  .phone\:hover\:text-red-hover:hover {
+    color: var(--red-hover)
   }
 
-  .phone\:hover\:text-func-secondary-light:hover {
-    color: var(--func-secondary-light)
+  .phone\:hover\:text-red-text:hover {
+    color: var(--red-text)
+  }
+
+  .phone\:hover\:text-red-dark:hover {
+    color: var(--red-dark)
+  }
+
+  .phone\:hover\:text-red:hover {
+    color: var(--red)
+  }
+
+  .phone\:hover\:text-blue-active:hover {
+    color: var(--blue-active)
+  }
+
+  .phone\:hover\:text-blue-hover:hover {
+    color: var(--blue-hover)
+  }
+
+  .phone\:hover\:text-blue-text:hover {
+    color: var(--blue-text)
+  }
+
+  .phone\:hover\:text-blue:hover {
+    color: var(--blue)
+  }
+
+  .phone\:hover\:text-blue-light:hover {
+    color: var(--blue-light)
+  }
+
+  .phone\:hover\:text-blue-lightest:hover {
+    color: var(--blue-lightest)
+  }
+
+  .phone\:hover\:text-orange-active:hover {
+    color: var(--orange-active)
+  }
+
+  .phone\:hover\:text-orange-hover:hover {
+    color: var(--orange-hover)
+  }
+
+  .phone\:hover\:text-orange-text:hover {
+    color: var(--orange-text)
+  }
+
+  .phone\:hover\:text-orange:hover {
+    color: var(--orange)
+  }
+
+  .phone\:hover\:text-orange-lightest:hover {
+    color: var(--orange-lightest)
+  }
+
+  .phone\:hover\:text-green-active:hover {
+    color: var(--green-active)
+  }
+
+  .phone\:hover\:text-green-hover:hover {
+    color: var(--green-hover)
+  }
+
+  .phone\:hover\:text-green-text:hover {
+    color: var(--green-text)
+  }
+
+  .phone\:hover\:text-green:hover {
+    color: var(--green)
+  }
+
+  .phone\:hover\:text-green-light:hover {
+    color: var(--green-light)
   }
 
   .phone\:focus\:text-black:focus {
@@ -5348,40 +6572,112 @@
     color: var(--white)
   }
 
-  .phone\:focus\:text-grey-dark:focus {
-    color: var(--grey-dark)
+  .phone\:focus\:text-gray-active:focus {
+    color: var(--gray-active)
   }
 
-  .phone\:focus\:text-grey:focus {
-    color: var(--grey)
+  .phone\:focus\:text-gray-hover:focus {
+    color: var(--gray-hover)
   }
 
-  .phone\:focus\:text-grey-light:focus {
-    color: var(--grey-light)
+  .phone\:focus\:text-gray-dark:focus {
+    color: var(--gray-dark)
   }
 
-  .phone\:focus\:text-primary:focus {
-    color: var(--primary)
+  .phone\:focus\:text-gray:focus {
+    color: var(--gray)
   }
 
-  .phone\:focus\:text-primary-light:focus {
-    color: var(--primary-light)
+  .phone\:focus\:text-gray-lighter:focus {
+    color: var(--gray-lighter)
   }
 
-  .phone\:focus\:text-primary-lightest:focus {
-    color: var(--primary-lightest)
+  .phone\:focus\:text-gray-lightest:focus {
+    color: var(--gray-lightest)
   }
 
-  .phone\:focus\:text-func-primary:focus {
-    color: var(--func-primary)
+  .phone\:focus\:text-red-active:focus {
+    color: var(--red-active)
   }
 
-  .phone\:focus\:text-func-secondary:focus {
-    color: var(--func-secondary)
+  .phone\:focus\:text-red-hover:focus {
+    color: var(--red-hover)
   }
 
-  .phone\:focus\:text-func-secondary-light:focus {
-    color: var(--func-secondary-light)
+  .phone\:focus\:text-red-text:focus {
+    color: var(--red-text)
+  }
+
+  .phone\:focus\:text-red-dark:focus {
+    color: var(--red-dark)
+  }
+
+  .phone\:focus\:text-red:focus {
+    color: var(--red)
+  }
+
+  .phone\:focus\:text-blue-active:focus {
+    color: var(--blue-active)
+  }
+
+  .phone\:focus\:text-blue-hover:focus {
+    color: var(--blue-hover)
+  }
+
+  .phone\:focus\:text-blue-text:focus {
+    color: var(--blue-text)
+  }
+
+  .phone\:focus\:text-blue:focus {
+    color: var(--blue)
+  }
+
+  .phone\:focus\:text-blue-light:focus {
+    color: var(--blue-light)
+  }
+
+  .phone\:focus\:text-blue-lightest:focus {
+    color: var(--blue-lightest)
+  }
+
+  .phone\:focus\:text-orange-active:focus {
+    color: var(--orange-active)
+  }
+
+  .phone\:focus\:text-orange-hover:focus {
+    color: var(--orange-hover)
+  }
+
+  .phone\:focus\:text-orange-text:focus {
+    color: var(--orange-text)
+  }
+
+  .phone\:focus\:text-orange:focus {
+    color: var(--orange)
+  }
+
+  .phone\:focus\:text-orange-lightest:focus {
+    color: var(--orange-lightest)
+  }
+
+  .phone\:focus\:text-green-active:focus {
+    color: var(--green-active)
+  }
+
+  .phone\:focus\:text-green-hover:focus {
+    color: var(--green-hover)
+  }
+
+  .phone\:focus\:text-green-text:focus {
+    color: var(--green-text)
+  }
+
+  .phone\:focus\:text-green:focus {
+    color: var(--green)
+  }
+
+  .phone\:focus\:text-green-light:focus {
+    color: var(--green-light)
   }
 
   .phone\:italic {
@@ -5647,40 +6943,112 @@
     background-color: var(--white)
   }
 
-  .tablet\:bg-grey-dark {
-    background-color: var(--grey-dark)
+  .tablet\:bg-gray-active {
+    background-color: var(--gray-active)
   }
 
-  .tablet\:bg-grey {
-    background-color: var(--grey)
+  .tablet\:bg-gray-hover {
+    background-color: var(--gray-hover)
   }
 
-  .tablet\:bg-grey-light {
-    background-color: var(--grey-light)
+  .tablet\:bg-gray-dark {
+    background-color: var(--gray-dark)
   }
 
-  .tablet\:bg-primary {
-    background-color: var(--primary)
+  .tablet\:bg-gray {
+    background-color: var(--gray)
   }
 
-  .tablet\:bg-primary-light {
-    background-color: var(--primary-light)
+  .tablet\:bg-gray-lighter {
+    background-color: var(--gray-lighter)
   }
 
-  .tablet\:bg-primary-lightest {
-    background-color: var(--primary-lightest)
+  .tablet\:bg-gray-lightest {
+    background-color: var(--gray-lightest)
   }
 
-  .tablet\:bg-func-primary {
-    background-color: var(--func-primary)
+  .tablet\:bg-red-active {
+    background-color: var(--red-active)
   }
 
-  .tablet\:bg-func-secondary {
-    background-color: var(--func-secondary)
+  .tablet\:bg-red-hover {
+    background-color: var(--red-hover)
   }
 
-  .tablet\:bg-func-secondary-light {
-    background-color: var(--func-secondary-light)
+  .tablet\:bg-red-text {
+    background-color: var(--red-text)
+  }
+
+  .tablet\:bg-red-dark {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:bg-red {
+    background-color: var(--red)
+  }
+
+  .tablet\:bg-blue-active {
+    background-color: var(--blue-active)
+  }
+
+  .tablet\:bg-blue-hover {
+    background-color: var(--blue-hover)
+  }
+
+  .tablet\:bg-blue-text {
+    background-color: var(--blue-text)
+  }
+
+  .tablet\:bg-blue {
+    background-color: var(--blue)
+  }
+
+  .tablet\:bg-blue-light {
+    background-color: var(--blue-light)
+  }
+
+  .tablet\:bg-blue-lightest {
+    background-color: var(--blue-lightest)
+  }
+
+  .tablet\:bg-orange-active {
+    background-color: var(--orange-active)
+  }
+
+  .tablet\:bg-orange-hover {
+    background-color: var(--orange-hover)
+  }
+
+  .tablet\:bg-orange-text {
+    background-color: var(--orange-text)
+  }
+
+  .tablet\:bg-orange {
+    background-color: var(--orange)
+  }
+
+  .tablet\:bg-orange-lightest {
+    background-color: var(--orange-lightest)
+  }
+
+  .tablet\:bg-green-active {
+    background-color: var(--green-active)
+  }
+
+  .tablet\:bg-green-hover {
+    background-color: var(--green-hover)
+  }
+
+  .tablet\:bg-green-text {
+    background-color: var(--green-text)
+  }
+
+  .tablet\:bg-green {
+    background-color: var(--green)
+  }
+
+  .tablet\:bg-green-light {
+    background-color: var(--green-light)
   }
 
   .tablet\:hover\:bg-black:hover {
@@ -5691,40 +7059,112 @@
     background-color: var(--white)
   }
 
-  .tablet\:hover\:bg-grey-dark:hover {
-    background-color: var(--grey-dark)
+  .tablet\:hover\:bg-gray-active:hover {
+    background-color: var(--gray-active)
   }
 
-  .tablet\:hover\:bg-grey:hover {
-    background-color: var(--grey)
+  .tablet\:hover\:bg-gray-hover:hover {
+    background-color: var(--gray-hover)
   }
 
-  .tablet\:hover\:bg-grey-light:hover {
-    background-color: var(--grey-light)
+  .tablet\:hover\:bg-gray-dark:hover {
+    background-color: var(--gray-dark)
   }
 
-  .tablet\:hover\:bg-primary:hover {
-    background-color: var(--primary)
+  .tablet\:hover\:bg-gray:hover {
+    background-color: var(--gray)
   }
 
-  .tablet\:hover\:bg-primary-light:hover {
-    background-color: var(--primary-light)
+  .tablet\:hover\:bg-gray-lighter:hover {
+    background-color: var(--gray-lighter)
   }
 
-  .tablet\:hover\:bg-primary-lightest:hover {
-    background-color: var(--primary-lightest)
+  .tablet\:hover\:bg-gray-lightest:hover {
+    background-color: var(--gray-lightest)
   }
 
-  .tablet\:hover\:bg-func-primary:hover {
-    background-color: var(--func-primary)
+  .tablet\:hover\:bg-red-active:hover {
+    background-color: var(--red-active)
   }
 
-  .tablet\:hover\:bg-func-secondary:hover {
-    background-color: var(--func-secondary)
+  .tablet\:hover\:bg-red-hover:hover {
+    background-color: var(--red-hover)
   }
 
-  .tablet\:hover\:bg-func-secondary-light:hover {
-    background-color: var(--func-secondary-light)
+  .tablet\:hover\:bg-red-text:hover {
+    background-color: var(--red-text)
+  }
+
+  .tablet\:hover\:bg-red-dark:hover {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:hover\:bg-red:hover {
+    background-color: var(--red)
+  }
+
+  .tablet\:hover\:bg-blue-active:hover {
+    background-color: var(--blue-active)
+  }
+
+  .tablet\:hover\:bg-blue-hover:hover {
+    background-color: var(--blue-hover)
+  }
+
+  .tablet\:hover\:bg-blue-text:hover {
+    background-color: var(--blue-text)
+  }
+
+  .tablet\:hover\:bg-blue:hover {
+    background-color: var(--blue)
+  }
+
+  .tablet\:hover\:bg-blue-light:hover {
+    background-color: var(--blue-light)
+  }
+
+  .tablet\:hover\:bg-blue-lightest:hover {
+    background-color: var(--blue-lightest)
+  }
+
+  .tablet\:hover\:bg-orange-active:hover {
+    background-color: var(--orange-active)
+  }
+
+  .tablet\:hover\:bg-orange-hover:hover {
+    background-color: var(--orange-hover)
+  }
+
+  .tablet\:hover\:bg-orange-text:hover {
+    background-color: var(--orange-text)
+  }
+
+  .tablet\:hover\:bg-orange:hover {
+    background-color: var(--orange)
+  }
+
+  .tablet\:hover\:bg-orange-lightest:hover {
+    background-color: var(--orange-lightest)
+  }
+
+  .tablet\:hover\:bg-green-active:hover {
+    background-color: var(--green-active)
+  }
+
+  .tablet\:hover\:bg-green-hover:hover {
+    background-color: var(--green-hover)
+  }
+
+  .tablet\:hover\:bg-green-text:hover {
+    background-color: var(--green-text)
+  }
+
+  .tablet\:hover\:bg-green:hover {
+    background-color: var(--green)
+  }
+
+  .tablet\:hover\:bg-green-light:hover {
+    background-color: var(--green-light)
   }
 
   .tablet\:focus\:bg-black:focus {
@@ -5735,40 +7175,112 @@
     background-color: var(--white)
   }
 
-  .tablet\:focus\:bg-grey-dark:focus {
-    background-color: var(--grey-dark)
+  .tablet\:focus\:bg-gray-active:focus {
+    background-color: var(--gray-active)
   }
 
-  .tablet\:focus\:bg-grey:focus {
-    background-color: var(--grey)
+  .tablet\:focus\:bg-gray-hover:focus {
+    background-color: var(--gray-hover)
   }
 
-  .tablet\:focus\:bg-grey-light:focus {
-    background-color: var(--grey-light)
+  .tablet\:focus\:bg-gray-dark:focus {
+    background-color: var(--gray-dark)
   }
 
-  .tablet\:focus\:bg-primary:focus {
-    background-color: var(--primary)
+  .tablet\:focus\:bg-gray:focus {
+    background-color: var(--gray)
   }
 
-  .tablet\:focus\:bg-primary-light:focus {
-    background-color: var(--primary-light)
+  .tablet\:focus\:bg-gray-lighter:focus {
+    background-color: var(--gray-lighter)
   }
 
-  .tablet\:focus\:bg-primary-lightest:focus {
-    background-color: var(--primary-lightest)
+  .tablet\:focus\:bg-gray-lightest:focus {
+    background-color: var(--gray-lightest)
   }
 
-  .tablet\:focus\:bg-func-primary:focus {
-    background-color: var(--func-primary)
+  .tablet\:focus\:bg-red-active:focus {
+    background-color: var(--red-active)
   }
 
-  .tablet\:focus\:bg-func-secondary:focus {
-    background-color: var(--func-secondary)
+  .tablet\:focus\:bg-red-hover:focus {
+    background-color: var(--red-hover)
   }
 
-  .tablet\:focus\:bg-func-secondary-light:focus {
-    background-color: var(--func-secondary-light)
+  .tablet\:focus\:bg-red-text:focus {
+    background-color: var(--red-text)
+  }
+
+  .tablet\:focus\:bg-red-dark:focus {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:focus\:bg-red:focus {
+    background-color: var(--red)
+  }
+
+  .tablet\:focus\:bg-blue-active:focus {
+    background-color: var(--blue-active)
+  }
+
+  .tablet\:focus\:bg-blue-hover:focus {
+    background-color: var(--blue-hover)
+  }
+
+  .tablet\:focus\:bg-blue-text:focus {
+    background-color: var(--blue-text)
+  }
+
+  .tablet\:focus\:bg-blue:focus {
+    background-color: var(--blue)
+  }
+
+  .tablet\:focus\:bg-blue-light:focus {
+    background-color: var(--blue-light)
+  }
+
+  .tablet\:focus\:bg-blue-lightest:focus {
+    background-color: var(--blue-lightest)
+  }
+
+  .tablet\:focus\:bg-orange-active:focus {
+    background-color: var(--orange-active)
+  }
+
+  .tablet\:focus\:bg-orange-hover:focus {
+    background-color: var(--orange-hover)
+  }
+
+  .tablet\:focus\:bg-orange-text:focus {
+    background-color: var(--orange-text)
+  }
+
+  .tablet\:focus\:bg-orange:focus {
+    background-color: var(--orange)
+  }
+
+  .tablet\:focus\:bg-orange-lightest:focus {
+    background-color: var(--orange-lightest)
+  }
+
+  .tablet\:focus\:bg-green-active:focus {
+    background-color: var(--green-active)
+  }
+
+  .tablet\:focus\:bg-green-hover:focus {
+    background-color: var(--green-hover)
+  }
+
+  .tablet\:focus\:bg-green-text:focus {
+    background-color: var(--green-text)
+  }
+
+  .tablet\:focus\:bg-green:focus {
+    background-color: var(--green)
+  }
+
+  .tablet\:focus\:bg-green-light:focus {
+    background-color: var(--green-light)
   }
 
   .tablet\:bg-bottom {
@@ -5859,40 +7371,112 @@
     border-color: var(--white)
   }
 
-  .tablet\:border-grey-dark {
-    border-color: var(--grey-dark)
+  .tablet\:border-gray-active {
+    border-color: var(--gray-active)
   }
 
-  .tablet\:border-grey {
-    border-color: var(--grey)
+  .tablet\:border-gray-hover {
+    border-color: var(--gray-hover)
   }
 
-  .tablet\:border-grey-light {
-    border-color: var(--grey-light)
+  .tablet\:border-gray-dark {
+    border-color: var(--gray-dark)
   }
 
-  .tablet\:border-primary {
-    border-color: var(--primary)
+  .tablet\:border-gray {
+    border-color: var(--gray)
   }
 
-  .tablet\:border-primary-light {
-    border-color: var(--primary-light)
+  .tablet\:border-gray-lighter {
+    border-color: var(--gray-lighter)
   }
 
-  .tablet\:border-primary-lightest {
-    border-color: var(--primary-lightest)
+  .tablet\:border-gray-lightest {
+    border-color: var(--gray-lightest)
   }
 
-  .tablet\:border-func-primary {
-    border-color: var(--func-primary)
+  .tablet\:border-red-active {
+    border-color: var(--red-active)
   }
 
-  .tablet\:border-func-secondary {
-    border-color: var(--func-secondary)
+  .tablet\:border-red-hover {
+    border-color: var(--red-hover)
   }
 
-  .tablet\:border-func-secondary-light {
-    border-color: var(--func-secondary-light)
+  .tablet\:border-red-text {
+    border-color: var(--red-text)
+  }
+
+  .tablet\:border-red-dark {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:border-red {
+    border-color: var(--red)
+  }
+
+  .tablet\:border-blue-active {
+    border-color: var(--blue-active)
+  }
+
+  .tablet\:border-blue-hover {
+    border-color: var(--blue-hover)
+  }
+
+  .tablet\:border-blue-text {
+    border-color: var(--blue-text)
+  }
+
+  .tablet\:border-blue {
+    border-color: var(--blue)
+  }
+
+  .tablet\:border-blue-light {
+    border-color: var(--blue-light)
+  }
+
+  .tablet\:border-blue-lightest {
+    border-color: var(--blue-lightest)
+  }
+
+  .tablet\:border-orange-active {
+    border-color: var(--orange-active)
+  }
+
+  .tablet\:border-orange-hover {
+    border-color: var(--orange-hover)
+  }
+
+  .tablet\:border-orange-text {
+    border-color: var(--orange-text)
+  }
+
+  .tablet\:border-orange {
+    border-color: var(--orange)
+  }
+
+  .tablet\:border-orange-lightest {
+    border-color: var(--orange-lightest)
+  }
+
+  .tablet\:border-green-active {
+    border-color: var(--green-active)
+  }
+
+  .tablet\:border-green-hover {
+    border-color: var(--green-hover)
+  }
+
+  .tablet\:border-green-text {
+    border-color: var(--green-text)
+  }
+
+  .tablet\:border-green {
+    border-color: var(--green)
+  }
+
+  .tablet\:border-green-light {
+    border-color: var(--green-light)
   }
 
   .tablet\:hover\:border-black:hover {
@@ -5903,40 +7487,112 @@
     border-color: var(--white)
   }
 
-  .tablet\:hover\:border-grey-dark:hover {
-    border-color: var(--grey-dark)
+  .tablet\:hover\:border-gray-active:hover {
+    border-color: var(--gray-active)
   }
 
-  .tablet\:hover\:border-grey:hover {
-    border-color: var(--grey)
+  .tablet\:hover\:border-gray-hover:hover {
+    border-color: var(--gray-hover)
   }
 
-  .tablet\:hover\:border-grey-light:hover {
-    border-color: var(--grey-light)
+  .tablet\:hover\:border-gray-dark:hover {
+    border-color: var(--gray-dark)
   }
 
-  .tablet\:hover\:border-primary:hover {
-    border-color: var(--primary)
+  .tablet\:hover\:border-gray:hover {
+    border-color: var(--gray)
   }
 
-  .tablet\:hover\:border-primary-light:hover {
-    border-color: var(--primary-light)
+  .tablet\:hover\:border-gray-lighter:hover {
+    border-color: var(--gray-lighter)
   }
 
-  .tablet\:hover\:border-primary-lightest:hover {
-    border-color: var(--primary-lightest)
+  .tablet\:hover\:border-gray-lightest:hover {
+    border-color: var(--gray-lightest)
   }
 
-  .tablet\:hover\:border-func-primary:hover {
-    border-color: var(--func-primary)
+  .tablet\:hover\:border-red-active:hover {
+    border-color: var(--red-active)
   }
 
-  .tablet\:hover\:border-func-secondary:hover {
-    border-color: var(--func-secondary)
+  .tablet\:hover\:border-red-hover:hover {
+    border-color: var(--red-hover)
   }
 
-  .tablet\:hover\:border-func-secondary-light:hover {
-    border-color: var(--func-secondary-light)
+  .tablet\:hover\:border-red-text:hover {
+    border-color: var(--red-text)
+  }
+
+  .tablet\:hover\:border-red-dark:hover {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:hover\:border-red:hover {
+    border-color: var(--red)
+  }
+
+  .tablet\:hover\:border-blue-active:hover {
+    border-color: var(--blue-active)
+  }
+
+  .tablet\:hover\:border-blue-hover:hover {
+    border-color: var(--blue-hover)
+  }
+
+  .tablet\:hover\:border-blue-text:hover {
+    border-color: var(--blue-text)
+  }
+
+  .tablet\:hover\:border-blue:hover {
+    border-color: var(--blue)
+  }
+
+  .tablet\:hover\:border-blue-light:hover {
+    border-color: var(--blue-light)
+  }
+
+  .tablet\:hover\:border-blue-lightest:hover {
+    border-color: var(--blue-lightest)
+  }
+
+  .tablet\:hover\:border-orange-active:hover {
+    border-color: var(--orange-active)
+  }
+
+  .tablet\:hover\:border-orange-hover:hover {
+    border-color: var(--orange-hover)
+  }
+
+  .tablet\:hover\:border-orange-text:hover {
+    border-color: var(--orange-text)
+  }
+
+  .tablet\:hover\:border-orange:hover {
+    border-color: var(--orange)
+  }
+
+  .tablet\:hover\:border-orange-lightest:hover {
+    border-color: var(--orange-lightest)
+  }
+
+  .tablet\:hover\:border-green-active:hover {
+    border-color: var(--green-active)
+  }
+
+  .tablet\:hover\:border-green-hover:hover {
+    border-color: var(--green-hover)
+  }
+
+  .tablet\:hover\:border-green-text:hover {
+    border-color: var(--green-text)
+  }
+
+  .tablet\:hover\:border-green:hover {
+    border-color: var(--green)
+  }
+
+  .tablet\:hover\:border-green-light:hover {
+    border-color: var(--green-light)
   }
 
   .tablet\:focus\:border-black:focus {
@@ -5947,40 +7603,112 @@
     border-color: var(--white)
   }
 
-  .tablet\:focus\:border-grey-dark:focus {
-    border-color: var(--grey-dark)
+  .tablet\:focus\:border-gray-active:focus {
+    border-color: var(--gray-active)
   }
 
-  .tablet\:focus\:border-grey:focus {
-    border-color: var(--grey)
+  .tablet\:focus\:border-gray-hover:focus {
+    border-color: var(--gray-hover)
   }
 
-  .tablet\:focus\:border-grey-light:focus {
-    border-color: var(--grey-light)
+  .tablet\:focus\:border-gray-dark:focus {
+    border-color: var(--gray-dark)
   }
 
-  .tablet\:focus\:border-primary:focus {
-    border-color: var(--primary)
+  .tablet\:focus\:border-gray:focus {
+    border-color: var(--gray)
   }
 
-  .tablet\:focus\:border-primary-light:focus {
-    border-color: var(--primary-light)
+  .tablet\:focus\:border-gray-lighter:focus {
+    border-color: var(--gray-lighter)
   }
 
-  .tablet\:focus\:border-primary-lightest:focus {
-    border-color: var(--primary-lightest)
+  .tablet\:focus\:border-gray-lightest:focus {
+    border-color: var(--gray-lightest)
   }
 
-  .tablet\:focus\:border-func-primary:focus {
-    border-color: var(--func-primary)
+  .tablet\:focus\:border-red-active:focus {
+    border-color: var(--red-active)
   }
 
-  .tablet\:focus\:border-func-secondary:focus {
-    border-color: var(--func-secondary)
+  .tablet\:focus\:border-red-hover:focus {
+    border-color: var(--red-hover)
   }
 
-  .tablet\:focus\:border-func-secondary-light:focus {
-    border-color: var(--func-secondary-light)
+  .tablet\:focus\:border-red-text:focus {
+    border-color: var(--red-text)
+  }
+
+  .tablet\:focus\:border-red-dark:focus {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:focus\:border-red:focus {
+    border-color: var(--red)
+  }
+
+  .tablet\:focus\:border-blue-active:focus {
+    border-color: var(--blue-active)
+  }
+
+  .tablet\:focus\:border-blue-hover:focus {
+    border-color: var(--blue-hover)
+  }
+
+  .tablet\:focus\:border-blue-text:focus {
+    border-color: var(--blue-text)
+  }
+
+  .tablet\:focus\:border-blue:focus {
+    border-color: var(--blue)
+  }
+
+  .tablet\:focus\:border-blue-light:focus {
+    border-color: var(--blue-light)
+  }
+
+  .tablet\:focus\:border-blue-lightest:focus {
+    border-color: var(--blue-lightest)
+  }
+
+  .tablet\:focus\:border-orange-active:focus {
+    border-color: var(--orange-active)
+  }
+
+  .tablet\:focus\:border-orange-hover:focus {
+    border-color: var(--orange-hover)
+  }
+
+  .tablet\:focus\:border-orange-text:focus {
+    border-color: var(--orange-text)
+  }
+
+  .tablet\:focus\:border-orange:focus {
+    border-color: var(--orange)
+  }
+
+  .tablet\:focus\:border-orange-lightest:focus {
+    border-color: var(--orange-lightest)
+  }
+
+  .tablet\:focus\:border-green-active:focus {
+    border-color: var(--green-active)
+  }
+
+  .tablet\:focus\:border-green-hover:focus {
+    border-color: var(--green-hover)
+  }
+
+  .tablet\:focus\:border-green-text:focus {
+    border-color: var(--green-text)
+  }
+
+  .tablet\:focus\:border-green:focus {
+    border-color: var(--green)
+  }
+
+  .tablet\:focus\:border-green-light:focus {
+    border-color: var(--green-light)
   }
 
   .tablet\:rounded-none {
@@ -8073,40 +9801,112 @@
     color: var(--white)
   }
 
-  .tablet\:text-grey-dark {
-    color: var(--grey-dark)
+  .tablet\:text-gray-active {
+    color: var(--gray-active)
   }
 
-  .tablet\:text-grey {
-    color: var(--grey)
+  .tablet\:text-gray-hover {
+    color: var(--gray-hover)
   }
 
-  .tablet\:text-grey-light {
-    color: var(--grey-light)
+  .tablet\:text-gray-dark {
+    color: var(--gray-dark)
   }
 
-  .tablet\:text-primary {
-    color: var(--primary)
+  .tablet\:text-gray {
+    color: var(--gray)
   }
 
-  .tablet\:text-primary-light {
-    color: var(--primary-light)
+  .tablet\:text-gray-lighter {
+    color: var(--gray-lighter)
   }
 
-  .tablet\:text-primary-lightest {
-    color: var(--primary-lightest)
+  .tablet\:text-gray-lightest {
+    color: var(--gray-lightest)
   }
 
-  .tablet\:text-func-primary {
-    color: var(--func-primary)
+  .tablet\:text-red-active {
+    color: var(--red-active)
   }
 
-  .tablet\:text-func-secondary {
-    color: var(--func-secondary)
+  .tablet\:text-red-hover {
+    color: var(--red-hover)
   }
 
-  .tablet\:text-func-secondary-light {
-    color: var(--func-secondary-light)
+  .tablet\:text-red-text {
+    color: var(--red-text)
+  }
+
+  .tablet\:text-red-dark {
+    color: var(--red-dark)
+  }
+
+  .tablet\:text-red {
+    color: var(--red)
+  }
+
+  .tablet\:text-blue-active {
+    color: var(--blue-active)
+  }
+
+  .tablet\:text-blue-hover {
+    color: var(--blue-hover)
+  }
+
+  .tablet\:text-blue-text {
+    color: var(--blue-text)
+  }
+
+  .tablet\:text-blue {
+    color: var(--blue)
+  }
+
+  .tablet\:text-blue-light {
+    color: var(--blue-light)
+  }
+
+  .tablet\:text-blue-lightest {
+    color: var(--blue-lightest)
+  }
+
+  .tablet\:text-orange-active {
+    color: var(--orange-active)
+  }
+
+  .tablet\:text-orange-hover {
+    color: var(--orange-hover)
+  }
+
+  .tablet\:text-orange-text {
+    color: var(--orange-text)
+  }
+
+  .tablet\:text-orange {
+    color: var(--orange)
+  }
+
+  .tablet\:text-orange-lightest {
+    color: var(--orange-lightest)
+  }
+
+  .tablet\:text-green-active {
+    color: var(--green-active)
+  }
+
+  .tablet\:text-green-hover {
+    color: var(--green-hover)
+  }
+
+  .tablet\:text-green-text {
+    color: var(--green-text)
+  }
+
+  .tablet\:text-green {
+    color: var(--green)
+  }
+
+  .tablet\:text-green-light {
+    color: var(--green-light)
   }
 
   .tablet\:hover\:text-black:hover {
@@ -8117,40 +9917,112 @@
     color: var(--white)
   }
 
-  .tablet\:hover\:text-grey-dark:hover {
-    color: var(--grey-dark)
+  .tablet\:hover\:text-gray-active:hover {
+    color: var(--gray-active)
   }
 
-  .tablet\:hover\:text-grey:hover {
-    color: var(--grey)
+  .tablet\:hover\:text-gray-hover:hover {
+    color: var(--gray-hover)
   }
 
-  .tablet\:hover\:text-grey-light:hover {
-    color: var(--grey-light)
+  .tablet\:hover\:text-gray-dark:hover {
+    color: var(--gray-dark)
   }
 
-  .tablet\:hover\:text-primary:hover {
-    color: var(--primary)
+  .tablet\:hover\:text-gray:hover {
+    color: var(--gray)
   }
 
-  .tablet\:hover\:text-primary-light:hover {
-    color: var(--primary-light)
+  .tablet\:hover\:text-gray-lighter:hover {
+    color: var(--gray-lighter)
   }
 
-  .tablet\:hover\:text-primary-lightest:hover {
-    color: var(--primary-lightest)
+  .tablet\:hover\:text-gray-lightest:hover {
+    color: var(--gray-lightest)
   }
 
-  .tablet\:hover\:text-func-primary:hover {
-    color: var(--func-primary)
+  .tablet\:hover\:text-red-active:hover {
+    color: var(--red-active)
   }
 
-  .tablet\:hover\:text-func-secondary:hover {
-    color: var(--func-secondary)
+  .tablet\:hover\:text-red-hover:hover {
+    color: var(--red-hover)
   }
 
-  .tablet\:hover\:text-func-secondary-light:hover {
-    color: var(--func-secondary-light)
+  .tablet\:hover\:text-red-text:hover {
+    color: var(--red-text)
+  }
+
+  .tablet\:hover\:text-red-dark:hover {
+    color: var(--red-dark)
+  }
+
+  .tablet\:hover\:text-red:hover {
+    color: var(--red)
+  }
+
+  .tablet\:hover\:text-blue-active:hover {
+    color: var(--blue-active)
+  }
+
+  .tablet\:hover\:text-blue-hover:hover {
+    color: var(--blue-hover)
+  }
+
+  .tablet\:hover\:text-blue-text:hover {
+    color: var(--blue-text)
+  }
+
+  .tablet\:hover\:text-blue:hover {
+    color: var(--blue)
+  }
+
+  .tablet\:hover\:text-blue-light:hover {
+    color: var(--blue-light)
+  }
+
+  .tablet\:hover\:text-blue-lightest:hover {
+    color: var(--blue-lightest)
+  }
+
+  .tablet\:hover\:text-orange-active:hover {
+    color: var(--orange-active)
+  }
+
+  .tablet\:hover\:text-orange-hover:hover {
+    color: var(--orange-hover)
+  }
+
+  .tablet\:hover\:text-orange-text:hover {
+    color: var(--orange-text)
+  }
+
+  .tablet\:hover\:text-orange:hover {
+    color: var(--orange)
+  }
+
+  .tablet\:hover\:text-orange-lightest:hover {
+    color: var(--orange-lightest)
+  }
+
+  .tablet\:hover\:text-green-active:hover {
+    color: var(--green-active)
+  }
+
+  .tablet\:hover\:text-green-hover:hover {
+    color: var(--green-hover)
+  }
+
+  .tablet\:hover\:text-green-text:hover {
+    color: var(--green-text)
+  }
+
+  .tablet\:hover\:text-green:hover {
+    color: var(--green)
+  }
+
+  .tablet\:hover\:text-green-light:hover {
+    color: var(--green-light)
   }
 
   .tablet\:focus\:text-black:focus {
@@ -8161,40 +10033,112 @@
     color: var(--white)
   }
 
-  .tablet\:focus\:text-grey-dark:focus {
-    color: var(--grey-dark)
+  .tablet\:focus\:text-gray-active:focus {
+    color: var(--gray-active)
   }
 
-  .tablet\:focus\:text-grey:focus {
-    color: var(--grey)
+  .tablet\:focus\:text-gray-hover:focus {
+    color: var(--gray-hover)
   }
 
-  .tablet\:focus\:text-grey-light:focus {
-    color: var(--grey-light)
+  .tablet\:focus\:text-gray-dark:focus {
+    color: var(--gray-dark)
   }
 
-  .tablet\:focus\:text-primary:focus {
-    color: var(--primary)
+  .tablet\:focus\:text-gray:focus {
+    color: var(--gray)
   }
 
-  .tablet\:focus\:text-primary-light:focus {
-    color: var(--primary-light)
+  .tablet\:focus\:text-gray-lighter:focus {
+    color: var(--gray-lighter)
   }
 
-  .tablet\:focus\:text-primary-lightest:focus {
-    color: var(--primary-lightest)
+  .tablet\:focus\:text-gray-lightest:focus {
+    color: var(--gray-lightest)
   }
 
-  .tablet\:focus\:text-func-primary:focus {
-    color: var(--func-primary)
+  .tablet\:focus\:text-red-active:focus {
+    color: var(--red-active)
   }
 
-  .tablet\:focus\:text-func-secondary:focus {
-    color: var(--func-secondary)
+  .tablet\:focus\:text-red-hover:focus {
+    color: var(--red-hover)
   }
 
-  .tablet\:focus\:text-func-secondary-light:focus {
-    color: var(--func-secondary-light)
+  .tablet\:focus\:text-red-text:focus {
+    color: var(--red-text)
+  }
+
+  .tablet\:focus\:text-red-dark:focus {
+    color: var(--red-dark)
+  }
+
+  .tablet\:focus\:text-red:focus {
+    color: var(--red)
+  }
+
+  .tablet\:focus\:text-blue-active:focus {
+    color: var(--blue-active)
+  }
+
+  .tablet\:focus\:text-blue-hover:focus {
+    color: var(--blue-hover)
+  }
+
+  .tablet\:focus\:text-blue-text:focus {
+    color: var(--blue-text)
+  }
+
+  .tablet\:focus\:text-blue:focus {
+    color: var(--blue)
+  }
+
+  .tablet\:focus\:text-blue-light:focus {
+    color: var(--blue-light)
+  }
+
+  .tablet\:focus\:text-blue-lightest:focus {
+    color: var(--blue-lightest)
+  }
+
+  .tablet\:focus\:text-orange-active:focus {
+    color: var(--orange-active)
+  }
+
+  .tablet\:focus\:text-orange-hover:focus {
+    color: var(--orange-hover)
+  }
+
+  .tablet\:focus\:text-orange-text:focus {
+    color: var(--orange-text)
+  }
+
+  .tablet\:focus\:text-orange:focus {
+    color: var(--orange)
+  }
+
+  .tablet\:focus\:text-orange-lightest:focus {
+    color: var(--orange-lightest)
+  }
+
+  .tablet\:focus\:text-green-active:focus {
+    color: var(--green-active)
+  }
+
+  .tablet\:focus\:text-green-hover:focus {
+    color: var(--green-hover)
+  }
+
+  .tablet\:focus\:text-green-text:focus {
+    color: var(--green-text)
+  }
+
+  .tablet\:focus\:text-green:focus {
+    color: var(--green)
+  }
+
+  .tablet\:focus\:text-green-light:focus {
+    color: var(--green-light)
   }
 
   .tablet\:italic {
@@ -8460,40 +10404,112 @@
     background-color: var(--white)
   }
 
-  .laptop\:bg-grey-dark {
-    background-color: var(--grey-dark)
+  .laptop\:bg-gray-active {
+    background-color: var(--gray-active)
   }
 
-  .laptop\:bg-grey {
-    background-color: var(--grey)
+  .laptop\:bg-gray-hover {
+    background-color: var(--gray-hover)
   }
 
-  .laptop\:bg-grey-light {
-    background-color: var(--grey-light)
+  .laptop\:bg-gray-dark {
+    background-color: var(--gray-dark)
   }
 
-  .laptop\:bg-primary {
-    background-color: var(--primary)
+  .laptop\:bg-gray {
+    background-color: var(--gray)
   }
 
-  .laptop\:bg-primary-light {
-    background-color: var(--primary-light)
+  .laptop\:bg-gray-lighter {
+    background-color: var(--gray-lighter)
   }
 
-  .laptop\:bg-primary-lightest {
-    background-color: var(--primary-lightest)
+  .laptop\:bg-gray-lightest {
+    background-color: var(--gray-lightest)
   }
 
-  .laptop\:bg-func-primary {
-    background-color: var(--func-primary)
+  .laptop\:bg-red-active {
+    background-color: var(--red-active)
   }
 
-  .laptop\:bg-func-secondary {
-    background-color: var(--func-secondary)
+  .laptop\:bg-red-hover {
+    background-color: var(--red-hover)
   }
 
-  .laptop\:bg-func-secondary-light {
-    background-color: var(--func-secondary-light)
+  .laptop\:bg-red-text {
+    background-color: var(--red-text)
+  }
+
+  .laptop\:bg-red-dark {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:bg-red {
+    background-color: var(--red)
+  }
+
+  .laptop\:bg-blue-active {
+    background-color: var(--blue-active)
+  }
+
+  .laptop\:bg-blue-hover {
+    background-color: var(--blue-hover)
+  }
+
+  .laptop\:bg-blue-text {
+    background-color: var(--blue-text)
+  }
+
+  .laptop\:bg-blue {
+    background-color: var(--blue)
+  }
+
+  .laptop\:bg-blue-light {
+    background-color: var(--blue-light)
+  }
+
+  .laptop\:bg-blue-lightest {
+    background-color: var(--blue-lightest)
+  }
+
+  .laptop\:bg-orange-active {
+    background-color: var(--orange-active)
+  }
+
+  .laptop\:bg-orange-hover {
+    background-color: var(--orange-hover)
+  }
+
+  .laptop\:bg-orange-text {
+    background-color: var(--orange-text)
+  }
+
+  .laptop\:bg-orange {
+    background-color: var(--orange)
+  }
+
+  .laptop\:bg-orange-lightest {
+    background-color: var(--orange-lightest)
+  }
+
+  .laptop\:bg-green-active {
+    background-color: var(--green-active)
+  }
+
+  .laptop\:bg-green-hover {
+    background-color: var(--green-hover)
+  }
+
+  .laptop\:bg-green-text {
+    background-color: var(--green-text)
+  }
+
+  .laptop\:bg-green {
+    background-color: var(--green)
+  }
+
+  .laptop\:bg-green-light {
+    background-color: var(--green-light)
   }
 
   .laptop\:hover\:bg-black:hover {
@@ -8504,40 +10520,112 @@
     background-color: var(--white)
   }
 
-  .laptop\:hover\:bg-grey-dark:hover {
-    background-color: var(--grey-dark)
+  .laptop\:hover\:bg-gray-active:hover {
+    background-color: var(--gray-active)
   }
 
-  .laptop\:hover\:bg-grey:hover {
-    background-color: var(--grey)
+  .laptop\:hover\:bg-gray-hover:hover {
+    background-color: var(--gray-hover)
   }
 
-  .laptop\:hover\:bg-grey-light:hover {
-    background-color: var(--grey-light)
+  .laptop\:hover\:bg-gray-dark:hover {
+    background-color: var(--gray-dark)
   }
 
-  .laptop\:hover\:bg-primary:hover {
-    background-color: var(--primary)
+  .laptop\:hover\:bg-gray:hover {
+    background-color: var(--gray)
   }
 
-  .laptop\:hover\:bg-primary-light:hover {
-    background-color: var(--primary-light)
+  .laptop\:hover\:bg-gray-lighter:hover {
+    background-color: var(--gray-lighter)
   }
 
-  .laptop\:hover\:bg-primary-lightest:hover {
-    background-color: var(--primary-lightest)
+  .laptop\:hover\:bg-gray-lightest:hover {
+    background-color: var(--gray-lightest)
   }
 
-  .laptop\:hover\:bg-func-primary:hover {
-    background-color: var(--func-primary)
+  .laptop\:hover\:bg-red-active:hover {
+    background-color: var(--red-active)
   }
 
-  .laptop\:hover\:bg-func-secondary:hover {
-    background-color: var(--func-secondary)
+  .laptop\:hover\:bg-red-hover:hover {
+    background-color: var(--red-hover)
   }
 
-  .laptop\:hover\:bg-func-secondary-light:hover {
-    background-color: var(--func-secondary-light)
+  .laptop\:hover\:bg-red-text:hover {
+    background-color: var(--red-text)
+  }
+
+  .laptop\:hover\:bg-red-dark:hover {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:hover\:bg-red:hover {
+    background-color: var(--red)
+  }
+
+  .laptop\:hover\:bg-blue-active:hover {
+    background-color: var(--blue-active)
+  }
+
+  .laptop\:hover\:bg-blue-hover:hover {
+    background-color: var(--blue-hover)
+  }
+
+  .laptop\:hover\:bg-blue-text:hover {
+    background-color: var(--blue-text)
+  }
+
+  .laptop\:hover\:bg-blue:hover {
+    background-color: var(--blue)
+  }
+
+  .laptop\:hover\:bg-blue-light:hover {
+    background-color: var(--blue-light)
+  }
+
+  .laptop\:hover\:bg-blue-lightest:hover {
+    background-color: var(--blue-lightest)
+  }
+
+  .laptop\:hover\:bg-orange-active:hover {
+    background-color: var(--orange-active)
+  }
+
+  .laptop\:hover\:bg-orange-hover:hover {
+    background-color: var(--orange-hover)
+  }
+
+  .laptop\:hover\:bg-orange-text:hover {
+    background-color: var(--orange-text)
+  }
+
+  .laptop\:hover\:bg-orange:hover {
+    background-color: var(--orange)
+  }
+
+  .laptop\:hover\:bg-orange-lightest:hover {
+    background-color: var(--orange-lightest)
+  }
+
+  .laptop\:hover\:bg-green-active:hover {
+    background-color: var(--green-active)
+  }
+
+  .laptop\:hover\:bg-green-hover:hover {
+    background-color: var(--green-hover)
+  }
+
+  .laptop\:hover\:bg-green-text:hover {
+    background-color: var(--green-text)
+  }
+
+  .laptop\:hover\:bg-green:hover {
+    background-color: var(--green)
+  }
+
+  .laptop\:hover\:bg-green-light:hover {
+    background-color: var(--green-light)
   }
 
   .laptop\:focus\:bg-black:focus {
@@ -8548,40 +10636,112 @@
     background-color: var(--white)
   }
 
-  .laptop\:focus\:bg-grey-dark:focus {
-    background-color: var(--grey-dark)
+  .laptop\:focus\:bg-gray-active:focus {
+    background-color: var(--gray-active)
   }
 
-  .laptop\:focus\:bg-grey:focus {
-    background-color: var(--grey)
+  .laptop\:focus\:bg-gray-hover:focus {
+    background-color: var(--gray-hover)
   }
 
-  .laptop\:focus\:bg-grey-light:focus {
-    background-color: var(--grey-light)
+  .laptop\:focus\:bg-gray-dark:focus {
+    background-color: var(--gray-dark)
   }
 
-  .laptop\:focus\:bg-primary:focus {
-    background-color: var(--primary)
+  .laptop\:focus\:bg-gray:focus {
+    background-color: var(--gray)
   }
 
-  .laptop\:focus\:bg-primary-light:focus {
-    background-color: var(--primary-light)
+  .laptop\:focus\:bg-gray-lighter:focus {
+    background-color: var(--gray-lighter)
   }
 
-  .laptop\:focus\:bg-primary-lightest:focus {
-    background-color: var(--primary-lightest)
+  .laptop\:focus\:bg-gray-lightest:focus {
+    background-color: var(--gray-lightest)
   }
 
-  .laptop\:focus\:bg-func-primary:focus {
-    background-color: var(--func-primary)
+  .laptop\:focus\:bg-red-active:focus {
+    background-color: var(--red-active)
   }
 
-  .laptop\:focus\:bg-func-secondary:focus {
-    background-color: var(--func-secondary)
+  .laptop\:focus\:bg-red-hover:focus {
+    background-color: var(--red-hover)
   }
 
-  .laptop\:focus\:bg-func-secondary-light:focus {
-    background-color: var(--func-secondary-light)
+  .laptop\:focus\:bg-red-text:focus {
+    background-color: var(--red-text)
+  }
+
+  .laptop\:focus\:bg-red-dark:focus {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:focus\:bg-red:focus {
+    background-color: var(--red)
+  }
+
+  .laptop\:focus\:bg-blue-active:focus {
+    background-color: var(--blue-active)
+  }
+
+  .laptop\:focus\:bg-blue-hover:focus {
+    background-color: var(--blue-hover)
+  }
+
+  .laptop\:focus\:bg-blue-text:focus {
+    background-color: var(--blue-text)
+  }
+
+  .laptop\:focus\:bg-blue:focus {
+    background-color: var(--blue)
+  }
+
+  .laptop\:focus\:bg-blue-light:focus {
+    background-color: var(--blue-light)
+  }
+
+  .laptop\:focus\:bg-blue-lightest:focus {
+    background-color: var(--blue-lightest)
+  }
+
+  .laptop\:focus\:bg-orange-active:focus {
+    background-color: var(--orange-active)
+  }
+
+  .laptop\:focus\:bg-orange-hover:focus {
+    background-color: var(--orange-hover)
+  }
+
+  .laptop\:focus\:bg-orange-text:focus {
+    background-color: var(--orange-text)
+  }
+
+  .laptop\:focus\:bg-orange:focus {
+    background-color: var(--orange)
+  }
+
+  .laptop\:focus\:bg-orange-lightest:focus {
+    background-color: var(--orange-lightest)
+  }
+
+  .laptop\:focus\:bg-green-active:focus {
+    background-color: var(--green-active)
+  }
+
+  .laptop\:focus\:bg-green-hover:focus {
+    background-color: var(--green-hover)
+  }
+
+  .laptop\:focus\:bg-green-text:focus {
+    background-color: var(--green-text)
+  }
+
+  .laptop\:focus\:bg-green:focus {
+    background-color: var(--green)
+  }
+
+  .laptop\:focus\:bg-green-light:focus {
+    background-color: var(--green-light)
   }
 
   .laptop\:bg-bottom {
@@ -8672,40 +10832,112 @@
     border-color: var(--white)
   }
 
-  .laptop\:border-grey-dark {
-    border-color: var(--grey-dark)
+  .laptop\:border-gray-active {
+    border-color: var(--gray-active)
   }
 
-  .laptop\:border-grey {
-    border-color: var(--grey)
+  .laptop\:border-gray-hover {
+    border-color: var(--gray-hover)
   }
 
-  .laptop\:border-grey-light {
-    border-color: var(--grey-light)
+  .laptop\:border-gray-dark {
+    border-color: var(--gray-dark)
   }
 
-  .laptop\:border-primary {
-    border-color: var(--primary)
+  .laptop\:border-gray {
+    border-color: var(--gray)
   }
 
-  .laptop\:border-primary-light {
-    border-color: var(--primary-light)
+  .laptop\:border-gray-lighter {
+    border-color: var(--gray-lighter)
   }
 
-  .laptop\:border-primary-lightest {
-    border-color: var(--primary-lightest)
+  .laptop\:border-gray-lightest {
+    border-color: var(--gray-lightest)
   }
 
-  .laptop\:border-func-primary {
-    border-color: var(--func-primary)
+  .laptop\:border-red-active {
+    border-color: var(--red-active)
   }
 
-  .laptop\:border-func-secondary {
-    border-color: var(--func-secondary)
+  .laptop\:border-red-hover {
+    border-color: var(--red-hover)
   }
 
-  .laptop\:border-func-secondary-light {
-    border-color: var(--func-secondary-light)
+  .laptop\:border-red-text {
+    border-color: var(--red-text)
+  }
+
+  .laptop\:border-red-dark {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:border-red {
+    border-color: var(--red)
+  }
+
+  .laptop\:border-blue-active {
+    border-color: var(--blue-active)
+  }
+
+  .laptop\:border-blue-hover {
+    border-color: var(--blue-hover)
+  }
+
+  .laptop\:border-blue-text {
+    border-color: var(--blue-text)
+  }
+
+  .laptop\:border-blue {
+    border-color: var(--blue)
+  }
+
+  .laptop\:border-blue-light {
+    border-color: var(--blue-light)
+  }
+
+  .laptop\:border-blue-lightest {
+    border-color: var(--blue-lightest)
+  }
+
+  .laptop\:border-orange-active {
+    border-color: var(--orange-active)
+  }
+
+  .laptop\:border-orange-hover {
+    border-color: var(--orange-hover)
+  }
+
+  .laptop\:border-orange-text {
+    border-color: var(--orange-text)
+  }
+
+  .laptop\:border-orange {
+    border-color: var(--orange)
+  }
+
+  .laptop\:border-orange-lightest {
+    border-color: var(--orange-lightest)
+  }
+
+  .laptop\:border-green-active {
+    border-color: var(--green-active)
+  }
+
+  .laptop\:border-green-hover {
+    border-color: var(--green-hover)
+  }
+
+  .laptop\:border-green-text {
+    border-color: var(--green-text)
+  }
+
+  .laptop\:border-green {
+    border-color: var(--green)
+  }
+
+  .laptop\:border-green-light {
+    border-color: var(--green-light)
   }
 
   .laptop\:hover\:border-black:hover {
@@ -8716,40 +10948,112 @@
     border-color: var(--white)
   }
 
-  .laptop\:hover\:border-grey-dark:hover {
-    border-color: var(--grey-dark)
+  .laptop\:hover\:border-gray-active:hover {
+    border-color: var(--gray-active)
   }
 
-  .laptop\:hover\:border-grey:hover {
-    border-color: var(--grey)
+  .laptop\:hover\:border-gray-hover:hover {
+    border-color: var(--gray-hover)
   }
 
-  .laptop\:hover\:border-grey-light:hover {
-    border-color: var(--grey-light)
+  .laptop\:hover\:border-gray-dark:hover {
+    border-color: var(--gray-dark)
   }
 
-  .laptop\:hover\:border-primary:hover {
-    border-color: var(--primary)
+  .laptop\:hover\:border-gray:hover {
+    border-color: var(--gray)
   }
 
-  .laptop\:hover\:border-primary-light:hover {
-    border-color: var(--primary-light)
+  .laptop\:hover\:border-gray-lighter:hover {
+    border-color: var(--gray-lighter)
   }
 
-  .laptop\:hover\:border-primary-lightest:hover {
-    border-color: var(--primary-lightest)
+  .laptop\:hover\:border-gray-lightest:hover {
+    border-color: var(--gray-lightest)
   }
 
-  .laptop\:hover\:border-func-primary:hover {
-    border-color: var(--func-primary)
+  .laptop\:hover\:border-red-active:hover {
+    border-color: var(--red-active)
   }
 
-  .laptop\:hover\:border-func-secondary:hover {
-    border-color: var(--func-secondary)
+  .laptop\:hover\:border-red-hover:hover {
+    border-color: var(--red-hover)
   }
 
-  .laptop\:hover\:border-func-secondary-light:hover {
-    border-color: var(--func-secondary-light)
+  .laptop\:hover\:border-red-text:hover {
+    border-color: var(--red-text)
+  }
+
+  .laptop\:hover\:border-red-dark:hover {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:hover\:border-red:hover {
+    border-color: var(--red)
+  }
+
+  .laptop\:hover\:border-blue-active:hover {
+    border-color: var(--blue-active)
+  }
+
+  .laptop\:hover\:border-blue-hover:hover {
+    border-color: var(--blue-hover)
+  }
+
+  .laptop\:hover\:border-blue-text:hover {
+    border-color: var(--blue-text)
+  }
+
+  .laptop\:hover\:border-blue:hover {
+    border-color: var(--blue)
+  }
+
+  .laptop\:hover\:border-blue-light:hover {
+    border-color: var(--blue-light)
+  }
+
+  .laptop\:hover\:border-blue-lightest:hover {
+    border-color: var(--blue-lightest)
+  }
+
+  .laptop\:hover\:border-orange-active:hover {
+    border-color: var(--orange-active)
+  }
+
+  .laptop\:hover\:border-orange-hover:hover {
+    border-color: var(--orange-hover)
+  }
+
+  .laptop\:hover\:border-orange-text:hover {
+    border-color: var(--orange-text)
+  }
+
+  .laptop\:hover\:border-orange:hover {
+    border-color: var(--orange)
+  }
+
+  .laptop\:hover\:border-orange-lightest:hover {
+    border-color: var(--orange-lightest)
+  }
+
+  .laptop\:hover\:border-green-active:hover {
+    border-color: var(--green-active)
+  }
+
+  .laptop\:hover\:border-green-hover:hover {
+    border-color: var(--green-hover)
+  }
+
+  .laptop\:hover\:border-green-text:hover {
+    border-color: var(--green-text)
+  }
+
+  .laptop\:hover\:border-green:hover {
+    border-color: var(--green)
+  }
+
+  .laptop\:hover\:border-green-light:hover {
+    border-color: var(--green-light)
   }
 
   .laptop\:focus\:border-black:focus {
@@ -8760,40 +11064,112 @@
     border-color: var(--white)
   }
 
-  .laptop\:focus\:border-grey-dark:focus {
-    border-color: var(--grey-dark)
+  .laptop\:focus\:border-gray-active:focus {
+    border-color: var(--gray-active)
   }
 
-  .laptop\:focus\:border-grey:focus {
-    border-color: var(--grey)
+  .laptop\:focus\:border-gray-hover:focus {
+    border-color: var(--gray-hover)
   }
 
-  .laptop\:focus\:border-grey-light:focus {
-    border-color: var(--grey-light)
+  .laptop\:focus\:border-gray-dark:focus {
+    border-color: var(--gray-dark)
   }
 
-  .laptop\:focus\:border-primary:focus {
-    border-color: var(--primary)
+  .laptop\:focus\:border-gray:focus {
+    border-color: var(--gray)
   }
 
-  .laptop\:focus\:border-primary-light:focus {
-    border-color: var(--primary-light)
+  .laptop\:focus\:border-gray-lighter:focus {
+    border-color: var(--gray-lighter)
   }
 
-  .laptop\:focus\:border-primary-lightest:focus {
-    border-color: var(--primary-lightest)
+  .laptop\:focus\:border-gray-lightest:focus {
+    border-color: var(--gray-lightest)
   }
 
-  .laptop\:focus\:border-func-primary:focus {
-    border-color: var(--func-primary)
+  .laptop\:focus\:border-red-active:focus {
+    border-color: var(--red-active)
   }
 
-  .laptop\:focus\:border-func-secondary:focus {
-    border-color: var(--func-secondary)
+  .laptop\:focus\:border-red-hover:focus {
+    border-color: var(--red-hover)
   }
 
-  .laptop\:focus\:border-func-secondary-light:focus {
-    border-color: var(--func-secondary-light)
+  .laptop\:focus\:border-red-text:focus {
+    border-color: var(--red-text)
+  }
+
+  .laptop\:focus\:border-red-dark:focus {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:focus\:border-red:focus {
+    border-color: var(--red)
+  }
+
+  .laptop\:focus\:border-blue-active:focus {
+    border-color: var(--blue-active)
+  }
+
+  .laptop\:focus\:border-blue-hover:focus {
+    border-color: var(--blue-hover)
+  }
+
+  .laptop\:focus\:border-blue-text:focus {
+    border-color: var(--blue-text)
+  }
+
+  .laptop\:focus\:border-blue:focus {
+    border-color: var(--blue)
+  }
+
+  .laptop\:focus\:border-blue-light:focus {
+    border-color: var(--blue-light)
+  }
+
+  .laptop\:focus\:border-blue-lightest:focus {
+    border-color: var(--blue-lightest)
+  }
+
+  .laptop\:focus\:border-orange-active:focus {
+    border-color: var(--orange-active)
+  }
+
+  .laptop\:focus\:border-orange-hover:focus {
+    border-color: var(--orange-hover)
+  }
+
+  .laptop\:focus\:border-orange-text:focus {
+    border-color: var(--orange-text)
+  }
+
+  .laptop\:focus\:border-orange:focus {
+    border-color: var(--orange)
+  }
+
+  .laptop\:focus\:border-orange-lightest:focus {
+    border-color: var(--orange-lightest)
+  }
+
+  .laptop\:focus\:border-green-active:focus {
+    border-color: var(--green-active)
+  }
+
+  .laptop\:focus\:border-green-hover:focus {
+    border-color: var(--green-hover)
+  }
+
+  .laptop\:focus\:border-green-text:focus {
+    border-color: var(--green-text)
+  }
+
+  .laptop\:focus\:border-green:focus {
+    border-color: var(--green)
+  }
+
+  .laptop\:focus\:border-green-light:focus {
+    border-color: var(--green-light)
   }
 
   .laptop\:rounded-none {
@@ -10886,40 +13262,112 @@
     color: var(--white)
   }
 
-  .laptop\:text-grey-dark {
-    color: var(--grey-dark)
+  .laptop\:text-gray-active {
+    color: var(--gray-active)
   }
 
-  .laptop\:text-grey {
-    color: var(--grey)
+  .laptop\:text-gray-hover {
+    color: var(--gray-hover)
   }
 
-  .laptop\:text-grey-light {
-    color: var(--grey-light)
+  .laptop\:text-gray-dark {
+    color: var(--gray-dark)
   }
 
-  .laptop\:text-primary {
-    color: var(--primary)
+  .laptop\:text-gray {
+    color: var(--gray)
   }
 
-  .laptop\:text-primary-light {
-    color: var(--primary-light)
+  .laptop\:text-gray-lighter {
+    color: var(--gray-lighter)
   }
 
-  .laptop\:text-primary-lightest {
-    color: var(--primary-lightest)
+  .laptop\:text-gray-lightest {
+    color: var(--gray-lightest)
   }
 
-  .laptop\:text-func-primary {
-    color: var(--func-primary)
+  .laptop\:text-red-active {
+    color: var(--red-active)
   }
 
-  .laptop\:text-func-secondary {
-    color: var(--func-secondary)
+  .laptop\:text-red-hover {
+    color: var(--red-hover)
   }
 
-  .laptop\:text-func-secondary-light {
-    color: var(--func-secondary-light)
+  .laptop\:text-red-text {
+    color: var(--red-text)
+  }
+
+  .laptop\:text-red-dark {
+    color: var(--red-dark)
+  }
+
+  .laptop\:text-red {
+    color: var(--red)
+  }
+
+  .laptop\:text-blue-active {
+    color: var(--blue-active)
+  }
+
+  .laptop\:text-blue-hover {
+    color: var(--blue-hover)
+  }
+
+  .laptop\:text-blue-text {
+    color: var(--blue-text)
+  }
+
+  .laptop\:text-blue {
+    color: var(--blue)
+  }
+
+  .laptop\:text-blue-light {
+    color: var(--blue-light)
+  }
+
+  .laptop\:text-blue-lightest {
+    color: var(--blue-lightest)
+  }
+
+  .laptop\:text-orange-active {
+    color: var(--orange-active)
+  }
+
+  .laptop\:text-orange-hover {
+    color: var(--orange-hover)
+  }
+
+  .laptop\:text-orange-text {
+    color: var(--orange-text)
+  }
+
+  .laptop\:text-orange {
+    color: var(--orange)
+  }
+
+  .laptop\:text-orange-lightest {
+    color: var(--orange-lightest)
+  }
+
+  .laptop\:text-green-active {
+    color: var(--green-active)
+  }
+
+  .laptop\:text-green-hover {
+    color: var(--green-hover)
+  }
+
+  .laptop\:text-green-text {
+    color: var(--green-text)
+  }
+
+  .laptop\:text-green {
+    color: var(--green)
+  }
+
+  .laptop\:text-green-light {
+    color: var(--green-light)
   }
 
   .laptop\:hover\:text-black:hover {
@@ -10930,40 +13378,112 @@
     color: var(--white)
   }
 
-  .laptop\:hover\:text-grey-dark:hover {
-    color: var(--grey-dark)
+  .laptop\:hover\:text-gray-active:hover {
+    color: var(--gray-active)
   }
 
-  .laptop\:hover\:text-grey:hover {
-    color: var(--grey)
+  .laptop\:hover\:text-gray-hover:hover {
+    color: var(--gray-hover)
   }
 
-  .laptop\:hover\:text-grey-light:hover {
-    color: var(--grey-light)
+  .laptop\:hover\:text-gray-dark:hover {
+    color: var(--gray-dark)
   }
 
-  .laptop\:hover\:text-primary:hover {
-    color: var(--primary)
+  .laptop\:hover\:text-gray:hover {
+    color: var(--gray)
   }
 
-  .laptop\:hover\:text-primary-light:hover {
-    color: var(--primary-light)
+  .laptop\:hover\:text-gray-lighter:hover {
+    color: var(--gray-lighter)
   }
 
-  .laptop\:hover\:text-primary-lightest:hover {
-    color: var(--primary-lightest)
+  .laptop\:hover\:text-gray-lightest:hover {
+    color: var(--gray-lightest)
   }
 
-  .laptop\:hover\:text-func-primary:hover {
-    color: var(--func-primary)
+  .laptop\:hover\:text-red-active:hover {
+    color: var(--red-active)
   }
 
-  .laptop\:hover\:text-func-secondary:hover {
-    color: var(--func-secondary)
+  .laptop\:hover\:text-red-hover:hover {
+    color: var(--red-hover)
   }
 
-  .laptop\:hover\:text-func-secondary-light:hover {
-    color: var(--func-secondary-light)
+  .laptop\:hover\:text-red-text:hover {
+    color: var(--red-text)
+  }
+
+  .laptop\:hover\:text-red-dark:hover {
+    color: var(--red-dark)
+  }
+
+  .laptop\:hover\:text-red:hover {
+    color: var(--red)
+  }
+
+  .laptop\:hover\:text-blue-active:hover {
+    color: var(--blue-active)
+  }
+
+  .laptop\:hover\:text-blue-hover:hover {
+    color: var(--blue-hover)
+  }
+
+  .laptop\:hover\:text-blue-text:hover {
+    color: var(--blue-text)
+  }
+
+  .laptop\:hover\:text-blue:hover {
+    color: var(--blue)
+  }
+
+  .laptop\:hover\:text-blue-light:hover {
+    color: var(--blue-light)
+  }
+
+  .laptop\:hover\:text-blue-lightest:hover {
+    color: var(--blue-lightest)
+  }
+
+  .laptop\:hover\:text-orange-active:hover {
+    color: var(--orange-active)
+  }
+
+  .laptop\:hover\:text-orange-hover:hover {
+    color: var(--orange-hover)
+  }
+
+  .laptop\:hover\:text-orange-text:hover {
+    color: var(--orange-text)
+  }
+
+  .laptop\:hover\:text-orange:hover {
+    color: var(--orange)
+  }
+
+  .laptop\:hover\:text-orange-lightest:hover {
+    color: var(--orange-lightest)
+  }
+
+  .laptop\:hover\:text-green-active:hover {
+    color: var(--green-active)
+  }
+
+  .laptop\:hover\:text-green-hover:hover {
+    color: var(--green-hover)
+  }
+
+  .laptop\:hover\:text-green-text:hover {
+    color: var(--green-text)
+  }
+
+  .laptop\:hover\:text-green:hover {
+    color: var(--green)
+  }
+
+  .laptop\:hover\:text-green-light:hover {
+    color: var(--green-light)
   }
 
   .laptop\:focus\:text-black:focus {
@@ -10974,40 +13494,112 @@
     color: var(--white)
   }
 
-  .laptop\:focus\:text-grey-dark:focus {
-    color: var(--grey-dark)
+  .laptop\:focus\:text-gray-active:focus {
+    color: var(--gray-active)
   }
 
-  .laptop\:focus\:text-grey:focus {
-    color: var(--grey)
+  .laptop\:focus\:text-gray-hover:focus {
+    color: var(--gray-hover)
   }
 
-  .laptop\:focus\:text-grey-light:focus {
-    color: var(--grey-light)
+  .laptop\:focus\:text-gray-dark:focus {
+    color: var(--gray-dark)
   }
 
-  .laptop\:focus\:text-primary:focus {
-    color: var(--primary)
+  .laptop\:focus\:text-gray:focus {
+    color: var(--gray)
   }
 
-  .laptop\:focus\:text-primary-light:focus {
-    color: var(--primary-light)
+  .laptop\:focus\:text-gray-lighter:focus {
+    color: var(--gray-lighter)
   }
 
-  .laptop\:focus\:text-primary-lightest:focus {
-    color: var(--primary-lightest)
+  .laptop\:focus\:text-gray-lightest:focus {
+    color: var(--gray-lightest)
   }
 
-  .laptop\:focus\:text-func-primary:focus {
-    color: var(--func-primary)
+  .laptop\:focus\:text-red-active:focus {
+    color: var(--red-active)
   }
 
-  .laptop\:focus\:text-func-secondary:focus {
-    color: var(--func-secondary)
+  .laptop\:focus\:text-red-hover:focus {
+    color: var(--red-hover)
   }
 
-  .laptop\:focus\:text-func-secondary-light:focus {
-    color: var(--func-secondary-light)
+  .laptop\:focus\:text-red-text:focus {
+    color: var(--red-text)
+  }
+
+  .laptop\:focus\:text-red-dark:focus {
+    color: var(--red-dark)
+  }
+
+  .laptop\:focus\:text-red:focus {
+    color: var(--red)
+  }
+
+  .laptop\:focus\:text-blue-active:focus {
+    color: var(--blue-active)
+  }
+
+  .laptop\:focus\:text-blue-hover:focus {
+    color: var(--blue-hover)
+  }
+
+  .laptop\:focus\:text-blue-text:focus {
+    color: var(--blue-text)
+  }
+
+  .laptop\:focus\:text-blue:focus {
+    color: var(--blue)
+  }
+
+  .laptop\:focus\:text-blue-light:focus {
+    color: var(--blue-light)
+  }
+
+  .laptop\:focus\:text-blue-lightest:focus {
+    color: var(--blue-lightest)
+  }
+
+  .laptop\:focus\:text-orange-active:focus {
+    color: var(--orange-active)
+  }
+
+  .laptop\:focus\:text-orange-hover:focus {
+    color: var(--orange-hover)
+  }
+
+  .laptop\:focus\:text-orange-text:focus {
+    color: var(--orange-text)
+  }
+
+  .laptop\:focus\:text-orange:focus {
+    color: var(--orange)
+  }
+
+  .laptop\:focus\:text-orange-lightest:focus {
+    color: var(--orange-lightest)
+  }
+
+  .laptop\:focus\:text-green-active:focus {
+    color: var(--green-active)
+  }
+
+  .laptop\:focus\:text-green-hover:focus {
+    color: var(--green-hover)
+  }
+
+  .laptop\:focus\:text-green-text:focus {
+    color: var(--green-text)
+  }
+
+  .laptop\:focus\:text-green:focus {
+    color: var(--green)
+  }
+
+  .laptop\:focus\:text-green-light:focus {
+    color: var(--green-light)
   }
 
   .laptop\:italic {
@@ -11273,40 +13865,112 @@
     background-color: var(--white)
   }
 
-  .desktop\:bg-grey-dark {
-    background-color: var(--grey-dark)
+  .desktop\:bg-gray-active {
+    background-color: var(--gray-active)
   }
 
-  .desktop\:bg-grey {
-    background-color: var(--grey)
+  .desktop\:bg-gray-hover {
+    background-color: var(--gray-hover)
   }
 
-  .desktop\:bg-grey-light {
-    background-color: var(--grey-light)
+  .desktop\:bg-gray-dark {
+    background-color: var(--gray-dark)
   }
 
-  .desktop\:bg-primary {
-    background-color: var(--primary)
+  .desktop\:bg-gray {
+    background-color: var(--gray)
   }
 
-  .desktop\:bg-primary-light {
-    background-color: var(--primary-light)
+  .desktop\:bg-gray-lighter {
+    background-color: var(--gray-lighter)
   }
 
-  .desktop\:bg-primary-lightest {
-    background-color: var(--primary-lightest)
+  .desktop\:bg-gray-lightest {
+    background-color: var(--gray-lightest)
   }
 
-  .desktop\:bg-func-primary {
-    background-color: var(--func-primary)
+  .desktop\:bg-red-active {
+    background-color: var(--red-active)
   }
 
-  .desktop\:bg-func-secondary {
-    background-color: var(--func-secondary)
+  .desktop\:bg-red-hover {
+    background-color: var(--red-hover)
   }
 
-  .desktop\:bg-func-secondary-light {
-    background-color: var(--func-secondary-light)
+  .desktop\:bg-red-text {
+    background-color: var(--red-text)
+  }
+
+  .desktop\:bg-red-dark {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:bg-red {
+    background-color: var(--red)
+  }
+
+  .desktop\:bg-blue-active {
+    background-color: var(--blue-active)
+  }
+
+  .desktop\:bg-blue-hover {
+    background-color: var(--blue-hover)
+  }
+
+  .desktop\:bg-blue-text {
+    background-color: var(--blue-text)
+  }
+
+  .desktop\:bg-blue {
+    background-color: var(--blue)
+  }
+
+  .desktop\:bg-blue-light {
+    background-color: var(--blue-light)
+  }
+
+  .desktop\:bg-blue-lightest {
+    background-color: var(--blue-lightest)
+  }
+
+  .desktop\:bg-orange-active {
+    background-color: var(--orange-active)
+  }
+
+  .desktop\:bg-orange-hover {
+    background-color: var(--orange-hover)
+  }
+
+  .desktop\:bg-orange-text {
+    background-color: var(--orange-text)
+  }
+
+  .desktop\:bg-orange {
+    background-color: var(--orange)
+  }
+
+  .desktop\:bg-orange-lightest {
+    background-color: var(--orange-lightest)
+  }
+
+  .desktop\:bg-green-active {
+    background-color: var(--green-active)
+  }
+
+  .desktop\:bg-green-hover {
+    background-color: var(--green-hover)
+  }
+
+  .desktop\:bg-green-text {
+    background-color: var(--green-text)
+  }
+
+  .desktop\:bg-green {
+    background-color: var(--green)
+  }
+
+  .desktop\:bg-green-light {
+    background-color: var(--green-light)
   }
 
   .desktop\:hover\:bg-black:hover {
@@ -11317,40 +13981,112 @@
     background-color: var(--white)
   }
 
-  .desktop\:hover\:bg-grey-dark:hover {
-    background-color: var(--grey-dark)
+  .desktop\:hover\:bg-gray-active:hover {
+    background-color: var(--gray-active)
   }
 
-  .desktop\:hover\:bg-grey:hover {
-    background-color: var(--grey)
+  .desktop\:hover\:bg-gray-hover:hover {
+    background-color: var(--gray-hover)
   }
 
-  .desktop\:hover\:bg-grey-light:hover {
-    background-color: var(--grey-light)
+  .desktop\:hover\:bg-gray-dark:hover {
+    background-color: var(--gray-dark)
   }
 
-  .desktop\:hover\:bg-primary:hover {
-    background-color: var(--primary)
+  .desktop\:hover\:bg-gray:hover {
+    background-color: var(--gray)
   }
 
-  .desktop\:hover\:bg-primary-light:hover {
-    background-color: var(--primary-light)
+  .desktop\:hover\:bg-gray-lighter:hover {
+    background-color: var(--gray-lighter)
   }
 
-  .desktop\:hover\:bg-primary-lightest:hover {
-    background-color: var(--primary-lightest)
+  .desktop\:hover\:bg-gray-lightest:hover {
+    background-color: var(--gray-lightest)
   }
 
-  .desktop\:hover\:bg-func-primary:hover {
-    background-color: var(--func-primary)
+  .desktop\:hover\:bg-red-active:hover {
+    background-color: var(--red-active)
   }
 
-  .desktop\:hover\:bg-func-secondary:hover {
-    background-color: var(--func-secondary)
+  .desktop\:hover\:bg-red-hover:hover {
+    background-color: var(--red-hover)
   }
 
-  .desktop\:hover\:bg-func-secondary-light:hover {
-    background-color: var(--func-secondary-light)
+  .desktop\:hover\:bg-red-text:hover {
+    background-color: var(--red-text)
+  }
+
+  .desktop\:hover\:bg-red-dark:hover {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:hover\:bg-red:hover {
+    background-color: var(--red)
+  }
+
+  .desktop\:hover\:bg-blue-active:hover {
+    background-color: var(--blue-active)
+  }
+
+  .desktop\:hover\:bg-blue-hover:hover {
+    background-color: var(--blue-hover)
+  }
+
+  .desktop\:hover\:bg-blue-text:hover {
+    background-color: var(--blue-text)
+  }
+
+  .desktop\:hover\:bg-blue:hover {
+    background-color: var(--blue)
+  }
+
+  .desktop\:hover\:bg-blue-light:hover {
+    background-color: var(--blue-light)
+  }
+
+  .desktop\:hover\:bg-blue-lightest:hover {
+    background-color: var(--blue-lightest)
+  }
+
+  .desktop\:hover\:bg-orange-active:hover {
+    background-color: var(--orange-active)
+  }
+
+  .desktop\:hover\:bg-orange-hover:hover {
+    background-color: var(--orange-hover)
+  }
+
+  .desktop\:hover\:bg-orange-text:hover {
+    background-color: var(--orange-text)
+  }
+
+  .desktop\:hover\:bg-orange:hover {
+    background-color: var(--orange)
+  }
+
+  .desktop\:hover\:bg-orange-lightest:hover {
+    background-color: var(--orange-lightest)
+  }
+
+  .desktop\:hover\:bg-green-active:hover {
+    background-color: var(--green-active)
+  }
+
+  .desktop\:hover\:bg-green-hover:hover {
+    background-color: var(--green-hover)
+  }
+
+  .desktop\:hover\:bg-green-text:hover {
+    background-color: var(--green-text)
+  }
+
+  .desktop\:hover\:bg-green:hover {
+    background-color: var(--green)
+  }
+
+  .desktop\:hover\:bg-green-light:hover {
+    background-color: var(--green-light)
   }
 
   .desktop\:focus\:bg-black:focus {
@@ -11361,40 +14097,112 @@
     background-color: var(--white)
   }
 
-  .desktop\:focus\:bg-grey-dark:focus {
-    background-color: var(--grey-dark)
+  .desktop\:focus\:bg-gray-active:focus {
+    background-color: var(--gray-active)
   }
 
-  .desktop\:focus\:bg-grey:focus {
-    background-color: var(--grey)
+  .desktop\:focus\:bg-gray-hover:focus {
+    background-color: var(--gray-hover)
   }
 
-  .desktop\:focus\:bg-grey-light:focus {
-    background-color: var(--grey-light)
+  .desktop\:focus\:bg-gray-dark:focus {
+    background-color: var(--gray-dark)
   }
 
-  .desktop\:focus\:bg-primary:focus {
-    background-color: var(--primary)
+  .desktop\:focus\:bg-gray:focus {
+    background-color: var(--gray)
   }
 
-  .desktop\:focus\:bg-primary-light:focus {
-    background-color: var(--primary-light)
+  .desktop\:focus\:bg-gray-lighter:focus {
+    background-color: var(--gray-lighter)
   }
 
-  .desktop\:focus\:bg-primary-lightest:focus {
-    background-color: var(--primary-lightest)
+  .desktop\:focus\:bg-gray-lightest:focus {
+    background-color: var(--gray-lightest)
   }
 
-  .desktop\:focus\:bg-func-primary:focus {
-    background-color: var(--func-primary)
+  .desktop\:focus\:bg-red-active:focus {
+    background-color: var(--red-active)
   }
 
-  .desktop\:focus\:bg-func-secondary:focus {
-    background-color: var(--func-secondary)
+  .desktop\:focus\:bg-red-hover:focus {
+    background-color: var(--red-hover)
   }
 
-  .desktop\:focus\:bg-func-secondary-light:focus {
-    background-color: var(--func-secondary-light)
+  .desktop\:focus\:bg-red-text:focus {
+    background-color: var(--red-text)
+  }
+
+  .desktop\:focus\:bg-red-dark:focus {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:focus\:bg-red:focus {
+    background-color: var(--red)
+  }
+
+  .desktop\:focus\:bg-blue-active:focus {
+    background-color: var(--blue-active)
+  }
+
+  .desktop\:focus\:bg-blue-hover:focus {
+    background-color: var(--blue-hover)
+  }
+
+  .desktop\:focus\:bg-blue-text:focus {
+    background-color: var(--blue-text)
+  }
+
+  .desktop\:focus\:bg-blue:focus {
+    background-color: var(--blue)
+  }
+
+  .desktop\:focus\:bg-blue-light:focus {
+    background-color: var(--blue-light)
+  }
+
+  .desktop\:focus\:bg-blue-lightest:focus {
+    background-color: var(--blue-lightest)
+  }
+
+  .desktop\:focus\:bg-orange-active:focus {
+    background-color: var(--orange-active)
+  }
+
+  .desktop\:focus\:bg-orange-hover:focus {
+    background-color: var(--orange-hover)
+  }
+
+  .desktop\:focus\:bg-orange-text:focus {
+    background-color: var(--orange-text)
+  }
+
+  .desktop\:focus\:bg-orange:focus {
+    background-color: var(--orange)
+  }
+
+  .desktop\:focus\:bg-orange-lightest:focus {
+    background-color: var(--orange-lightest)
+  }
+
+  .desktop\:focus\:bg-green-active:focus {
+    background-color: var(--green-active)
+  }
+
+  .desktop\:focus\:bg-green-hover:focus {
+    background-color: var(--green-hover)
+  }
+
+  .desktop\:focus\:bg-green-text:focus {
+    background-color: var(--green-text)
+  }
+
+  .desktop\:focus\:bg-green:focus {
+    background-color: var(--green)
+  }
+
+  .desktop\:focus\:bg-green-light:focus {
+    background-color: var(--green-light)
   }
 
   .desktop\:bg-bottom {
@@ -11485,40 +14293,112 @@
     border-color: var(--white)
   }
 
-  .desktop\:border-grey-dark {
-    border-color: var(--grey-dark)
+  .desktop\:border-gray-active {
+    border-color: var(--gray-active)
   }
 
-  .desktop\:border-grey {
-    border-color: var(--grey)
+  .desktop\:border-gray-hover {
+    border-color: var(--gray-hover)
   }
 
-  .desktop\:border-grey-light {
-    border-color: var(--grey-light)
+  .desktop\:border-gray-dark {
+    border-color: var(--gray-dark)
   }
 
-  .desktop\:border-primary {
-    border-color: var(--primary)
+  .desktop\:border-gray {
+    border-color: var(--gray)
   }
 
-  .desktop\:border-primary-light {
-    border-color: var(--primary-light)
+  .desktop\:border-gray-lighter {
+    border-color: var(--gray-lighter)
   }
 
-  .desktop\:border-primary-lightest {
-    border-color: var(--primary-lightest)
+  .desktop\:border-gray-lightest {
+    border-color: var(--gray-lightest)
   }
 
-  .desktop\:border-func-primary {
-    border-color: var(--func-primary)
+  .desktop\:border-red-active {
+    border-color: var(--red-active)
   }
 
-  .desktop\:border-func-secondary {
-    border-color: var(--func-secondary)
+  .desktop\:border-red-hover {
+    border-color: var(--red-hover)
   }
 
-  .desktop\:border-func-secondary-light {
-    border-color: var(--func-secondary-light)
+  .desktop\:border-red-text {
+    border-color: var(--red-text)
+  }
+
+  .desktop\:border-red-dark {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:border-red {
+    border-color: var(--red)
+  }
+
+  .desktop\:border-blue-active {
+    border-color: var(--blue-active)
+  }
+
+  .desktop\:border-blue-hover {
+    border-color: var(--blue-hover)
+  }
+
+  .desktop\:border-blue-text {
+    border-color: var(--blue-text)
+  }
+
+  .desktop\:border-blue {
+    border-color: var(--blue)
+  }
+
+  .desktop\:border-blue-light {
+    border-color: var(--blue-light)
+  }
+
+  .desktop\:border-blue-lightest {
+    border-color: var(--blue-lightest)
+  }
+
+  .desktop\:border-orange-active {
+    border-color: var(--orange-active)
+  }
+
+  .desktop\:border-orange-hover {
+    border-color: var(--orange-hover)
+  }
+
+  .desktop\:border-orange-text {
+    border-color: var(--orange-text)
+  }
+
+  .desktop\:border-orange {
+    border-color: var(--orange)
+  }
+
+  .desktop\:border-orange-lightest {
+    border-color: var(--orange-lightest)
+  }
+
+  .desktop\:border-green-active {
+    border-color: var(--green-active)
+  }
+
+  .desktop\:border-green-hover {
+    border-color: var(--green-hover)
+  }
+
+  .desktop\:border-green-text {
+    border-color: var(--green-text)
+  }
+
+  .desktop\:border-green {
+    border-color: var(--green)
+  }
+
+  .desktop\:border-green-light {
+    border-color: var(--green-light)
   }
 
   .desktop\:hover\:border-black:hover {
@@ -11529,40 +14409,112 @@
     border-color: var(--white)
   }
 
-  .desktop\:hover\:border-grey-dark:hover {
-    border-color: var(--grey-dark)
+  .desktop\:hover\:border-gray-active:hover {
+    border-color: var(--gray-active)
   }
 
-  .desktop\:hover\:border-grey:hover {
-    border-color: var(--grey)
+  .desktop\:hover\:border-gray-hover:hover {
+    border-color: var(--gray-hover)
   }
 
-  .desktop\:hover\:border-grey-light:hover {
-    border-color: var(--grey-light)
+  .desktop\:hover\:border-gray-dark:hover {
+    border-color: var(--gray-dark)
   }
 
-  .desktop\:hover\:border-primary:hover {
-    border-color: var(--primary)
+  .desktop\:hover\:border-gray:hover {
+    border-color: var(--gray)
   }
 
-  .desktop\:hover\:border-primary-light:hover {
-    border-color: var(--primary-light)
+  .desktop\:hover\:border-gray-lighter:hover {
+    border-color: var(--gray-lighter)
   }
 
-  .desktop\:hover\:border-primary-lightest:hover {
-    border-color: var(--primary-lightest)
+  .desktop\:hover\:border-gray-lightest:hover {
+    border-color: var(--gray-lightest)
   }
 
-  .desktop\:hover\:border-func-primary:hover {
-    border-color: var(--func-primary)
+  .desktop\:hover\:border-red-active:hover {
+    border-color: var(--red-active)
   }
 
-  .desktop\:hover\:border-func-secondary:hover {
-    border-color: var(--func-secondary)
+  .desktop\:hover\:border-red-hover:hover {
+    border-color: var(--red-hover)
   }
 
-  .desktop\:hover\:border-func-secondary-light:hover {
-    border-color: var(--func-secondary-light)
+  .desktop\:hover\:border-red-text:hover {
+    border-color: var(--red-text)
+  }
+
+  .desktop\:hover\:border-red-dark:hover {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:hover\:border-red:hover {
+    border-color: var(--red)
+  }
+
+  .desktop\:hover\:border-blue-active:hover {
+    border-color: var(--blue-active)
+  }
+
+  .desktop\:hover\:border-blue-hover:hover {
+    border-color: var(--blue-hover)
+  }
+
+  .desktop\:hover\:border-blue-text:hover {
+    border-color: var(--blue-text)
+  }
+
+  .desktop\:hover\:border-blue:hover {
+    border-color: var(--blue)
+  }
+
+  .desktop\:hover\:border-blue-light:hover {
+    border-color: var(--blue-light)
+  }
+
+  .desktop\:hover\:border-blue-lightest:hover {
+    border-color: var(--blue-lightest)
+  }
+
+  .desktop\:hover\:border-orange-active:hover {
+    border-color: var(--orange-active)
+  }
+
+  .desktop\:hover\:border-orange-hover:hover {
+    border-color: var(--orange-hover)
+  }
+
+  .desktop\:hover\:border-orange-text:hover {
+    border-color: var(--orange-text)
+  }
+
+  .desktop\:hover\:border-orange:hover {
+    border-color: var(--orange)
+  }
+
+  .desktop\:hover\:border-orange-lightest:hover {
+    border-color: var(--orange-lightest)
+  }
+
+  .desktop\:hover\:border-green-active:hover {
+    border-color: var(--green-active)
+  }
+
+  .desktop\:hover\:border-green-hover:hover {
+    border-color: var(--green-hover)
+  }
+
+  .desktop\:hover\:border-green-text:hover {
+    border-color: var(--green-text)
+  }
+
+  .desktop\:hover\:border-green:hover {
+    border-color: var(--green)
+  }
+
+  .desktop\:hover\:border-green-light:hover {
+    border-color: var(--green-light)
   }
 
   .desktop\:focus\:border-black:focus {
@@ -11573,40 +14525,112 @@
     border-color: var(--white)
   }
 
-  .desktop\:focus\:border-grey-dark:focus {
-    border-color: var(--grey-dark)
+  .desktop\:focus\:border-gray-active:focus {
+    border-color: var(--gray-active)
   }
 
-  .desktop\:focus\:border-grey:focus {
-    border-color: var(--grey)
+  .desktop\:focus\:border-gray-hover:focus {
+    border-color: var(--gray-hover)
   }
 
-  .desktop\:focus\:border-grey-light:focus {
-    border-color: var(--grey-light)
+  .desktop\:focus\:border-gray-dark:focus {
+    border-color: var(--gray-dark)
   }
 
-  .desktop\:focus\:border-primary:focus {
-    border-color: var(--primary)
+  .desktop\:focus\:border-gray:focus {
+    border-color: var(--gray)
   }
 
-  .desktop\:focus\:border-primary-light:focus {
-    border-color: var(--primary-light)
+  .desktop\:focus\:border-gray-lighter:focus {
+    border-color: var(--gray-lighter)
   }
 
-  .desktop\:focus\:border-primary-lightest:focus {
-    border-color: var(--primary-lightest)
+  .desktop\:focus\:border-gray-lightest:focus {
+    border-color: var(--gray-lightest)
   }
 
-  .desktop\:focus\:border-func-primary:focus {
-    border-color: var(--func-primary)
+  .desktop\:focus\:border-red-active:focus {
+    border-color: var(--red-active)
   }
 
-  .desktop\:focus\:border-func-secondary:focus {
-    border-color: var(--func-secondary)
+  .desktop\:focus\:border-red-hover:focus {
+    border-color: var(--red-hover)
   }
 
-  .desktop\:focus\:border-func-secondary-light:focus {
-    border-color: var(--func-secondary-light)
+  .desktop\:focus\:border-red-text:focus {
+    border-color: var(--red-text)
+  }
+
+  .desktop\:focus\:border-red-dark:focus {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:focus\:border-red:focus {
+    border-color: var(--red)
+  }
+
+  .desktop\:focus\:border-blue-active:focus {
+    border-color: var(--blue-active)
+  }
+
+  .desktop\:focus\:border-blue-hover:focus {
+    border-color: var(--blue-hover)
+  }
+
+  .desktop\:focus\:border-blue-text:focus {
+    border-color: var(--blue-text)
+  }
+
+  .desktop\:focus\:border-blue:focus {
+    border-color: var(--blue)
+  }
+
+  .desktop\:focus\:border-blue-light:focus {
+    border-color: var(--blue-light)
+  }
+
+  .desktop\:focus\:border-blue-lightest:focus {
+    border-color: var(--blue-lightest)
+  }
+
+  .desktop\:focus\:border-orange-active:focus {
+    border-color: var(--orange-active)
+  }
+
+  .desktop\:focus\:border-orange-hover:focus {
+    border-color: var(--orange-hover)
+  }
+
+  .desktop\:focus\:border-orange-text:focus {
+    border-color: var(--orange-text)
+  }
+
+  .desktop\:focus\:border-orange:focus {
+    border-color: var(--orange)
+  }
+
+  .desktop\:focus\:border-orange-lightest:focus {
+    border-color: var(--orange-lightest)
+  }
+
+  .desktop\:focus\:border-green-active:focus {
+    border-color: var(--green-active)
+  }
+
+  .desktop\:focus\:border-green-hover:focus {
+    border-color: var(--green-hover)
+  }
+
+  .desktop\:focus\:border-green-text:focus {
+    border-color: var(--green-text)
+  }
+
+  .desktop\:focus\:border-green:focus {
+    border-color: var(--green)
+  }
+
+  .desktop\:focus\:border-green-light:focus {
+    border-color: var(--green-light)
   }
 
   .desktop\:rounded-none {
@@ -13699,40 +16723,112 @@
     color: var(--white)
   }
 
-  .desktop\:text-grey-dark {
-    color: var(--grey-dark)
+  .desktop\:text-gray-active {
+    color: var(--gray-active)
   }
 
-  .desktop\:text-grey {
-    color: var(--grey)
+  .desktop\:text-gray-hover {
+    color: var(--gray-hover)
   }
 
-  .desktop\:text-grey-light {
-    color: var(--grey-light)
+  .desktop\:text-gray-dark {
+    color: var(--gray-dark)
   }
 
-  .desktop\:text-primary {
-    color: var(--primary)
+  .desktop\:text-gray {
+    color: var(--gray)
   }
 
-  .desktop\:text-primary-light {
-    color: var(--primary-light)
+  .desktop\:text-gray-lighter {
+    color: var(--gray-lighter)
   }
 
-  .desktop\:text-primary-lightest {
-    color: var(--primary-lightest)
+  .desktop\:text-gray-lightest {
+    color: var(--gray-lightest)
   }
 
-  .desktop\:text-func-primary {
-    color: var(--func-primary)
+  .desktop\:text-red-active {
+    color: var(--red-active)
   }
 
-  .desktop\:text-func-secondary {
-    color: var(--func-secondary)
+  .desktop\:text-red-hover {
+    color: var(--red-hover)
   }
 
-  .desktop\:text-func-secondary-light {
-    color: var(--func-secondary-light)
+  .desktop\:text-red-text {
+    color: var(--red-text)
+  }
+
+  .desktop\:text-red-dark {
+    color: var(--red-dark)
+  }
+
+  .desktop\:text-red {
+    color: var(--red)
+  }
+
+  .desktop\:text-blue-active {
+    color: var(--blue-active)
+  }
+
+  .desktop\:text-blue-hover {
+    color: var(--blue-hover)
+  }
+
+  .desktop\:text-blue-text {
+    color: var(--blue-text)
+  }
+
+  .desktop\:text-blue {
+    color: var(--blue)
+  }
+
+  .desktop\:text-blue-light {
+    color: var(--blue-light)
+  }
+
+  .desktop\:text-blue-lightest {
+    color: var(--blue-lightest)
+  }
+
+  .desktop\:text-orange-active {
+    color: var(--orange-active)
+  }
+
+  .desktop\:text-orange-hover {
+    color: var(--orange-hover)
+  }
+
+  .desktop\:text-orange-text {
+    color: var(--orange-text)
+  }
+
+  .desktop\:text-orange {
+    color: var(--orange)
+  }
+
+  .desktop\:text-orange-lightest {
+    color: var(--orange-lightest)
+  }
+
+  .desktop\:text-green-active {
+    color: var(--green-active)
+  }
+
+  .desktop\:text-green-hover {
+    color: var(--green-hover)
+  }
+
+  .desktop\:text-green-text {
+    color: var(--green-text)
+  }
+
+  .desktop\:text-green {
+    color: var(--green)
+  }
+
+  .desktop\:text-green-light {
+    color: var(--green-light)
   }
 
   .desktop\:hover\:text-black:hover {
@@ -13743,40 +16839,112 @@
     color: var(--white)
   }
 
-  .desktop\:hover\:text-grey-dark:hover {
-    color: var(--grey-dark)
+  .desktop\:hover\:text-gray-active:hover {
+    color: var(--gray-active)
   }
 
-  .desktop\:hover\:text-grey:hover {
-    color: var(--grey)
+  .desktop\:hover\:text-gray-hover:hover {
+    color: var(--gray-hover)
   }
 
-  .desktop\:hover\:text-grey-light:hover {
-    color: var(--grey-light)
+  .desktop\:hover\:text-gray-dark:hover {
+    color: var(--gray-dark)
   }
 
-  .desktop\:hover\:text-primary:hover {
-    color: var(--primary)
+  .desktop\:hover\:text-gray:hover {
+    color: var(--gray)
   }
 
-  .desktop\:hover\:text-primary-light:hover {
-    color: var(--primary-light)
+  .desktop\:hover\:text-gray-lighter:hover {
+    color: var(--gray-lighter)
   }
 
-  .desktop\:hover\:text-primary-lightest:hover {
-    color: var(--primary-lightest)
+  .desktop\:hover\:text-gray-lightest:hover {
+    color: var(--gray-lightest)
   }
 
-  .desktop\:hover\:text-func-primary:hover {
-    color: var(--func-primary)
+  .desktop\:hover\:text-red-active:hover {
+    color: var(--red-active)
   }
 
-  .desktop\:hover\:text-func-secondary:hover {
-    color: var(--func-secondary)
+  .desktop\:hover\:text-red-hover:hover {
+    color: var(--red-hover)
   }
 
-  .desktop\:hover\:text-func-secondary-light:hover {
-    color: var(--func-secondary-light)
+  .desktop\:hover\:text-red-text:hover {
+    color: var(--red-text)
+  }
+
+  .desktop\:hover\:text-red-dark:hover {
+    color: var(--red-dark)
+  }
+
+  .desktop\:hover\:text-red:hover {
+    color: var(--red)
+  }
+
+  .desktop\:hover\:text-blue-active:hover {
+    color: var(--blue-active)
+  }
+
+  .desktop\:hover\:text-blue-hover:hover {
+    color: var(--blue-hover)
+  }
+
+  .desktop\:hover\:text-blue-text:hover {
+    color: var(--blue-text)
+  }
+
+  .desktop\:hover\:text-blue:hover {
+    color: var(--blue)
+  }
+
+  .desktop\:hover\:text-blue-light:hover {
+    color: var(--blue-light)
+  }
+
+  .desktop\:hover\:text-blue-lightest:hover {
+    color: var(--blue-lightest)
+  }
+
+  .desktop\:hover\:text-orange-active:hover {
+    color: var(--orange-active)
+  }
+
+  .desktop\:hover\:text-orange-hover:hover {
+    color: var(--orange-hover)
+  }
+
+  .desktop\:hover\:text-orange-text:hover {
+    color: var(--orange-text)
+  }
+
+  .desktop\:hover\:text-orange:hover {
+    color: var(--orange)
+  }
+
+  .desktop\:hover\:text-orange-lightest:hover {
+    color: var(--orange-lightest)
+  }
+
+  .desktop\:hover\:text-green-active:hover {
+    color: var(--green-active)
+  }
+
+  .desktop\:hover\:text-green-hover:hover {
+    color: var(--green-hover)
+  }
+
+  .desktop\:hover\:text-green-text:hover {
+    color: var(--green-text)
+  }
+
+  .desktop\:hover\:text-green:hover {
+    color: var(--green)
+  }
+
+  .desktop\:hover\:text-green-light:hover {
+    color: var(--green-light)
   }
 
   .desktop\:focus\:text-black:focus {
@@ -13787,40 +16955,112 @@
     color: var(--white)
   }
 
-  .desktop\:focus\:text-grey-dark:focus {
-    color: var(--grey-dark)
+  .desktop\:focus\:text-gray-active:focus {
+    color: var(--gray-active)
   }
 
-  .desktop\:focus\:text-grey:focus {
-    color: var(--grey)
+  .desktop\:focus\:text-gray-hover:focus {
+    color: var(--gray-hover)
   }
 
-  .desktop\:focus\:text-grey-light:focus {
-    color: var(--grey-light)
+  .desktop\:focus\:text-gray-dark:focus {
+    color: var(--gray-dark)
   }
 
-  .desktop\:focus\:text-primary:focus {
-    color: var(--primary)
+  .desktop\:focus\:text-gray:focus {
+    color: var(--gray)
   }
 
-  .desktop\:focus\:text-primary-light:focus {
-    color: var(--primary-light)
+  .desktop\:focus\:text-gray-lighter:focus {
+    color: var(--gray-lighter)
   }
 
-  .desktop\:focus\:text-primary-lightest:focus {
-    color: var(--primary-lightest)
+  .desktop\:focus\:text-gray-lightest:focus {
+    color: var(--gray-lightest)
   }
 
-  .desktop\:focus\:text-func-primary:focus {
-    color: var(--func-primary)
+  .desktop\:focus\:text-red-active:focus {
+    color: var(--red-active)
   }
 
-  .desktop\:focus\:text-func-secondary:focus {
-    color: var(--func-secondary)
+  .desktop\:focus\:text-red-hover:focus {
+    color: var(--red-hover)
   }
 
-  .desktop\:focus\:text-func-secondary-light:focus {
-    color: var(--func-secondary-light)
+  .desktop\:focus\:text-red-text:focus {
+    color: var(--red-text)
+  }
+
+  .desktop\:focus\:text-red-dark:focus {
+    color: var(--red-dark)
+  }
+
+  .desktop\:focus\:text-red:focus {
+    color: var(--red)
+  }
+
+  .desktop\:focus\:text-blue-active:focus {
+    color: var(--blue-active)
+  }
+
+  .desktop\:focus\:text-blue-hover:focus {
+    color: var(--blue-hover)
+  }
+
+  .desktop\:focus\:text-blue-text:focus {
+    color: var(--blue-text)
+  }
+
+  .desktop\:focus\:text-blue:focus {
+    color: var(--blue)
+  }
+
+  .desktop\:focus\:text-blue-light:focus {
+    color: var(--blue-light)
+  }
+
+  .desktop\:focus\:text-blue-lightest:focus {
+    color: var(--blue-lightest)
+  }
+
+  .desktop\:focus\:text-orange-active:focus {
+    color: var(--orange-active)
+  }
+
+  .desktop\:focus\:text-orange-hover:focus {
+    color: var(--orange-hover)
+  }
+
+  .desktop\:focus\:text-orange-text:focus {
+    color: var(--orange-text)
+  }
+
+  .desktop\:focus\:text-orange:focus {
+    color: var(--orange)
+  }
+
+  .desktop\:focus\:text-orange-lightest:focus {
+    color: var(--orange-lightest)
+  }
+
+  .desktop\:focus\:text-green-active:focus {
+    color: var(--green-active)
+  }
+
+  .desktop\:focus\:text-green-hover:focus {
+    color: var(--green-hover)
+  }
+
+  .desktop\:focus\:text-green-text:focus {
+    color: var(--green-text)
+  }
+
+  .desktop\:focus\:text-green:focus {
+    color: var(--green)
+  }
+
+  .desktop\:focus\:text-green-light:focus {
+    color: var(--green-light)
   }
 
   .desktop\:italic {
