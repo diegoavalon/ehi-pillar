@@ -4,6 +4,7 @@
 
 /.log/
 /dist/js
+/docs/
 /esdoc/
 /node_modules/
 /test/unit/dist

@@ -9,17 +9,37 @@
     --black: #000000;
     --white: #ffffff;
 
-    --grey-dark: #333333;
-    --grey: #666666;
-    --grey-light: #f4f4f4;
+    --gray-active: #000000;
+    --gray-hover: #333333;
+    --gray-dark: #333333;
+    --gray: #666666;
+    --gray-lighter: #bababa;
+    --gray-lightest: #f4f4f4;
 
-    --primary: #2f69fc;
-    --primary-light: #749bff;
-    --primary-lightest: #eaf0ff;
+    --red-active: #66130e;
+    --red-hover: #af2318;
+    --red-text: #66130e;
+    --red-dark: #af2318;
+    --red: #e4463c;
 
-    --func-primary: #00b05c;
-    --func-secondary: #ef994a;
-    --func-secondary-light: #fff3e8;
+    --blue-active: #9feef9;
+    --blue-hover: #07d7f3;
+    --blue-text: #0a5059;
+    --blue: #01c4df;
+    --blue-light: #9feef9;
+    --blue-lightest: #d2faff;
+
+    --orange-active: #fdf1d7;
+    --orange-hover: #ffd092;
+    --orange-text: #7b4e12;
+    --orange: #ffc170;
+    --orange-lightest: #fdf1d7;
+
+    --green-active: #9bedd1;
+    --green-hover: #3fdca6;
+    --green-text: #075f41;
+    --green: #30c592;
+    --green-light: #9bedd1;
 }
 
 @supports (--css: variables) {

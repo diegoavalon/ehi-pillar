@@ -1,0 +1,32 @@
+// States
+:hover\:bg-red-hover {
+    background-color: var(--red-hover);
+}
+:hover\:bg-blue-hover {
+    background-color: var(--blue-hover);
+}
+:hover\:bg-orange-hover {
+    background-color: var(--orange-hover);
+}
+:hover\:bg-green-hover {
+    background-color: var(--green-hover);
+}
+:hover\:bg-gray-hover {
+    background-color: var(--gray-hover);
+}
+
+:active\:bg-red-active {
+    background-color: var(--red-active);
+}
+:active\:bg-blue-active {
+    background-color: var(--blue-active);
+}
+:active\:bg-orange-active {
+    background-color: var(--orange-active);
+}
+:active\:bg-green-active {
+    background-color: var(--green-active);
+}
+:active\:bg-gray-active {
+    background-color: var(--gray-active);
+}
