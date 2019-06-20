@@ -1,6 +1,6 @@
 {
     "name": "ehi-pillar",
-    "version": "0.0.6",
+    "version": "0.1.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/diegoavalon/ehi-pillar.git"
