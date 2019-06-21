@@ -49,17 +49,16 @@ code {
     position: relative;
     top: -1px;
     border-radius: 3px;
-    background-color: #eeeeee;
+    background-color: var(--gray-lightest);
 }
 
 abbr,
 acronym {
-    border-bottom: 1px dotted #777777;
+    border-bottom: 1px dotted var(--gray-lighter);
     cursor: help;
 }
 
 ins {
-    // background: $color--background-ins;
     text-decoration: none;
 }
 
@@ -106,6 +105,15 @@ label,
     font-weight: 600;
     font-family: "Muli", sans-serif;
     color: var(--gray-dark);
+}
+
+legend,
+.legend {
+    @include font-size(14px);
+    font-family: "Muli", sans-serif;
+    font-weight: 900;
+    line-height: 18px;
+    color: var(--black);
 }
 
 input,
