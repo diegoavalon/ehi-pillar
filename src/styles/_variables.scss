@@ -21,6 +21,8 @@
     --red-text: #66130e;
     --red-dark: #af2318;
     --red: #e4463c;
+    --red-light: #fa847d;
+    --red-lightest: #ffdddb;
 
     --blue-active: #9feef9;
     --blue-hover: #07d7f3;
@@ -40,6 +42,7 @@
     --green-text: #075f41;
     --green: #30c592;
     --green-light: #9bedd1;
+    --green-lightest: #eaf9f4;
 }
 
 @supports (--css: variables) {

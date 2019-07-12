@@ -1,5 +1,6 @@
 .headline {
     @include fluid-type(576px, 1200px, 48px, 48px);
+    @include fluid-line-height(576px, 1200px, 38px, 40px, 54px);
     line-height: 54px;
     font-weight: 900;
     font-family: "Muli", sans-serif;
@@ -7,6 +8,7 @@
 
 .subtitle {
     @include fluid-type(576px, 1200px, 24px, 24px);
+    @include fluid-line-height(576px, 1200px, 25px, 26px, 30px);
     line-height: 30px;
     font-weight: 400;
     font-family: "Libre Baskerville", serif;
@@ -21,7 +23,6 @@ h5,
 h6 {
     clear: both;
     margin: 0;
-    color: var(--black);
 }
 
 h1,

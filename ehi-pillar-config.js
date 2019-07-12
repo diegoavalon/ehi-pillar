@@ -16,6 +16,8 @@ module.exports = {
             "red-text": "var(--red-text)",
             "red-dark": "var(--red-dark)",
             red: "var(--red)",
+            "red-light": "var(--red-light)",
+            "red-lightest": "var(--red-lightest)",
 
             "blue-active": "var(--blue-active)",
             "blue-hover": "var(--blue-hover)",
@@ -34,7 +36,8 @@ module.exports = {
             "green-hover": "var(--green-hover)",
             "green-text": "var(--green-text)",
             green: "var(--green)",
-            "green-light": "var(--green-light)"
+            "green-light": "var(--green-light)",
+            "green-lightest": "var(--green-lightest)"
         },
         spacing: {
             "0": "0",

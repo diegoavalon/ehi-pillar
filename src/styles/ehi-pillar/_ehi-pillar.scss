@@ -66,6 +66,14 @@
   background-color: var(--red)
 }
 
+.bg-red-light {
+  background-color: var(--red-light)
+}
+
+.bg-red-lightest {
+  background-color: var(--red-lightest)
+}
+
 .bg-blue-active {
   background-color: var(--blue-active)
 }
@@ -130,6 +138,10 @@
   background-color: var(--green-light)
 }
 
+.bg-green-lightest {
+  background-color: var(--green-lightest)
+}
+
 .hover\:bg-black:hover {
   background-color: var(--black)
 }
@@ -180,6 +192,14 @@
 
 .hover\:bg-red:hover {
   background-color: var(--red)
+}
+
+.hover\:bg-red-light:hover {
+  background-color: var(--red-light)
+}
+
+.hover\:bg-red-lightest:hover {
+  background-color: var(--red-lightest)
 }
 
 .hover\:bg-blue-active:hover {
@@ -246,6 +266,10 @@
   background-color: var(--green-light)
 }
 
+.hover\:bg-green-lightest:hover {
+  background-color: var(--green-lightest)
+}
+
 .focus\:bg-black:focus {
   background-color: var(--black)
 }
@@ -296,6 +320,14 @@
 
 .focus\:bg-red:focus {
   background-color: var(--red)
+}
+
+.focus\:bg-red-light:focus {
+  background-color: var(--red-light)
+}
+
+.focus\:bg-red-lightest:focus {
+  background-color: var(--red-lightest)
 }
 
 .focus\:bg-blue-active:focus {
@@ -360,6 +392,10 @@
 
 .focus\:bg-green-light:focus {
   background-color: var(--green-light)
+}
+
+.focus\:bg-green-lightest:focus {
+  background-color: var(--green-lightest)
 }
 
 .bg-bottom {
@@ -494,6 +530,14 @@
   border-color: var(--red)
 }
 
+.border-red-light {
+  border-color: var(--red-light)
+}
+
+.border-red-lightest {
+  border-color: var(--red-lightest)
+}
+
 .border-blue-active {
   border-color: var(--blue-active)
 }
@@ -558,6 +602,10 @@
   border-color: var(--green-light)
 }
 
+.border-green-lightest {
+  border-color: var(--green-lightest)
+}
+
 .hover\:border-black:hover {
   border-color: var(--black)
 }
@@ -608,6 +656,14 @@
 
 .hover\:border-red:hover {
   border-color: var(--red)
+}
+
+.hover\:border-red-light:hover {
+  border-color: var(--red-light)
+}
+
+.hover\:border-red-lightest:hover {
+  border-color: var(--red-lightest)
 }
 
 .hover\:border-blue-active:hover {
@@ -674,6 +730,10 @@
   border-color: var(--green-light)
 }
 
+.hover\:border-green-lightest:hover {
+  border-color: var(--green-lightest)
+}
+
 .focus\:border-black:focus {
   border-color: var(--black)
 }
@@ -724,6 +784,14 @@
 
 .focus\:border-red:focus {
   border-color: var(--red)
+}
+
+.focus\:border-red-light:focus {
+  border-color: var(--red-light)
+}
+
+.focus\:border-red-lightest:focus {
+  border-color: var(--red-lightest)
 }
 
 .focus\:border-blue-active:focus {
@@ -788,6 +856,10 @@
 
 .focus\:border-green-light:focus {
   border-color: var(--green-light)
+}
+
+.focus\:border-green-lightest:focus {
+  border-color: var(--green-lightest)
 }
 
 .rounded-none {
@@ -2920,6 +2992,14 @@
   color: var(--red)
 }
 
+.text-red-light {
+  color: var(--red-light)
+}
+
+.text-red-lightest {
+  color: var(--red-lightest)
+}
+
 .text-blue-active {
   color: var(--blue-active)
 }
@@ -2984,6 +3064,10 @@
   color: var(--green-light)
 }
 
+.text-green-lightest {
+  color: var(--green-lightest)
+}
+
 .hover\:text-black:hover {
   color: var(--black)
 }
@@ -3034,6 +3118,14 @@
 
 .hover\:text-red:hover {
   color: var(--red)
+}
+
+.hover\:text-red-light:hover {
+  color: var(--red-light)
+}
+
+.hover\:text-red-lightest:hover {
+  color: var(--red-lightest)
 }
 
 .hover\:text-blue-active:hover {
@@ -3100,6 +3192,10 @@
   color: var(--green-light)
 }
 
+.hover\:text-green-lightest:hover {
+  color: var(--green-lightest)
+}
+
 .focus\:text-black:focus {
   color: var(--black)
 }
@@ -3150,6 +3246,14 @@
 
 .focus\:text-red:focus {
   color: var(--red)
+}
+
+.focus\:text-red-light:focus {
+  color: var(--red-light)
+}
+
+.focus\:text-red-lightest:focus {
+  color: var(--red-lightest)
 }
 
 .focus\:text-blue-active:focus {
@@ -3214,6 +3318,10 @@
 
 .focus\:text-green-light:focus {
   color: var(--green-light)
+}
+
+.focus\:text-green-lightest:focus {
+  color: var(--green-lightest)
 }
 
 .italic {
@@ -3522,6 +3630,14 @@
     background-color: var(--red)
   }
 
+  .phablet\:bg-red-light {
+    background-color: var(--red-light)
+  }
+
+  .phablet\:bg-red-lightest {
+    background-color: var(--red-lightest)
+  }
+
   .phablet\:bg-blue-active {
     background-color: var(--blue-active)
   }
@@ -3586,6 +3702,10 @@
     background-color: var(--green-light)
   }
 
+  .phablet\:bg-green-lightest {
+    background-color: var(--green-lightest)
+  }
+
   .phablet\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -3636,6 +3756,14 @@
 
   .phablet\:hover\:bg-red:hover {
     background-color: var(--red)
+  }
+
+  .phablet\:hover\:bg-red-light:hover {
+    background-color: var(--red-light)
+  }
+
+  .phablet\:hover\:bg-red-lightest:hover {
+    background-color: var(--red-lightest)
   }
 
   .phablet\:hover\:bg-blue-active:hover {
@@ -3702,6 +3830,10 @@
     background-color: var(--green-light)
   }
 
+  .phablet\:hover\:bg-green-lightest:hover {
+    background-color: var(--green-lightest)
+  }
+
   .phablet\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -3752,6 +3884,14 @@
 
   .phablet\:focus\:bg-red:focus {
     background-color: var(--red)
+  }
+
+  .phablet\:focus\:bg-red-light:focus {
+    background-color: var(--red-light)
+  }
+
+  .phablet\:focus\:bg-red-lightest:focus {
+    background-color: var(--red-lightest)
   }
 
   .phablet\:focus\:bg-blue-active:focus {
@@ -3816,6 +3956,10 @@
 
   .phablet\:focus\:bg-green-light:focus {
     background-color: var(--green-light)
+  }
+
+  .phablet\:focus\:bg-green-lightest:focus {
+    background-color: var(--green-lightest)
   }
 
   .phablet\:bg-bottom {
@@ -3950,6 +4094,14 @@
     border-color: var(--red)
   }
 
+  .phablet\:border-red-light {
+    border-color: var(--red-light)
+  }
+
+  .phablet\:border-red-lightest {
+    border-color: var(--red-lightest)
+  }
+
   .phablet\:border-blue-active {
     border-color: var(--blue-active)
   }
@@ -4014,6 +4166,10 @@
     border-color: var(--green-light)
   }
 
+  .phablet\:border-green-lightest {
+    border-color: var(--green-lightest)
+  }
+
   .phablet\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -4064,6 +4220,14 @@
 
   .phablet\:hover\:border-red:hover {
     border-color: var(--red)
+  }
+
+  .phablet\:hover\:border-red-light:hover {
+    border-color: var(--red-light)
+  }
+
+  .phablet\:hover\:border-red-lightest:hover {
+    border-color: var(--red-lightest)
   }
 
   .phablet\:hover\:border-blue-active:hover {
@@ -4130,6 +4294,10 @@
     border-color: var(--green-light)
   }
 
+  .phablet\:hover\:border-green-lightest:hover {
+    border-color: var(--green-lightest)
+  }
+
   .phablet\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -4180,6 +4348,14 @@
 
   .phablet\:focus\:border-red:focus {
     border-color: var(--red)
+  }
+
+  .phablet\:focus\:border-red-light:focus {
+    border-color: var(--red-light)
+  }
+
+  .phablet\:focus\:border-red-lightest:focus {
+    border-color: var(--red-lightest)
   }
 
   .phablet\:focus\:border-blue-active:focus {
@@ -4244,6 +4420,10 @@
 
   .phablet\:focus\:border-green-light:focus {
     border-color: var(--green-light)
+  }
+
+  .phablet\:focus\:border-green-lightest:focus {
+    border-color: var(--green-lightest)
   }
 
   .phablet\:rounded-none {
@@ -6376,6 +6556,14 @@
     color: var(--red)
   }
 
+  .phablet\:text-red-light {
+    color: var(--red-light)
+  }
+
+  .phablet\:text-red-lightest {
+    color: var(--red-lightest)
+  }
+
   .phablet\:text-blue-active {
     color: var(--blue-active)
   }
@@ -6440,6 +6628,10 @@
     color: var(--green-light)
   }
 
+  .phablet\:text-green-lightest {
+    color: var(--green-lightest)
+  }
+
   .phablet\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -6490,6 +6682,14 @@
 
   .phablet\:hover\:text-red:hover {
     color: var(--red)
+  }
+
+  .phablet\:hover\:text-red-light:hover {
+    color: var(--red-light)
+  }
+
+  .phablet\:hover\:text-red-lightest:hover {
+    color: var(--red-lightest)
   }
 
   .phablet\:hover\:text-blue-active:hover {
@@ -6556,6 +6756,10 @@
     color: var(--green-light)
   }
 
+  .phablet\:hover\:text-green-lightest:hover {
+    color: var(--green-lightest)
+  }
+
   .phablet\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -6606,6 +6810,14 @@
 
   .phablet\:focus\:text-red:focus {
     color: var(--red)
+  }
+
+  .phablet\:focus\:text-red-light:focus {
+    color: var(--red-light)
+  }
+
+  .phablet\:focus\:text-red-lightest:focus {
+    color: var(--red-lightest)
   }
 
   .phablet\:focus\:text-blue-active:focus {
@@ -6670,6 +6882,10 @@
 
   .phablet\:focus\:text-green-light:focus {
     color: var(--green-light)
+  }
+
+  .phablet\:focus\:text-green-lightest:focus {
+    color: var(--green-lightest)
   }
 
   .phablet\:italic {
@@ -6979,6 +7195,14 @@
     background-color: var(--red)
   }
 
+  .tablet\:bg-red-light {
+    background-color: var(--red-light)
+  }
+
+  .tablet\:bg-red-lightest {
+    background-color: var(--red-lightest)
+  }
+
   .tablet\:bg-blue-active {
     background-color: var(--blue-active)
   }
@@ -7043,6 +7267,10 @@
     background-color: var(--green-light)
   }
 
+  .tablet\:bg-green-lightest {
+    background-color: var(--green-lightest)
+  }
+
   .tablet\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -7093,6 +7321,14 @@
 
   .tablet\:hover\:bg-red:hover {
     background-color: var(--red)
+  }
+
+  .tablet\:hover\:bg-red-light:hover {
+    background-color: var(--red-light)
+  }
+
+  .tablet\:hover\:bg-red-lightest:hover {
+    background-color: var(--red-lightest)
   }
 
   .tablet\:hover\:bg-blue-active:hover {
@@ -7159,6 +7395,10 @@
     background-color: var(--green-light)
   }
 
+  .tablet\:hover\:bg-green-lightest:hover {
+    background-color: var(--green-lightest)
+  }
+
   .tablet\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -7209,6 +7449,14 @@
 
   .tablet\:focus\:bg-red:focus {
     background-color: var(--red)
+  }
+
+  .tablet\:focus\:bg-red-light:focus {
+    background-color: var(--red-light)
+  }
+
+  .tablet\:focus\:bg-red-lightest:focus {
+    background-color: var(--red-lightest)
   }
 
   .tablet\:focus\:bg-blue-active:focus {
@@ -7273,6 +7521,10 @@
 
   .tablet\:focus\:bg-green-light:focus {
     background-color: var(--green-light)
+  }
+
+  .tablet\:focus\:bg-green-lightest:focus {
+    background-color: var(--green-lightest)
   }
 
   .tablet\:bg-bottom {
@@ -7407,6 +7659,14 @@
     border-color: var(--red)
   }
 
+  .tablet\:border-red-light {
+    border-color: var(--red-light)
+  }
+
+  .tablet\:border-red-lightest {
+    border-color: var(--red-lightest)
+  }
+
   .tablet\:border-blue-active {
     border-color: var(--blue-active)
   }
@@ -7471,6 +7731,10 @@
     border-color: var(--green-light)
   }
 
+  .tablet\:border-green-lightest {
+    border-color: var(--green-lightest)
+  }
+
   .tablet\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -7521,6 +7785,14 @@
 
   .tablet\:hover\:border-red:hover {
     border-color: var(--red)
+  }
+
+  .tablet\:hover\:border-red-light:hover {
+    border-color: var(--red-light)
+  }
+
+  .tablet\:hover\:border-red-lightest:hover {
+    border-color: var(--red-lightest)
   }
 
   .tablet\:hover\:border-blue-active:hover {
@@ -7587,6 +7859,10 @@
     border-color: var(--green-light)
   }
 
+  .tablet\:hover\:border-green-lightest:hover {
+    border-color: var(--green-lightest)
+  }
+
   .tablet\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -7637,6 +7913,14 @@
 
   .tablet\:focus\:border-red:focus {
     border-color: var(--red)
+  }
+
+  .tablet\:focus\:border-red-light:focus {
+    border-color: var(--red-light)
+  }
+
+  .tablet\:focus\:border-red-lightest:focus {
+    border-color: var(--red-lightest)
   }
 
   .tablet\:focus\:border-blue-active:focus {
@@ -7701,6 +7985,10 @@
 
   .tablet\:focus\:border-green-light:focus {
     border-color: var(--green-light)
+  }
+
+  .tablet\:focus\:border-green-lightest:focus {
+    border-color: var(--green-lightest)
   }
 
   .tablet\:rounded-none {
@@ -9833,6 +10121,14 @@
     color: var(--red)
   }
 
+  .tablet\:text-red-light {
+    color: var(--red-light)
+  }
+
+  .tablet\:text-red-lightest {
+    color: var(--red-lightest)
+  }
+
   .tablet\:text-blue-active {
     color: var(--blue-active)
   }
@@ -9897,6 +10193,10 @@
     color: var(--green-light)
   }
 
+  .tablet\:text-green-lightest {
+    color: var(--green-lightest)
+  }
+
   .tablet\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -9947,6 +10247,14 @@
 
   .tablet\:hover\:text-red:hover {
     color: var(--red)
+  }
+
+  .tablet\:hover\:text-red-light:hover {
+    color: var(--red-light)
+  }
+
+  .tablet\:hover\:text-red-lightest:hover {
+    color: var(--red-lightest)
   }
 
   .tablet\:hover\:text-blue-active:hover {
@@ -10013,6 +10321,10 @@
     color: var(--green-light)
   }
 
+  .tablet\:hover\:text-green-lightest:hover {
+    color: var(--green-lightest)
+  }
+
   .tablet\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -10063,6 +10375,14 @@
 
   .tablet\:focus\:text-red:focus {
     color: var(--red)
+  }
+
+  .tablet\:focus\:text-red-light:focus {
+    color: var(--red-light)
+  }
+
+  .tablet\:focus\:text-red-lightest:focus {
+    color: var(--red-lightest)
   }
 
   .tablet\:focus\:text-blue-active:focus {
@@ -10127,6 +10447,10 @@
 
   .tablet\:focus\:text-green-light:focus {
     color: var(--green-light)
+  }
+
+  .tablet\:focus\:text-green-lightest:focus {
+    color: var(--green-lightest)
   }
 
   .tablet\:italic {
@@ -10436,6 +10760,14 @@
     background-color: var(--red)
   }
 
+  .laptop\:bg-red-light {
+    background-color: var(--red-light)
+  }
+
+  .laptop\:bg-red-lightest {
+    background-color: var(--red-lightest)
+  }
+
   .laptop\:bg-blue-active {
     background-color: var(--blue-active)
   }
@@ -10500,6 +10832,10 @@
     background-color: var(--green-light)
   }
 
+  .laptop\:bg-green-lightest {
+    background-color: var(--green-lightest)
+  }
+
   .laptop\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -10550,6 +10886,14 @@
 
   .laptop\:hover\:bg-red:hover {
     background-color: var(--red)
+  }
+
+  .laptop\:hover\:bg-red-light:hover {
+    background-color: var(--red-light)
+  }
+
+  .laptop\:hover\:bg-red-lightest:hover {
+    background-color: var(--red-lightest)
   }
 
   .laptop\:hover\:bg-blue-active:hover {
@@ -10616,6 +10960,10 @@
     background-color: var(--green-light)
   }
 
+  .laptop\:hover\:bg-green-lightest:hover {
+    background-color: var(--green-lightest)
+  }
+
   .laptop\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -10666,6 +11014,14 @@
 
   .laptop\:focus\:bg-red:focus {
     background-color: var(--red)
+  }
+
+  .laptop\:focus\:bg-red-light:focus {
+    background-color: var(--red-light)
+  }
+
+  .laptop\:focus\:bg-red-lightest:focus {
+    background-color: var(--red-lightest)
   }
 
   .laptop\:focus\:bg-blue-active:focus {
@@ -10730,6 +11086,10 @@
 
   .laptop\:focus\:bg-green-light:focus {
     background-color: var(--green-light)
+  }
+
+  .laptop\:focus\:bg-green-lightest:focus {
+    background-color: var(--green-lightest)
   }
 
   .laptop\:bg-bottom {
@@ -10864,6 +11224,14 @@
     border-color: var(--red)
   }
 
+  .laptop\:border-red-light {
+    border-color: var(--red-light)
+  }
+
+  .laptop\:border-red-lightest {
+    border-color: var(--red-lightest)
+  }
+
   .laptop\:border-blue-active {
     border-color: var(--blue-active)
   }
@@ -10928,6 +11296,10 @@
     border-color: var(--green-light)
   }
 
+  .laptop\:border-green-lightest {
+    border-color: var(--green-lightest)
+  }
+
   .laptop\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -10978,6 +11350,14 @@
 
   .laptop\:hover\:border-red:hover {
     border-color: var(--red)
+  }
+
+  .laptop\:hover\:border-red-light:hover {
+    border-color: var(--red-light)
+  }
+
+  .laptop\:hover\:border-red-lightest:hover {
+    border-color: var(--red-lightest)
   }
 
   .laptop\:hover\:border-blue-active:hover {
@@ -11044,6 +11424,10 @@
     border-color: var(--green-light)
   }
 
+  .laptop\:hover\:border-green-lightest:hover {
+    border-color: var(--green-lightest)
+  }
+
   .laptop\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -11094,6 +11478,14 @@
 
   .laptop\:focus\:border-red:focus {
     border-color: var(--red)
+  }
+
+  .laptop\:focus\:border-red-light:focus {
+    border-color: var(--red-light)
+  }
+
+  .laptop\:focus\:border-red-lightest:focus {
+    border-color: var(--red-lightest)
   }
 
   .laptop\:focus\:border-blue-active:focus {
@@ -11158,6 +11550,10 @@
 
   .laptop\:focus\:border-green-light:focus {
     border-color: var(--green-light)
+  }
+
+  .laptop\:focus\:border-green-lightest:focus {
+    border-color: var(--green-lightest)
   }
 
   .laptop\:rounded-none {
@@ -13290,6 +13686,14 @@
     color: var(--red)
   }
 
+  .laptop\:text-red-light {
+    color: var(--red-light)
+  }
+
+  .laptop\:text-red-lightest {
+    color: var(--red-lightest)
+  }
+
   .laptop\:text-blue-active {
     color: var(--blue-active)
   }
@@ -13354,6 +13758,10 @@
     color: var(--green-light)
   }
 
+  .laptop\:text-green-lightest {
+    color: var(--green-lightest)
+  }
+
   .laptop\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -13404,6 +13812,14 @@
 
   .laptop\:hover\:text-red:hover {
     color: var(--red)
+  }
+
+  .laptop\:hover\:text-red-light:hover {
+    color: var(--red-light)
+  }
+
+  .laptop\:hover\:text-red-lightest:hover {
+    color: var(--red-lightest)
   }
 
   .laptop\:hover\:text-blue-active:hover {
@@ -13470,6 +13886,10 @@
     color: var(--green-light)
   }
 
+  .laptop\:hover\:text-green-lightest:hover {
+    color: var(--green-lightest)
+  }
+
   .laptop\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -13520,6 +13940,14 @@
 
   .laptop\:focus\:text-red:focus {
     color: var(--red)
+  }
+
+  .laptop\:focus\:text-red-light:focus {
+    color: var(--red-light)
+  }
+
+  .laptop\:focus\:text-red-lightest:focus {
+    color: var(--red-lightest)
   }
 
   .laptop\:focus\:text-blue-active:focus {
@@ -13584,6 +14012,10 @@
 
   .laptop\:focus\:text-green-light:focus {
     color: var(--green-light)
+  }
+
+  .laptop\:focus\:text-green-lightest:focus {
+    color: var(--green-lightest)
   }
 
   .laptop\:italic {
@@ -13893,6 +14325,14 @@
     background-color: var(--red)
   }
 
+  .desktop\:bg-red-light {
+    background-color: var(--red-light)
+  }
+
+  .desktop\:bg-red-lightest {
+    background-color: var(--red-lightest)
+  }
+
   .desktop\:bg-blue-active {
     background-color: var(--blue-active)
   }
@@ -13957,6 +14397,10 @@
     background-color: var(--green-light)
   }
 
+  .desktop\:bg-green-lightest {
+    background-color: var(--green-lightest)
+  }
+
   .desktop\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -14007,6 +14451,14 @@
 
   .desktop\:hover\:bg-red:hover {
     background-color: var(--red)
+  }
+
+  .desktop\:hover\:bg-red-light:hover {
+    background-color: var(--red-light)
+  }
+
+  .desktop\:hover\:bg-red-lightest:hover {
+    background-color: var(--red-lightest)
   }
 
   .desktop\:hover\:bg-blue-active:hover {
@@ -14073,6 +14525,10 @@
     background-color: var(--green-light)
   }
 
+  .desktop\:hover\:bg-green-lightest:hover {
+    background-color: var(--green-lightest)
+  }
+
   .desktop\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -14123,6 +14579,14 @@
 
   .desktop\:focus\:bg-red:focus {
     background-color: var(--red)
+  }
+
+  .desktop\:focus\:bg-red-light:focus {
+    background-color: var(--red-light)
+  }
+
+  .desktop\:focus\:bg-red-lightest:focus {
+    background-color: var(--red-lightest)
   }
 
   .desktop\:focus\:bg-blue-active:focus {
@@ -14187,6 +14651,10 @@
 
   .desktop\:focus\:bg-green-light:focus {
     background-color: var(--green-light)
+  }
+
+  .desktop\:focus\:bg-green-lightest:focus {
+    background-color: var(--green-lightest)
   }
 
   .desktop\:bg-bottom {
@@ -14321,6 +14789,14 @@
     border-color: var(--red)
   }
 
+  .desktop\:border-red-light {
+    border-color: var(--red-light)
+  }
+
+  .desktop\:border-red-lightest {
+    border-color: var(--red-lightest)
+  }
+
   .desktop\:border-blue-active {
     border-color: var(--blue-active)
   }
@@ -14385,6 +14861,10 @@
     border-color: var(--green-light)
   }
 
+  .desktop\:border-green-lightest {
+    border-color: var(--green-lightest)
+  }
+
   .desktop\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -14435,6 +14915,14 @@
 
   .desktop\:hover\:border-red:hover {
     border-color: var(--red)
+  }
+
+  .desktop\:hover\:border-red-light:hover {
+    border-color: var(--red-light)
+  }
+
+  .desktop\:hover\:border-red-lightest:hover {
+    border-color: var(--red-lightest)
   }
 
   .desktop\:hover\:border-blue-active:hover {
@@ -14501,6 +14989,10 @@
     border-color: var(--green-light)
   }
 
+  .desktop\:hover\:border-green-lightest:hover {
+    border-color: var(--green-lightest)
+  }
+
   .desktop\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -14551,6 +15043,14 @@
 
   .desktop\:focus\:border-red:focus {
     border-color: var(--red)
+  }
+
+  .desktop\:focus\:border-red-light:focus {
+    border-color: var(--red-light)
+  }
+
+  .desktop\:focus\:border-red-lightest:focus {
+    border-color: var(--red-lightest)
   }
 
   .desktop\:focus\:border-blue-active:focus {
@@ -14615,6 +15115,10 @@
 
   .desktop\:focus\:border-green-light:focus {
     border-color: var(--green-light)
+  }
+
+  .desktop\:focus\:border-green-lightest:focus {
+    border-color: var(--green-lightest)
   }
 
   .desktop\:rounded-none {
@@ -16747,6 +17251,14 @@
     color: var(--red)
   }
 
+  .desktop\:text-red-light {
+    color: var(--red-light)
+  }
+
+  .desktop\:text-red-lightest {
+    color: var(--red-lightest)
+  }
+
   .desktop\:text-blue-active {
     color: var(--blue-active)
   }
@@ -16811,6 +17323,10 @@
     color: var(--green-light)
   }
 
+  .desktop\:text-green-lightest {
+    color: var(--green-lightest)
+  }
+
   .desktop\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -16861,6 +17377,14 @@
 
   .desktop\:hover\:text-red:hover {
     color: var(--red)
+  }
+
+  .desktop\:hover\:text-red-light:hover {
+    color: var(--red-light)
+  }
+
+  .desktop\:hover\:text-red-lightest:hover {
+    color: var(--red-lightest)
   }
 
   .desktop\:hover\:text-blue-active:hover {
@@ -16927,6 +17451,10 @@
     color: var(--green-light)
   }
 
+  .desktop\:hover\:text-green-lightest:hover {
+    color: var(--green-lightest)
+  }
+
   .desktop\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -16977,6 +17505,14 @@
 
   .desktop\:focus\:text-red:focus {
     color: var(--red)
+  }
+
+  .desktop\:focus\:text-red-light:focus {
+    color: var(--red-light)
+  }
+
+  .desktop\:focus\:text-red-lightest:focus {
+    color: var(--red-lightest)
   }
 
   .desktop\:focus\:text-blue-active:focus {
@@ -17041,6 +17577,10 @@
 
   .desktop\:focus\:text-green-light:focus {
     color: var(--green-light)
+  }
+
+  .desktop\:focus\:text-green-lightest:focus {
+    color: var(--green-lightest)
   }
 
   .desktop\:italic {
