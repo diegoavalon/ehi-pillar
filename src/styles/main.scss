@@ -1,9 +1,12 @@
-@import "variables";
-@import "reset";
-@import "utilities";
+@import 'variables';
+@import 'reset';
+@import 'utilities';
 
-@import "containers";
-@import "wrappers";
-@import "typography/typography";
-@import "ehi-pillar/ehi-pillar";
-@import "ehi-pillar/enhancements";
+@import 'containers';
+@import 'wrappers';
+@import 'typography/typography';
+
+@import 'components/buttons.scss';
+
+@import 'ehi-pillar/ehi-pillar';
+@import 'ehi-pillar/enhancements';
