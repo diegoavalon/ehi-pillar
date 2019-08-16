@@ -3533,6 +3533,10 @@
   width: 100vw
 }
 
+.w-auto {
+  width: auto
+}
+
 .z-0 {
   z-index: 0
 }
@@ -7095,6 +7099,10 @@
 
   .phablet\:w-screen {
     width: 100vw
+  }
+
+  .phablet\:w-auto {
+    width: auto
   }
 
   .phablet\:z-0 {
@@ -10662,6 +10670,10 @@
     width: 100vw
   }
 
+  .tablet\:w-auto {
+    width: auto
+  }
+
   .tablet\:z-0 {
     z-index: 0
   }
@@ -14227,6 +14239,10 @@
     width: 100vw
   }
 
+  .laptop\:w-auto {
+    width: auto
+  }
+
   .laptop\:z-0 {
     z-index: 0
   }
@@ -17790,6 +17806,10 @@
 
   .desktop\:w-screen {
     width: 100vw
+  }
+
+  .desktop\:w-auto {
+    width: auto
   }
 
   .desktop\:z-0 {
