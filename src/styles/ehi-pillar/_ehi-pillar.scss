@@ -142,6 +142,14 @@
   background-color: var(--green-lightest)
 }
 
+.bg-is-error {
+  background-color: var(--red-dark)
+}
+
+.bg-is-error-light {
+  background-color: var(--red-light)
+}
+
 .hover\:bg-black:hover {
   background-color: var(--black)
 }
@@ -270,6 +278,14 @@
   background-color: var(--green-lightest)
 }
 
+.hover\:bg-is-error:hover {
+  background-color: var(--red-dark)
+}
+
+.hover\:bg-is-error-light:hover {
+  background-color: var(--red-light)
+}
+
 .focus\:bg-black:focus {
   background-color: var(--black)
 }
@@ -396,6 +412,14 @@
 
 .focus\:bg-green-lightest:focus {
   background-color: var(--green-lightest)
+}
+
+.focus\:bg-is-error:focus {
+  background-color: var(--red-dark)
+}
+
+.focus\:bg-is-error-light:focus {
+  background-color: var(--red-light)
 }
 
 .bg-bottom {
@@ -606,6 +630,14 @@
   border-color: var(--green-lightest)
 }
 
+.border-is-error {
+  border-color: var(--red-dark)
+}
+
+.border-is-error-light {
+  border-color: var(--red-light)
+}
+
 .hover\:border-black:hover {
   border-color: var(--black)
 }
@@ -734,6 +766,14 @@
   border-color: var(--green-lightest)
 }
 
+.hover\:border-is-error:hover {
+  border-color: var(--red-dark)
+}
+
+.hover\:border-is-error-light:hover {
+  border-color: var(--red-light)
+}
+
 .focus\:border-black:focus {
   border-color: var(--black)
 }
@@ -860,6 +900,14 @@
 
 .focus\:border-green-lightest:focus {
   border-color: var(--green-lightest)
+}
+
+.focus\:border-is-error:focus {
+  border-color: var(--red-dark)
+}
+
+.focus\:border-is-error-light:focus {
+  border-color: var(--red-light)
 }
 
 .rounded-none {
@@ -3068,6 +3116,14 @@
   color: var(--green-lightest)
 }
 
+.text-is-error {
+  color: var(--red-dark)
+}
+
+.text-is-error-light {
+  color: var(--red-light)
+}
+
 .hover\:text-black:hover {
   color: var(--black)
 }
@@ -3196,6 +3252,14 @@
   color: var(--green-lightest)
 }
 
+.hover\:text-is-error:hover {
+  color: var(--red-dark)
+}
+
+.hover\:text-is-error-light:hover {
+  color: var(--red-light)
+}
+
 .focus\:text-black:focus {
   color: var(--black)
 }
@@ -3322,6 +3386,14 @@
 
 .focus\:text-green-lightest:focus {
   color: var(--green-lightest)
+}
+
+.focus\:text-is-error:focus {
+  color: var(--red-dark)
+}
+
+.focus\:text-is-error-light:focus {
+  color: var(--red-light)
 }
 
 .italic {
@@ -3710,6 +3782,14 @@
     background-color: var(--green-lightest)
   }
 
+  .phablet\:bg-is-error {
+    background-color: var(--red-dark)
+  }
+
+  .phablet\:bg-is-error-light {
+    background-color: var(--red-light)
+  }
+
   .phablet\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -3838,6 +3918,14 @@
     background-color: var(--green-lightest)
   }
 
+  .phablet\:hover\:bg-is-error:hover {
+    background-color: var(--red-dark)
+  }
+
+  .phablet\:hover\:bg-is-error-light:hover {
+    background-color: var(--red-light)
+  }
+
   .phablet\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -3964,6 +4052,14 @@
 
   .phablet\:focus\:bg-green-lightest:focus {
     background-color: var(--green-lightest)
+  }
+
+  .phablet\:focus\:bg-is-error:focus {
+    background-color: var(--red-dark)
+  }
+
+  .phablet\:focus\:bg-is-error-light:focus {
+    background-color: var(--red-light)
   }
 
   .phablet\:bg-bottom {
@@ -4174,6 +4270,14 @@
     border-color: var(--green-lightest)
   }
 
+  .phablet\:border-is-error {
+    border-color: var(--red-dark)
+  }
+
+  .phablet\:border-is-error-light {
+    border-color: var(--red-light)
+  }
+
   .phablet\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -4302,6 +4406,14 @@
     border-color: var(--green-lightest)
   }
 
+  .phablet\:hover\:border-is-error:hover {
+    border-color: var(--red-dark)
+  }
+
+  .phablet\:hover\:border-is-error-light:hover {
+    border-color: var(--red-light)
+  }
+
   .phablet\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -4428,6 +4540,14 @@
 
   .phablet\:focus\:border-green-lightest:focus {
     border-color: var(--green-lightest)
+  }
+
+  .phablet\:focus\:border-is-error:focus {
+    border-color: var(--red-dark)
+  }
+
+  .phablet\:focus\:border-is-error-light:focus {
+    border-color: var(--red-light)
   }
 
   .phablet\:rounded-none {
@@ -6636,6 +6756,14 @@
     color: var(--green-lightest)
   }
 
+  .phablet\:text-is-error {
+    color: var(--red-dark)
+  }
+
+  .phablet\:text-is-error-light {
+    color: var(--red-light)
+  }
+
   .phablet\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -6764,6 +6892,14 @@
     color: var(--green-lightest)
   }
 
+  .phablet\:hover\:text-is-error:hover {
+    color: var(--red-dark)
+  }
+
+  .phablet\:hover\:text-is-error-light:hover {
+    color: var(--red-light)
+  }
+
   .phablet\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -6890,6 +7026,14 @@
 
   .phablet\:focus\:text-green-lightest:focus {
     color: var(--green-lightest)
+  }
+
+  .phablet\:focus\:text-is-error:focus {
+    color: var(--red-dark)
+  }
+
+  .phablet\:focus\:text-is-error-light:focus {
+    color: var(--red-light)
   }
 
   .phablet\:italic {
@@ -7279,6 +7423,14 @@
     background-color: var(--green-lightest)
   }
 
+  .tablet\:bg-is-error {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:bg-is-error-light {
+    background-color: var(--red-light)
+  }
+
   .tablet\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -7407,6 +7559,14 @@
     background-color: var(--green-lightest)
   }
 
+  .tablet\:hover\:bg-is-error:hover {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:hover\:bg-is-error-light:hover {
+    background-color: var(--red-light)
+  }
+
   .tablet\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -7533,6 +7693,14 @@
 
   .tablet\:focus\:bg-green-lightest:focus {
     background-color: var(--green-lightest)
+  }
+
+  .tablet\:focus\:bg-is-error:focus {
+    background-color: var(--red-dark)
+  }
+
+  .tablet\:focus\:bg-is-error-light:focus {
+    background-color: var(--red-light)
   }
 
   .tablet\:bg-bottom {
@@ -7743,6 +7911,14 @@
     border-color: var(--green-lightest)
   }
 
+  .tablet\:border-is-error {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:border-is-error-light {
+    border-color: var(--red-light)
+  }
+
   .tablet\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -7871,6 +8047,14 @@
     border-color: var(--green-lightest)
   }
 
+  .tablet\:hover\:border-is-error:hover {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:hover\:border-is-error-light:hover {
+    border-color: var(--red-light)
+  }
+
   .tablet\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -7997,6 +8181,14 @@
 
   .tablet\:focus\:border-green-lightest:focus {
     border-color: var(--green-lightest)
+  }
+
+  .tablet\:focus\:border-is-error:focus {
+    border-color: var(--red-dark)
+  }
+
+  .tablet\:focus\:border-is-error-light:focus {
+    border-color: var(--red-light)
   }
 
   .tablet\:rounded-none {
@@ -10205,6 +10397,14 @@
     color: var(--green-lightest)
   }
 
+  .tablet\:text-is-error {
+    color: var(--red-dark)
+  }
+
+  .tablet\:text-is-error-light {
+    color: var(--red-light)
+  }
+
   .tablet\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -10333,6 +10533,14 @@
     color: var(--green-lightest)
   }
 
+  .tablet\:hover\:text-is-error:hover {
+    color: var(--red-dark)
+  }
+
+  .tablet\:hover\:text-is-error-light:hover {
+    color: var(--red-light)
+  }
+
   .tablet\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -10459,6 +10667,14 @@
 
   .tablet\:focus\:text-green-lightest:focus {
     color: var(--green-lightest)
+  }
+
+  .tablet\:focus\:text-is-error:focus {
+    color: var(--red-dark)
+  }
+
+  .tablet\:focus\:text-is-error-light:focus {
+    color: var(--red-light)
   }
 
   .tablet\:italic {
@@ -10848,6 +11064,14 @@
     background-color: var(--green-lightest)
   }
 
+  .laptop\:bg-is-error {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:bg-is-error-light {
+    background-color: var(--red-light)
+  }
+
   .laptop\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -10976,6 +11200,14 @@
     background-color: var(--green-lightest)
   }
 
+  .laptop\:hover\:bg-is-error:hover {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:hover\:bg-is-error-light:hover {
+    background-color: var(--red-light)
+  }
+
   .laptop\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -11102,6 +11334,14 @@
 
   .laptop\:focus\:bg-green-lightest:focus {
     background-color: var(--green-lightest)
+  }
+
+  .laptop\:focus\:bg-is-error:focus {
+    background-color: var(--red-dark)
+  }
+
+  .laptop\:focus\:bg-is-error-light:focus {
+    background-color: var(--red-light)
   }
 
   .laptop\:bg-bottom {
@@ -11312,6 +11552,14 @@
     border-color: var(--green-lightest)
   }
 
+  .laptop\:border-is-error {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:border-is-error-light {
+    border-color: var(--red-light)
+  }
+
   .laptop\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -11440,6 +11688,14 @@
     border-color: var(--green-lightest)
   }
 
+  .laptop\:hover\:border-is-error:hover {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:hover\:border-is-error-light:hover {
+    border-color: var(--red-light)
+  }
+
   .laptop\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -11566,6 +11822,14 @@
 
   .laptop\:focus\:border-green-lightest:focus {
     border-color: var(--green-lightest)
+  }
+
+  .laptop\:focus\:border-is-error:focus {
+    border-color: var(--red-dark)
+  }
+
+  .laptop\:focus\:border-is-error-light:focus {
+    border-color: var(--red-light)
   }
 
   .laptop\:rounded-none {
@@ -13774,6 +14038,14 @@
     color: var(--green-lightest)
   }
 
+  .laptop\:text-is-error {
+    color: var(--red-dark)
+  }
+
+  .laptop\:text-is-error-light {
+    color: var(--red-light)
+  }
+
   .laptop\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -13902,6 +14174,14 @@
     color: var(--green-lightest)
   }
 
+  .laptop\:hover\:text-is-error:hover {
+    color: var(--red-dark)
+  }
+
+  .laptop\:hover\:text-is-error-light:hover {
+    color: var(--red-light)
+  }
+
   .laptop\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -14028,6 +14308,14 @@
 
   .laptop\:focus\:text-green-lightest:focus {
     color: var(--green-lightest)
+  }
+
+  .laptop\:focus\:text-is-error:focus {
+    color: var(--red-dark)
+  }
+
+  .laptop\:focus\:text-is-error-light:focus {
+    color: var(--red-light)
   }
 
   .laptop\:italic {
@@ -14417,6 +14705,14 @@
     background-color: var(--green-lightest)
   }
 
+  .desktop\:bg-is-error {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:bg-is-error-light {
+    background-color: var(--red-light)
+  }
+
   .desktop\:hover\:bg-black:hover {
     background-color: var(--black)
   }
@@ -14545,6 +14841,14 @@
     background-color: var(--green-lightest)
   }
 
+  .desktop\:hover\:bg-is-error:hover {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:hover\:bg-is-error-light:hover {
+    background-color: var(--red-light)
+  }
+
   .desktop\:focus\:bg-black:focus {
     background-color: var(--black)
   }
@@ -14671,6 +14975,14 @@
 
   .desktop\:focus\:bg-green-lightest:focus {
     background-color: var(--green-lightest)
+  }
+
+  .desktop\:focus\:bg-is-error:focus {
+    background-color: var(--red-dark)
+  }
+
+  .desktop\:focus\:bg-is-error-light:focus {
+    background-color: var(--red-light)
   }
 
   .desktop\:bg-bottom {
@@ -14881,6 +15193,14 @@
     border-color: var(--green-lightest)
   }
 
+  .desktop\:border-is-error {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:border-is-error-light {
+    border-color: var(--red-light)
+  }
+
   .desktop\:hover\:border-black:hover {
     border-color: var(--black)
   }
@@ -15009,6 +15329,14 @@
     border-color: var(--green-lightest)
   }
 
+  .desktop\:hover\:border-is-error:hover {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:hover\:border-is-error-light:hover {
+    border-color: var(--red-light)
+  }
+
   .desktop\:focus\:border-black:focus {
     border-color: var(--black)
   }
@@ -15135,6 +15463,14 @@
 
   .desktop\:focus\:border-green-lightest:focus {
     border-color: var(--green-lightest)
+  }
+
+  .desktop\:focus\:border-is-error:focus {
+    border-color: var(--red-dark)
+  }
+
+  .desktop\:focus\:border-is-error-light:focus {
+    border-color: var(--red-light)
   }
 
   .desktop\:rounded-none {
@@ -17343,6 +17679,14 @@
     color: var(--green-lightest)
   }
 
+  .desktop\:text-is-error {
+    color: var(--red-dark)
+  }
+
+  .desktop\:text-is-error-light {
+    color: var(--red-light)
+  }
+
   .desktop\:hover\:text-black:hover {
     color: var(--black)
   }
@@ -17471,6 +17815,14 @@
     color: var(--green-lightest)
   }
 
+  .desktop\:hover\:text-is-error:hover {
+    color: var(--red-dark)
+  }
+
+  .desktop\:hover\:text-is-error-light:hover {
+    color: var(--red-light)
+  }
+
   .desktop\:focus\:text-black:focus {
     color: var(--black)
   }
@@ -17597,6 +17949,14 @@
 
   .desktop\:focus\:text-green-lightest:focus {
     color: var(--green-lightest)
+  }
+
+  .desktop\:focus\:text-is-error:focus {
+    color: var(--red-dark)
+  }
+
+  .desktop\:focus\:text-is-error-light:focus {
+    color: var(--red-light)
   }
 
   .desktop\:italic {

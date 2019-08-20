@@ -37,7 +37,10 @@ module.exports = {
             'green-text': 'var(--green-text)',
             green: 'var(--green)',
             'green-light': 'var(--green-light)',
-            'green-lightest': 'var(--green-lightest)'
+            'green-lightest': 'var(--green-lightest)',
+
+            'is-error': 'var(--red-dark)',
+            'is-error-light': 'var(--red-light)'
         },
         spacing: {
             '0': '0',
