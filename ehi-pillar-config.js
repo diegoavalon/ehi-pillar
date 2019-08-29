@@ -93,7 +93,8 @@ module.exports = {
             phablet: '576px',
             tablet: '768px',
             laptop: '992px',
-            desktop: '1200px'
+            desktop: '1200px',
+            jumbotop: '1500px'
         },
         fontWeight: {
             regular: '400',
