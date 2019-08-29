@@ -90,10 +90,10 @@ module.exports = {
             full: '9999px'
         },
         screens: {
-            phablet: 'calc(576px + 40px)',
-            tablet: 'calc(768px + 80px)',
-            laptop: 'calc(992px + 120px)',
-            desktop: 'calc(1200px + 200px)'
+            phablet: '576px',
+            tablet: '768px',
+            laptop: '992px',
+            desktop: '1200px'
         },
         fontWeight: {
             regular: '400',

@@ -3637,7 +3637,7 @@
   z-index: auto
 }
 
-@media (min-width: calc(576px + 40px)) {
+@media (min-width: 576px) {
   .phablet\:appearance-none {
     appearance: none
   }
@@ -7278,7 +7278,7 @@
   }
 }
 
-@media (min-width: calc(768px + 80px)) {
+@media (min-width: 768px) {
   .tablet\:appearance-none {
     appearance: none
   }
@@ -10919,7 +10919,7 @@
   }
 }
 
-@media (min-width: calc(992px + 120px)) {
+@media (min-width: 992px) {
   .laptop\:appearance-none {
     appearance: none
   }
@@ -14560,7 +14560,7 @@
   }
 }
 
-@media (min-width: calc(1200px + 200px)) {
+@media (min-width: 1200px) {
   .desktop\:appearance-none {
     appearance: none
   }
