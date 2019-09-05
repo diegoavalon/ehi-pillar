@@ -20,6 +20,7 @@
     &:hover:not(:disabled),
     &:focus:not(:disabled) {
         text-decoration: underline;
+        outline: none;
     }
     &:disabled {
         opacity: 0.6;
