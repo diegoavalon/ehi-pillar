@@ -98,3 +98,42 @@
         }
     }
 }
+
+.pill,
+.pill-light {
+    @include button-base;
+    @include font-size(12px);
+    display: inline-flex;
+    align-items: center;
+    cursor: default;
+    padding: 14px;
+    margin: var(--space-xs) 0;
+    font-weight: 700;
+    background: var(--blue);
+    color: var(--white);
+    &:hover:not(:disabled) {
+        text-decoration: none;
+        background: var(--blue-hover);
+    }
+    svg {
+        cursor: pointer;
+        text-decoration: underline;
+        margin-right: var(--space-xs);
+        transition: transform 0.12s var(--cubic-bezier);
+    }
+    &:active svg {
+        transform: scale(1.4);
+    }
+    &.is-active {
+        background: var(--blue-hover);
+    }
+}
+
+.pill-light {
+    background: var(--blue-lightest);
+    color: var(--blue-text);
+    &:hover:not(:disabled),
+    &.is-active {
+        background: var(--blue-active);
+    }
+}
