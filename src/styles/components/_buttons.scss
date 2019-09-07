@@ -105,12 +105,13 @@
     @include font-size(12px);
     display: inline-flex;
     align-items: center;
-    cursor: default;
-    padding: 14px;
-    margin: var(--space-xs) 0;
+    height: 40px;
+    padding: 0 var(--space-sm);
+    margin: var(--space-xxs) var(--space-xxxxs);
     font-weight: 700;
     background: var(--blue);
     color: var(--white);
+    cursor: default;
     &:hover:not(:disabled) {
         text-decoration: none;
         background: var(--blue-hover);
