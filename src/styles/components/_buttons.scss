@@ -116,13 +116,14 @@
         text-decoration: none;
         background: var(--blue-hover);
     }
-    svg {
-        cursor: pointer;
-        text-decoration: underline;
+    svg,
+    img {
         margin-right: var(--space-xs);
+        cursor: pointer;
         transition: transform 0.12s var(--cubic-bezier);
     }
-    &:active svg {
+    &:active svg,
+    &:active img {
         transform: scale(1.4);
     }
     &.is-active {
