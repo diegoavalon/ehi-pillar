@@ -1,27 +1,27 @@
 em,
 cite {
-    font-style: italic;
+	font-style: italic;
 }
 
 b,
 strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 dfn,
 cite,
 em,
 i {
-    font-style: italic;
+	font-style: italic;
 }
 
 q {
-    quotes: '“' '”' '‘' '’';
+	quotes: '“''”''‘''’';
 }
 
 address {
-    font-style: italic;
-    margin: 0 0 1.75em;
+	font-style: italic;
+	margin: 0 0 1.75em;
 }
 
 code,
@@ -30,81 +30,81 @@ tt,
 var,
 samp,
 pre {
-    font-family: Menlo, Consolas, monaco, monospace;
-    font-size: 14px;
+	font-family: Menlo, Consolas, monaco, monospace;
+	font-size: 14px;
 }
 
 pre {
-    background-color: #eeeeee;
-    clear: both;
-    display: block;
-    overflow: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+	background-color: #eeeeee;
+	clear: both;
+	display: block;
+	overflow: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 code {
-    @include font-size(15px);
-    padding: 3px 10px;
-    position: relative;
-    top: -1px;
-    border-radius: 3px;
-    background-color: var(--gray-lightest);
+	@include font-size(15px);
+	padding: 3px 10px;
+	position: relative;
+	top: -1px;
+	border-radius: 3px;
+	background-color: var(--gray-lightest);
 }
 
 abbr,
 acronym {
-    border-bottom: 1px dotted var(--gray-lighter);
-    cursor: help;
+	border-bottom: 1px dotted var(--gray-lighter);
+	cursor: help;
 }
 
 ins {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 big {
-    font-size: 125%;
+	font-size: 125%;
 }
 
 strike,
 del {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 p {
-    @include font-size(16px);
-    line-height: 23px;
-    font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
-    margin: 0 0 1em;
-    color: var(--gray-dark);
+	@include font-size(16px);
+	line-height: 23px;
+	font-weight: 400;
+	font-family: 'Libre Baskerville', serif;
+	margin: 0 0 1em;
+	color: var(--gray-dark);
 }
 
 .font-md {
-    @include font-size(14px);
-    font-weight: 400;
-    line-height: 18px;
-    font-family: 'Muli', sans-serif;
-    color: var(--gray-dark);
+	@include font-size(14px);
+	font-weight: 400;
+	line-height: 18px;
+	font-family: 'Muli', sans-serif;
+	color: var(--gray-dark);
 }
 
 label,
 .label {
-    display: block;
-    @include font-size(14px);
-    line-height: 18px;
-    font-weight: 600;
-    font-family: 'Muli', sans-serif;
-    color: var(--gray-dark);
+	display: block;
+	@include font-size(16px);
+	line-height: 20px;
+	font-weight: 600;
+	font-family: 'Muli', sans-serif;
+	color: var(--gray-dark);
 }
 
 legend,
 .legend {
-    @include font-size(14px);
-    font-family: 'Muli', sans-serif;
-    font-weight: 900;
-    line-height: 18px;
-    color: var(--black);
+	@include font-size(16px);
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	line-height: 20px;
+	color: var(--black);
 }
 
 // Forms
@@ -114,43 +114,43 @@ select,
 optgroup,
 textarea,
 table {
-    color: var(--black);
+	color: var(--black);
 }
 
 input {
-    font-weight: 400;
-    @include font-size(14px);
+	font-weight: 400;
+	@include font-size(14px);
 }
 
 ::placeholder {
-    @include font-size(14px);
-    line-height: 18px;
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
-    color: var(--gray);
+	@include font-size(14px);
+	line-height: 18px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	color: var(--gray);
 }
 
 div.text-is-error,
 div.text-is-error-light {
-    @include font-size(14px);
-    font-weight: 400;
-    line-height: 18px;
-    font-family: 'Muli', sans-serif;
+	@include font-size(14px);
+	font-weight: 400;
+	line-height: 18px;
+	font-family: 'Muli', sans-serif;
 }
 
 // Tables
 th {
-    font-family: 'Muli', sans-serif;
-    font-weight: 700;
-    @include font-size(14px);
-    line-height: 18px;
-    color: var(--black);
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	@include font-size(14px);
+	line-height: 18px;
+	color: var(--black);
 }
 
 td {
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
-    @include font-size(14px);
-    line-height: 18px;
-    color: var(--gray-dark);
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	@include font-size(14px);
+	line-height: 18px;
+	color: var(--gray-dark);
 }
