@@ -19,6 +19,7 @@ import {
 } from 'rollup-plugin-terser';
 import visualizer from 'rollup-plugin-visualizer';
 import cssvariables from 'postcss-css-variables';
+import copy from 'rollup-plugin-copy';
 
 const pkg = require('./package.json');
 const banner = ['/*!', pkg.name, pkg.version, '*/\n'].join(' ');
@@ -71,6 +72,12 @@ const plugins = [
 	}),
 	css({
 		output: false
+	}),
+	copy({
+		targets: [{
+			src: 'src/styles/fonts',
+			dest: 'dist'
+		}]
 	})
 ];
 
@@ -97,7 +104,20 @@ if (process.env.DEVELOPMENT) {
 				baseDir: 'playground',
 				routes: {
 					'/ehi-pillar/dist/css/main.css': 'dist/css/main.css',
+					'/ehi-pillar/dist/css/variables.css': 'dist/css/variables.css',
 					'/ehi-pillar/dist/js/main.js': 'dist/js/main.js'
+					// '/ehi-pillar/dist/fonts/librebaskerville-regular-webfont.woff': 'dist/fonts/librebaskerville-regular-webfont.woff',
+					// '/ehi-pillar/dist/fonts/librebaskerville-regular-webfont.woff2': 'dist/fonts/librebaskerville-regular-webfont.woff2',
+					// '/ehi-pillar/dist/fonts/muli-black-webfont.woff': 'dist/fonts/muli-black-webfont.woff',
+					// '/ehi-pillar/dist/fonts/muli-black-webfont.woff2': 'dist/fonts/muli-black-webfont.woff2',
+					// '/ehi-pillar/dist/fonts/muli-bold-webfont.woff': 'dist/fonts/muli-bold-webfont.woff',
+					// '/ehi-pillar/dist/fonts/muli-bold-webfont.woff2': 'dist/fonts/muli-bold-webfont.woff2',
+					// '/ehi-pillar/dist/fonts/muli-extrabold-webfont.woff': 'dist/fonts/muli-extrabold-webfont.woff',
+					// '/ehi-pillar/dist/fonts/muli-extrabold-webfont.woff2': 'dist/fonts/muli-extrabold-webfont.woff2',
+					// '/ehi-pillar/dist/fonts/muli-regular-webfont.woff': 'dist/fonts/muli-regular-webfont.woff',
+					// '/ehi-pillar/dist/fonts/muli-regular-webfont.woff2': 'dist/fonts/muli-regular-webfont.woff2',
+					// '/ehi-pillar/dist/fonts/muli-semibold-webfont.woff': 'dist/fonts/muli-semibold-webfont.woff',
+					// '/ehi-pillar/dist/fonts/muli-semibold-webfont.woff2': 'dist/fonts/muli-semibold-webfont.woff2',
 				}
 			}
 		})
