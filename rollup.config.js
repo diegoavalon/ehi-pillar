@@ -44,7 +44,9 @@ const sassOptions = {
 	},
 	processor: css =>
 		postcss([
-			cssvariables(),
+			cssvariables({
+				preserve: true
+			}),
 			autoprefixer({
 				grid: true
 			}),
