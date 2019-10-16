@@ -1,3 +1,49 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal
+}
+
+.focus\:sr-only:focus {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal
+}
+
 .appearance-none {
   appearance: none
 }
@@ -1120,6 +1166,10 @@
 
 .border-dotted {
   border-style: dotted
+}
+
+.border-double {
+  border-style: double
 }
 
 .border-none {
@@ -2266,6 +2316,54 @@
   opacity: 1
 }
 
+.hover\:opacity-0:hover {
+  opacity: 0
+}
+
+.hover\:opacity-20:hover {
+  opacity: 0.2
+}
+
+.hover\:opacity-40:hover {
+  opacity: 0.4
+}
+
+.hover\:opacity-60:hover {
+  opacity: 0.6
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1
+}
+
+.focus\:opacity-0:focus {
+  opacity: 0
+}
+
+.focus\:opacity-20:focus {
+  opacity: 0.2
+}
+
+.focus\:opacity-40:focus {
+  opacity: 0.4
+}
+
+.focus\:opacity-60:focus {
+  opacity: 0.6
+}
+
+.focus\:opacity-80:focus {
+  opacity: 0.8
+}
+
+.focus\:opacity-100:focus {
+  opacity: 1
+}
+
 .outline-none {
   outline: 0
 }
@@ -2748,6 +2846,278 @@
 
 .pl-component {
   padding-left: calc(1.25 * var(--space-unit))
+}
+
+.placeholder-black::placeholder {
+  color: var(--black)
+}
+
+.placeholder-white::placeholder {
+  color: var(--white)
+}
+
+.placeholder-gray-active::placeholder {
+  color: var(--gray-active)
+}
+
+.placeholder-gray-hover::placeholder {
+  color: var(--gray-hover)
+}
+
+.placeholder-gray-dark::placeholder {
+  color: var(--gray-dark)
+}
+
+.placeholder-gray::placeholder {
+  color: var(--gray)
+}
+
+.placeholder-gray-lighter::placeholder {
+  color: var(--gray-lighter)
+}
+
+.placeholder-gray-lightest::placeholder {
+  color: var(--gray-lightest)
+}
+
+.placeholder-red-active::placeholder {
+  color: var(--red-active)
+}
+
+.placeholder-red-hover::placeholder {
+  color: var(--red-hover)
+}
+
+.placeholder-red-text::placeholder {
+  color: var(--red-text)
+}
+
+.placeholder-red-dark::placeholder {
+  color: var(--red-dark)
+}
+
+.placeholder-red::placeholder {
+  color: var(--red)
+}
+
+.placeholder-red-light::placeholder {
+  color: var(--red-light)
+}
+
+.placeholder-red-lightest::placeholder {
+  color: var(--red-lightest)
+}
+
+.placeholder-blue-active::placeholder {
+  color: var(--blue-active)
+}
+
+.placeholder-blue-hover::placeholder {
+  color: var(--blue-hover)
+}
+
+.placeholder-blue-text::placeholder {
+  color: var(--blue-text)
+}
+
+.placeholder-blue::placeholder {
+  color: var(--blue)
+}
+
+.placeholder-blue-light::placeholder {
+  color: var(--blue-light)
+}
+
+.placeholder-blue-lightest::placeholder {
+  color: var(--blue-lightest)
+}
+
+.placeholder-orange-active::placeholder {
+  color: var(--orange-active)
+}
+
+.placeholder-orange-hover::placeholder {
+  color: var(--orange-hover)
+}
+
+.placeholder-orange-text::placeholder {
+  color: var(--orange-text)
+}
+
+.placeholder-orange::placeholder {
+  color: var(--orange)
+}
+
+.placeholder-orange-lightest::placeholder {
+  color: var(--orange-lightest)
+}
+
+.placeholder-green-active::placeholder {
+  color: var(--green-active)
+}
+
+.placeholder-green-hover::placeholder {
+  color: var(--green-hover)
+}
+
+.placeholder-green-text::placeholder {
+  color: var(--green-text)
+}
+
+.placeholder-green::placeholder {
+  color: var(--green)
+}
+
+.placeholder-green-light::placeholder {
+  color: var(--green-light)
+}
+
+.placeholder-green-lightest::placeholder {
+  color: var(--green-lightest)
+}
+
+.placeholder-is-error::placeholder {
+  color: var(--red-dark)
+}
+
+.placeholder-is-error-light::placeholder {
+  color: var(--red-light)
+}
+
+.focus\:placeholder-black:focus::placeholder {
+  color: var(--black)
+}
+
+.focus\:placeholder-white:focus::placeholder {
+  color: var(--white)
+}
+
+.focus\:placeholder-gray-active:focus::placeholder {
+  color: var(--gray-active)
+}
+
+.focus\:placeholder-gray-hover:focus::placeholder {
+  color: var(--gray-hover)
+}
+
+.focus\:placeholder-gray-dark:focus::placeholder {
+  color: var(--gray-dark)
+}
+
+.focus\:placeholder-gray:focus::placeholder {
+  color: var(--gray)
+}
+
+.focus\:placeholder-gray-lighter:focus::placeholder {
+  color: var(--gray-lighter)
+}
+
+.focus\:placeholder-gray-lightest:focus::placeholder {
+  color: var(--gray-lightest)
+}
+
+.focus\:placeholder-red-active:focus::placeholder {
+  color: var(--red-active)
+}
+
+.focus\:placeholder-red-hover:focus::placeholder {
+  color: var(--red-hover)
+}
+
+.focus\:placeholder-red-text:focus::placeholder {
+  color: var(--red-text)
+}
+
+.focus\:placeholder-red-dark:focus::placeholder {
+  color: var(--red-dark)
+}
+
+.focus\:placeholder-red:focus::placeholder {
+  color: var(--red)
+}
+
+.focus\:placeholder-red-light:focus::placeholder {
+  color: var(--red-light)
+}
+
+.focus\:placeholder-red-lightest:focus::placeholder {
+  color: var(--red-lightest)
+}
+
+.focus\:placeholder-blue-active:focus::placeholder {
+  color: var(--blue-active)
+}
+
+.focus\:placeholder-blue-hover:focus::placeholder {
+  color: var(--blue-hover)
+}
+
+.focus\:placeholder-blue-text:focus::placeholder {
+  color: var(--blue-text)
+}
+
+.focus\:placeholder-blue:focus::placeholder {
+  color: var(--blue)
+}
+
+.focus\:placeholder-blue-light:focus::placeholder {
+  color: var(--blue-light)
+}
+
+.focus\:placeholder-blue-lightest:focus::placeholder {
+  color: var(--blue-lightest)
+}
+
+.focus\:placeholder-orange-active:focus::placeholder {
+  color: var(--orange-active)
+}
+
+.focus\:placeholder-orange-hover:focus::placeholder {
+  color: var(--orange-hover)
+}
+
+.focus\:placeholder-orange-text:focus::placeholder {
+  color: var(--orange-text)
+}
+
+.focus\:placeholder-orange:focus::placeholder {
+  color: var(--orange)
+}
+
+.focus\:placeholder-orange-lightest:focus::placeholder {
+  color: var(--orange-lightest)
+}
+
+.focus\:placeholder-green-active:focus::placeholder {
+  color: var(--green-active)
+}
+
+.focus\:placeholder-green-hover:focus::placeholder {
+  color: var(--green-hover)
+}
+
+.focus\:placeholder-green-text:focus::placeholder {
+  color: var(--green-text)
+}
+
+.focus\:placeholder-green:focus::placeholder {
+  color: var(--green)
+}
+
+.focus\:placeholder-green-light:focus::placeholder {
+  color: var(--green-light)
+}
+
+.focus\:placeholder-green-lightest:focus::placeholder {
+  color: var(--green-lightest)
+}
+
+.focus\:placeholder-is-error:focus::placeholder {
+  color: var(--red-dark)
+}
+
+.focus\:placeholder-is-error-light:focus::placeholder {
+  color: var(--red-light)
 }
 
 .pointer-events-none {
@@ -3638,6 +4008,52 @@
 }
 
 @media (min-width: 576px) {
+  .phablet\:sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .phablet\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
+  .phablet\:focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .phablet\:focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
   .phablet\:appearance-none {
     appearance: none
   }
@@ -4760,6 +5176,10 @@
 
   .phablet\:border-dotted {
     border-style: dotted
+  }
+
+  .phablet\:border-double {
+    border-style: double
   }
 
   .phablet\:border-none {
@@ -5906,6 +6326,54 @@
     opacity: 1
   }
 
+  .phablet\:hover\:opacity-0:hover {
+    opacity: 0
+  }
+
+  .phablet\:hover\:opacity-20:hover {
+    opacity: 0.2
+  }
+
+  .phablet\:hover\:opacity-40:hover {
+    opacity: 0.4
+  }
+
+  .phablet\:hover\:opacity-60:hover {
+    opacity: 0.6
+  }
+
+  .phablet\:hover\:opacity-80:hover {
+    opacity: 0.8
+  }
+
+  .phablet\:hover\:opacity-100:hover {
+    opacity: 1
+  }
+
+  .phablet\:focus\:opacity-0:focus {
+    opacity: 0
+  }
+
+  .phablet\:focus\:opacity-20:focus {
+    opacity: 0.2
+  }
+
+  .phablet\:focus\:opacity-40:focus {
+    opacity: 0.4
+  }
+
+  .phablet\:focus\:opacity-60:focus {
+    opacity: 0.6
+  }
+
+  .phablet\:focus\:opacity-80:focus {
+    opacity: 0.8
+  }
+
+  .phablet\:focus\:opacity-100:focus {
+    opacity: 1
+  }
+
   .phablet\:outline-none {
     outline: 0
   }
@@ -6388,6 +6856,278 @@
 
   .phablet\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
+  }
+
+  .phablet\:placeholder-black::placeholder {
+    color: var(--black)
+  }
+
+  .phablet\:placeholder-white::placeholder {
+    color: var(--white)
+  }
+
+  .phablet\:placeholder-gray-active::placeholder {
+    color: var(--gray-active)
+  }
+
+  .phablet\:placeholder-gray-hover::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .phablet\:placeholder-gray-dark::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .phablet\:placeholder-gray::placeholder {
+    color: var(--gray)
+  }
+
+  .phablet\:placeholder-gray-lighter::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .phablet\:placeholder-gray-lightest::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .phablet\:placeholder-red-active::placeholder {
+    color: var(--red-active)
+  }
+
+  .phablet\:placeholder-red-hover::placeholder {
+    color: var(--red-hover)
+  }
+
+  .phablet\:placeholder-red-text::placeholder {
+    color: var(--red-text)
+  }
+
+  .phablet\:placeholder-red-dark::placeholder {
+    color: var(--red-dark)
+  }
+
+  .phablet\:placeholder-red::placeholder {
+    color: var(--red)
+  }
+
+  .phablet\:placeholder-red-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .phablet\:placeholder-red-lightest::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .phablet\:placeholder-blue-active::placeholder {
+    color: var(--blue-active)
+  }
+
+  .phablet\:placeholder-blue-hover::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .phablet\:placeholder-blue-text::placeholder {
+    color: var(--blue-text)
+  }
+
+  .phablet\:placeholder-blue::placeholder {
+    color: var(--blue)
+  }
+
+  .phablet\:placeholder-blue-light::placeholder {
+    color: var(--blue-light)
+  }
+
+  .phablet\:placeholder-blue-lightest::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .phablet\:placeholder-orange-active::placeholder {
+    color: var(--orange-active)
+  }
+
+  .phablet\:placeholder-orange-hover::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .phablet\:placeholder-orange-text::placeholder {
+    color: var(--orange-text)
+  }
+
+  .phablet\:placeholder-orange::placeholder {
+    color: var(--orange)
+  }
+
+  .phablet\:placeholder-orange-lightest::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .phablet\:placeholder-green-active::placeholder {
+    color: var(--green-active)
+  }
+
+  .phablet\:placeholder-green-hover::placeholder {
+    color: var(--green-hover)
+  }
+
+  .phablet\:placeholder-green-text::placeholder {
+    color: var(--green-text)
+  }
+
+  .phablet\:placeholder-green::placeholder {
+    color: var(--green)
+  }
+
+  .phablet\:placeholder-green-light::placeholder {
+    color: var(--green-light)
+  }
+
+  .phablet\:placeholder-green-lightest::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .phablet\:placeholder-is-error::placeholder {
+    color: var(--red-dark)
+  }
+
+  .phablet\:placeholder-is-error-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .phablet\:focus\:placeholder-black:focus::placeholder {
+    color: var(--black)
+  }
+
+  .phablet\:focus\:placeholder-white:focus::placeholder {
+    color: var(--white)
+  }
+
+  .phablet\:focus\:placeholder-gray-active:focus::placeholder {
+    color: var(--gray-active)
+  }
+
+  .phablet\:focus\:placeholder-gray-hover:focus::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .phablet\:focus\:placeholder-gray-dark:focus::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .phablet\:focus\:placeholder-gray:focus::placeholder {
+    color: var(--gray)
+  }
+
+  .phablet\:focus\:placeholder-gray-lighter:focus::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .phablet\:focus\:placeholder-gray-lightest:focus::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .phablet\:focus\:placeholder-red-active:focus::placeholder {
+    color: var(--red-active)
+  }
+
+  .phablet\:focus\:placeholder-red-hover:focus::placeholder {
+    color: var(--red-hover)
+  }
+
+  .phablet\:focus\:placeholder-red-text:focus::placeholder {
+    color: var(--red-text)
+  }
+
+  .phablet\:focus\:placeholder-red-dark:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .phablet\:focus\:placeholder-red:focus::placeholder {
+    color: var(--red)
+  }
+
+  .phablet\:focus\:placeholder-red-light:focus::placeholder {
+    color: var(--red-light)
+  }
+
+  .phablet\:focus\:placeholder-red-lightest:focus::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .phablet\:focus\:placeholder-blue-active:focus::placeholder {
+    color: var(--blue-active)
+  }
+
+  .phablet\:focus\:placeholder-blue-hover:focus::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .phablet\:focus\:placeholder-blue-text:focus::placeholder {
+    color: var(--blue-text)
+  }
+
+  .phablet\:focus\:placeholder-blue:focus::placeholder {
+    color: var(--blue)
+  }
+
+  .phablet\:focus\:placeholder-blue-light:focus::placeholder {
+    color: var(--blue-light)
+  }
+
+  .phablet\:focus\:placeholder-blue-lightest:focus::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .phablet\:focus\:placeholder-orange-active:focus::placeholder {
+    color: var(--orange-active)
+  }
+
+  .phablet\:focus\:placeholder-orange-hover:focus::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .phablet\:focus\:placeholder-orange-text:focus::placeholder {
+    color: var(--orange-text)
+  }
+
+  .phablet\:focus\:placeholder-orange:focus::placeholder {
+    color: var(--orange)
+  }
+
+  .phablet\:focus\:placeholder-orange-lightest:focus::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .phablet\:focus\:placeholder-green-active:focus::placeholder {
+    color: var(--green-active)
+  }
+
+  .phablet\:focus\:placeholder-green-hover:focus::placeholder {
+    color: var(--green-hover)
+  }
+
+  .phablet\:focus\:placeholder-green-text:focus::placeholder {
+    color: var(--green-text)
+  }
+
+  .phablet\:focus\:placeholder-green:focus::placeholder {
+    color: var(--green)
+  }
+
+  .phablet\:focus\:placeholder-green-light:focus::placeholder {
+    color: var(--green-light)
+  }
+
+  .phablet\:focus\:placeholder-green-lightest:focus::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .phablet\:focus\:placeholder-is-error:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .phablet\:focus\:placeholder-is-error-light:focus::placeholder {
+    color: var(--red-light)
   }
 
   .phablet\:pointer-events-none {
@@ -7279,6 +8019,52 @@
 }
 
 @media (min-width: 768px) {
+  .tablet\:sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .tablet\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
+  .tablet\:focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .tablet\:focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
   .tablet\:appearance-none {
     appearance: none
   }
@@ -8401,6 +9187,10 @@
 
   .tablet\:border-dotted {
     border-style: dotted
+  }
+
+  .tablet\:border-double {
+    border-style: double
   }
 
   .tablet\:border-none {
@@ -9547,6 +10337,54 @@
     opacity: 1
   }
 
+  .tablet\:hover\:opacity-0:hover {
+    opacity: 0
+  }
+
+  .tablet\:hover\:opacity-20:hover {
+    opacity: 0.2
+  }
+
+  .tablet\:hover\:opacity-40:hover {
+    opacity: 0.4
+  }
+
+  .tablet\:hover\:opacity-60:hover {
+    opacity: 0.6
+  }
+
+  .tablet\:hover\:opacity-80:hover {
+    opacity: 0.8
+  }
+
+  .tablet\:hover\:opacity-100:hover {
+    opacity: 1
+  }
+
+  .tablet\:focus\:opacity-0:focus {
+    opacity: 0
+  }
+
+  .tablet\:focus\:opacity-20:focus {
+    opacity: 0.2
+  }
+
+  .tablet\:focus\:opacity-40:focus {
+    opacity: 0.4
+  }
+
+  .tablet\:focus\:opacity-60:focus {
+    opacity: 0.6
+  }
+
+  .tablet\:focus\:opacity-80:focus {
+    opacity: 0.8
+  }
+
+  .tablet\:focus\:opacity-100:focus {
+    opacity: 1
+  }
+
   .tablet\:outline-none {
     outline: 0
   }
@@ -10029,6 +10867,278 @@
 
   .tablet\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
+  }
+
+  .tablet\:placeholder-black::placeholder {
+    color: var(--black)
+  }
+
+  .tablet\:placeholder-white::placeholder {
+    color: var(--white)
+  }
+
+  .tablet\:placeholder-gray-active::placeholder {
+    color: var(--gray-active)
+  }
+
+  .tablet\:placeholder-gray-hover::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .tablet\:placeholder-gray-dark::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .tablet\:placeholder-gray::placeholder {
+    color: var(--gray)
+  }
+
+  .tablet\:placeholder-gray-lighter::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .tablet\:placeholder-gray-lightest::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .tablet\:placeholder-red-active::placeholder {
+    color: var(--red-active)
+  }
+
+  .tablet\:placeholder-red-hover::placeholder {
+    color: var(--red-hover)
+  }
+
+  .tablet\:placeholder-red-text::placeholder {
+    color: var(--red-text)
+  }
+
+  .tablet\:placeholder-red-dark::placeholder {
+    color: var(--red-dark)
+  }
+
+  .tablet\:placeholder-red::placeholder {
+    color: var(--red)
+  }
+
+  .tablet\:placeholder-red-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .tablet\:placeholder-red-lightest::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .tablet\:placeholder-blue-active::placeholder {
+    color: var(--blue-active)
+  }
+
+  .tablet\:placeholder-blue-hover::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .tablet\:placeholder-blue-text::placeholder {
+    color: var(--blue-text)
+  }
+
+  .tablet\:placeholder-blue::placeholder {
+    color: var(--blue)
+  }
+
+  .tablet\:placeholder-blue-light::placeholder {
+    color: var(--blue-light)
+  }
+
+  .tablet\:placeholder-blue-lightest::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .tablet\:placeholder-orange-active::placeholder {
+    color: var(--orange-active)
+  }
+
+  .tablet\:placeholder-orange-hover::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .tablet\:placeholder-orange-text::placeholder {
+    color: var(--orange-text)
+  }
+
+  .tablet\:placeholder-orange::placeholder {
+    color: var(--orange)
+  }
+
+  .tablet\:placeholder-orange-lightest::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .tablet\:placeholder-green-active::placeholder {
+    color: var(--green-active)
+  }
+
+  .tablet\:placeholder-green-hover::placeholder {
+    color: var(--green-hover)
+  }
+
+  .tablet\:placeholder-green-text::placeholder {
+    color: var(--green-text)
+  }
+
+  .tablet\:placeholder-green::placeholder {
+    color: var(--green)
+  }
+
+  .tablet\:placeholder-green-light::placeholder {
+    color: var(--green-light)
+  }
+
+  .tablet\:placeholder-green-lightest::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .tablet\:placeholder-is-error::placeholder {
+    color: var(--red-dark)
+  }
+
+  .tablet\:placeholder-is-error-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .tablet\:focus\:placeholder-black:focus::placeholder {
+    color: var(--black)
+  }
+
+  .tablet\:focus\:placeholder-white:focus::placeholder {
+    color: var(--white)
+  }
+
+  .tablet\:focus\:placeholder-gray-active:focus::placeholder {
+    color: var(--gray-active)
+  }
+
+  .tablet\:focus\:placeholder-gray-hover:focus::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .tablet\:focus\:placeholder-gray-dark:focus::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .tablet\:focus\:placeholder-gray:focus::placeholder {
+    color: var(--gray)
+  }
+
+  .tablet\:focus\:placeholder-gray-lighter:focus::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .tablet\:focus\:placeholder-gray-lightest:focus::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .tablet\:focus\:placeholder-red-active:focus::placeholder {
+    color: var(--red-active)
+  }
+
+  .tablet\:focus\:placeholder-red-hover:focus::placeholder {
+    color: var(--red-hover)
+  }
+
+  .tablet\:focus\:placeholder-red-text:focus::placeholder {
+    color: var(--red-text)
+  }
+
+  .tablet\:focus\:placeholder-red-dark:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .tablet\:focus\:placeholder-red:focus::placeholder {
+    color: var(--red)
+  }
+
+  .tablet\:focus\:placeholder-red-light:focus::placeholder {
+    color: var(--red-light)
+  }
+
+  .tablet\:focus\:placeholder-red-lightest:focus::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .tablet\:focus\:placeholder-blue-active:focus::placeholder {
+    color: var(--blue-active)
+  }
+
+  .tablet\:focus\:placeholder-blue-hover:focus::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .tablet\:focus\:placeholder-blue-text:focus::placeholder {
+    color: var(--blue-text)
+  }
+
+  .tablet\:focus\:placeholder-blue:focus::placeholder {
+    color: var(--blue)
+  }
+
+  .tablet\:focus\:placeholder-blue-light:focus::placeholder {
+    color: var(--blue-light)
+  }
+
+  .tablet\:focus\:placeholder-blue-lightest:focus::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .tablet\:focus\:placeholder-orange-active:focus::placeholder {
+    color: var(--orange-active)
+  }
+
+  .tablet\:focus\:placeholder-orange-hover:focus::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .tablet\:focus\:placeholder-orange-text:focus::placeholder {
+    color: var(--orange-text)
+  }
+
+  .tablet\:focus\:placeholder-orange:focus::placeholder {
+    color: var(--orange)
+  }
+
+  .tablet\:focus\:placeholder-orange-lightest:focus::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .tablet\:focus\:placeholder-green-active:focus::placeholder {
+    color: var(--green-active)
+  }
+
+  .tablet\:focus\:placeholder-green-hover:focus::placeholder {
+    color: var(--green-hover)
+  }
+
+  .tablet\:focus\:placeholder-green-text:focus::placeholder {
+    color: var(--green-text)
+  }
+
+  .tablet\:focus\:placeholder-green:focus::placeholder {
+    color: var(--green)
+  }
+
+  .tablet\:focus\:placeholder-green-light:focus::placeholder {
+    color: var(--green-light)
+  }
+
+  .tablet\:focus\:placeholder-green-lightest:focus::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .tablet\:focus\:placeholder-is-error:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .tablet\:focus\:placeholder-is-error-light:focus::placeholder {
+    color: var(--red-light)
   }
 
   .tablet\:pointer-events-none {
@@ -10920,6 +12030,52 @@
 }
 
 @media (min-width: 992px) {
+  .laptop\:sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .laptop\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
+  .laptop\:focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .laptop\:focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
   .laptop\:appearance-none {
     appearance: none
   }
@@ -12042,6 +13198,10 @@
 
   .laptop\:border-dotted {
     border-style: dotted
+  }
+
+  .laptop\:border-double {
+    border-style: double
   }
 
   .laptop\:border-none {
@@ -13188,6 +14348,54 @@
     opacity: 1
   }
 
+  .laptop\:hover\:opacity-0:hover {
+    opacity: 0
+  }
+
+  .laptop\:hover\:opacity-20:hover {
+    opacity: 0.2
+  }
+
+  .laptop\:hover\:opacity-40:hover {
+    opacity: 0.4
+  }
+
+  .laptop\:hover\:opacity-60:hover {
+    opacity: 0.6
+  }
+
+  .laptop\:hover\:opacity-80:hover {
+    opacity: 0.8
+  }
+
+  .laptop\:hover\:opacity-100:hover {
+    opacity: 1
+  }
+
+  .laptop\:focus\:opacity-0:focus {
+    opacity: 0
+  }
+
+  .laptop\:focus\:opacity-20:focus {
+    opacity: 0.2
+  }
+
+  .laptop\:focus\:opacity-40:focus {
+    opacity: 0.4
+  }
+
+  .laptop\:focus\:opacity-60:focus {
+    opacity: 0.6
+  }
+
+  .laptop\:focus\:opacity-80:focus {
+    opacity: 0.8
+  }
+
+  .laptop\:focus\:opacity-100:focus {
+    opacity: 1
+  }
+
   .laptop\:outline-none {
     outline: 0
   }
@@ -13670,6 +14878,278 @@
 
   .laptop\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
+  }
+
+  .laptop\:placeholder-black::placeholder {
+    color: var(--black)
+  }
+
+  .laptop\:placeholder-white::placeholder {
+    color: var(--white)
+  }
+
+  .laptop\:placeholder-gray-active::placeholder {
+    color: var(--gray-active)
+  }
+
+  .laptop\:placeholder-gray-hover::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .laptop\:placeholder-gray-dark::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .laptop\:placeholder-gray::placeholder {
+    color: var(--gray)
+  }
+
+  .laptop\:placeholder-gray-lighter::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .laptop\:placeholder-gray-lightest::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .laptop\:placeholder-red-active::placeholder {
+    color: var(--red-active)
+  }
+
+  .laptop\:placeholder-red-hover::placeholder {
+    color: var(--red-hover)
+  }
+
+  .laptop\:placeholder-red-text::placeholder {
+    color: var(--red-text)
+  }
+
+  .laptop\:placeholder-red-dark::placeholder {
+    color: var(--red-dark)
+  }
+
+  .laptop\:placeholder-red::placeholder {
+    color: var(--red)
+  }
+
+  .laptop\:placeholder-red-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .laptop\:placeholder-red-lightest::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .laptop\:placeholder-blue-active::placeholder {
+    color: var(--blue-active)
+  }
+
+  .laptop\:placeholder-blue-hover::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .laptop\:placeholder-blue-text::placeholder {
+    color: var(--blue-text)
+  }
+
+  .laptop\:placeholder-blue::placeholder {
+    color: var(--blue)
+  }
+
+  .laptop\:placeholder-blue-light::placeholder {
+    color: var(--blue-light)
+  }
+
+  .laptop\:placeholder-blue-lightest::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .laptop\:placeholder-orange-active::placeholder {
+    color: var(--orange-active)
+  }
+
+  .laptop\:placeholder-orange-hover::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .laptop\:placeholder-orange-text::placeholder {
+    color: var(--orange-text)
+  }
+
+  .laptop\:placeholder-orange::placeholder {
+    color: var(--orange)
+  }
+
+  .laptop\:placeholder-orange-lightest::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .laptop\:placeholder-green-active::placeholder {
+    color: var(--green-active)
+  }
+
+  .laptop\:placeholder-green-hover::placeholder {
+    color: var(--green-hover)
+  }
+
+  .laptop\:placeholder-green-text::placeholder {
+    color: var(--green-text)
+  }
+
+  .laptop\:placeholder-green::placeholder {
+    color: var(--green)
+  }
+
+  .laptop\:placeholder-green-light::placeholder {
+    color: var(--green-light)
+  }
+
+  .laptop\:placeholder-green-lightest::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .laptop\:placeholder-is-error::placeholder {
+    color: var(--red-dark)
+  }
+
+  .laptop\:placeholder-is-error-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .laptop\:focus\:placeholder-black:focus::placeholder {
+    color: var(--black)
+  }
+
+  .laptop\:focus\:placeholder-white:focus::placeholder {
+    color: var(--white)
+  }
+
+  .laptop\:focus\:placeholder-gray-active:focus::placeholder {
+    color: var(--gray-active)
+  }
+
+  .laptop\:focus\:placeholder-gray-hover:focus::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .laptop\:focus\:placeholder-gray-dark:focus::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .laptop\:focus\:placeholder-gray:focus::placeholder {
+    color: var(--gray)
+  }
+
+  .laptop\:focus\:placeholder-gray-lighter:focus::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .laptop\:focus\:placeholder-gray-lightest:focus::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .laptop\:focus\:placeholder-red-active:focus::placeholder {
+    color: var(--red-active)
+  }
+
+  .laptop\:focus\:placeholder-red-hover:focus::placeholder {
+    color: var(--red-hover)
+  }
+
+  .laptop\:focus\:placeholder-red-text:focus::placeholder {
+    color: var(--red-text)
+  }
+
+  .laptop\:focus\:placeholder-red-dark:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .laptop\:focus\:placeholder-red:focus::placeholder {
+    color: var(--red)
+  }
+
+  .laptop\:focus\:placeholder-red-light:focus::placeholder {
+    color: var(--red-light)
+  }
+
+  .laptop\:focus\:placeholder-red-lightest:focus::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .laptop\:focus\:placeholder-blue-active:focus::placeholder {
+    color: var(--blue-active)
+  }
+
+  .laptop\:focus\:placeholder-blue-hover:focus::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .laptop\:focus\:placeholder-blue-text:focus::placeholder {
+    color: var(--blue-text)
+  }
+
+  .laptop\:focus\:placeholder-blue:focus::placeholder {
+    color: var(--blue)
+  }
+
+  .laptop\:focus\:placeholder-blue-light:focus::placeholder {
+    color: var(--blue-light)
+  }
+
+  .laptop\:focus\:placeholder-blue-lightest:focus::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .laptop\:focus\:placeholder-orange-active:focus::placeholder {
+    color: var(--orange-active)
+  }
+
+  .laptop\:focus\:placeholder-orange-hover:focus::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .laptop\:focus\:placeholder-orange-text:focus::placeholder {
+    color: var(--orange-text)
+  }
+
+  .laptop\:focus\:placeholder-orange:focus::placeholder {
+    color: var(--orange)
+  }
+
+  .laptop\:focus\:placeholder-orange-lightest:focus::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .laptop\:focus\:placeholder-green-active:focus::placeholder {
+    color: var(--green-active)
+  }
+
+  .laptop\:focus\:placeholder-green-hover:focus::placeholder {
+    color: var(--green-hover)
+  }
+
+  .laptop\:focus\:placeholder-green-text:focus::placeholder {
+    color: var(--green-text)
+  }
+
+  .laptop\:focus\:placeholder-green:focus::placeholder {
+    color: var(--green)
+  }
+
+  .laptop\:focus\:placeholder-green-light:focus::placeholder {
+    color: var(--green-light)
+  }
+
+  .laptop\:focus\:placeholder-green-lightest:focus::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .laptop\:focus\:placeholder-is-error:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .laptop\:focus\:placeholder-is-error-light:focus::placeholder {
+    color: var(--red-light)
   }
 
   .laptop\:pointer-events-none {
@@ -14561,6 +16041,52 @@
 }
 
 @media (min-width: 1200px) {
+  .desktop\:sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .desktop\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
+  .desktop\:focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .desktop\:focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
   .desktop\:appearance-none {
     appearance: none
   }
@@ -15683,6 +17209,10 @@
 
   .desktop\:border-dotted {
     border-style: dotted
+  }
+
+  .desktop\:border-double {
+    border-style: double
   }
 
   .desktop\:border-none {
@@ -16829,6 +18359,54 @@
     opacity: 1
   }
 
+  .desktop\:hover\:opacity-0:hover {
+    opacity: 0
+  }
+
+  .desktop\:hover\:opacity-20:hover {
+    opacity: 0.2
+  }
+
+  .desktop\:hover\:opacity-40:hover {
+    opacity: 0.4
+  }
+
+  .desktop\:hover\:opacity-60:hover {
+    opacity: 0.6
+  }
+
+  .desktop\:hover\:opacity-80:hover {
+    opacity: 0.8
+  }
+
+  .desktop\:hover\:opacity-100:hover {
+    opacity: 1
+  }
+
+  .desktop\:focus\:opacity-0:focus {
+    opacity: 0
+  }
+
+  .desktop\:focus\:opacity-20:focus {
+    opacity: 0.2
+  }
+
+  .desktop\:focus\:opacity-40:focus {
+    opacity: 0.4
+  }
+
+  .desktop\:focus\:opacity-60:focus {
+    opacity: 0.6
+  }
+
+  .desktop\:focus\:opacity-80:focus {
+    opacity: 0.8
+  }
+
+  .desktop\:focus\:opacity-100:focus {
+    opacity: 1
+  }
+
   .desktop\:outline-none {
     outline: 0
   }
@@ -17311,6 +18889,278 @@
 
   .desktop\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
+  }
+
+  .desktop\:placeholder-black::placeholder {
+    color: var(--black)
+  }
+
+  .desktop\:placeholder-white::placeholder {
+    color: var(--white)
+  }
+
+  .desktop\:placeholder-gray-active::placeholder {
+    color: var(--gray-active)
+  }
+
+  .desktop\:placeholder-gray-hover::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .desktop\:placeholder-gray-dark::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .desktop\:placeholder-gray::placeholder {
+    color: var(--gray)
+  }
+
+  .desktop\:placeholder-gray-lighter::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .desktop\:placeholder-gray-lightest::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .desktop\:placeholder-red-active::placeholder {
+    color: var(--red-active)
+  }
+
+  .desktop\:placeholder-red-hover::placeholder {
+    color: var(--red-hover)
+  }
+
+  .desktop\:placeholder-red-text::placeholder {
+    color: var(--red-text)
+  }
+
+  .desktop\:placeholder-red-dark::placeholder {
+    color: var(--red-dark)
+  }
+
+  .desktop\:placeholder-red::placeholder {
+    color: var(--red)
+  }
+
+  .desktop\:placeholder-red-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .desktop\:placeholder-red-lightest::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .desktop\:placeholder-blue-active::placeholder {
+    color: var(--blue-active)
+  }
+
+  .desktop\:placeholder-blue-hover::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .desktop\:placeholder-blue-text::placeholder {
+    color: var(--blue-text)
+  }
+
+  .desktop\:placeholder-blue::placeholder {
+    color: var(--blue)
+  }
+
+  .desktop\:placeholder-blue-light::placeholder {
+    color: var(--blue-light)
+  }
+
+  .desktop\:placeholder-blue-lightest::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .desktop\:placeholder-orange-active::placeholder {
+    color: var(--orange-active)
+  }
+
+  .desktop\:placeholder-orange-hover::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .desktop\:placeholder-orange-text::placeholder {
+    color: var(--orange-text)
+  }
+
+  .desktop\:placeholder-orange::placeholder {
+    color: var(--orange)
+  }
+
+  .desktop\:placeholder-orange-lightest::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .desktop\:placeholder-green-active::placeholder {
+    color: var(--green-active)
+  }
+
+  .desktop\:placeholder-green-hover::placeholder {
+    color: var(--green-hover)
+  }
+
+  .desktop\:placeholder-green-text::placeholder {
+    color: var(--green-text)
+  }
+
+  .desktop\:placeholder-green::placeholder {
+    color: var(--green)
+  }
+
+  .desktop\:placeholder-green-light::placeholder {
+    color: var(--green-light)
+  }
+
+  .desktop\:placeholder-green-lightest::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .desktop\:placeholder-is-error::placeholder {
+    color: var(--red-dark)
+  }
+
+  .desktop\:placeholder-is-error-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .desktop\:focus\:placeholder-black:focus::placeholder {
+    color: var(--black)
+  }
+
+  .desktop\:focus\:placeholder-white:focus::placeholder {
+    color: var(--white)
+  }
+
+  .desktop\:focus\:placeholder-gray-active:focus::placeholder {
+    color: var(--gray-active)
+  }
+
+  .desktop\:focus\:placeholder-gray-hover:focus::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .desktop\:focus\:placeholder-gray-dark:focus::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .desktop\:focus\:placeholder-gray:focus::placeholder {
+    color: var(--gray)
+  }
+
+  .desktop\:focus\:placeholder-gray-lighter:focus::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .desktop\:focus\:placeholder-gray-lightest:focus::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .desktop\:focus\:placeholder-red-active:focus::placeholder {
+    color: var(--red-active)
+  }
+
+  .desktop\:focus\:placeholder-red-hover:focus::placeholder {
+    color: var(--red-hover)
+  }
+
+  .desktop\:focus\:placeholder-red-text:focus::placeholder {
+    color: var(--red-text)
+  }
+
+  .desktop\:focus\:placeholder-red-dark:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .desktop\:focus\:placeholder-red:focus::placeholder {
+    color: var(--red)
+  }
+
+  .desktop\:focus\:placeholder-red-light:focus::placeholder {
+    color: var(--red-light)
+  }
+
+  .desktop\:focus\:placeholder-red-lightest:focus::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .desktop\:focus\:placeholder-blue-active:focus::placeholder {
+    color: var(--blue-active)
+  }
+
+  .desktop\:focus\:placeholder-blue-hover:focus::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .desktop\:focus\:placeholder-blue-text:focus::placeholder {
+    color: var(--blue-text)
+  }
+
+  .desktop\:focus\:placeholder-blue:focus::placeholder {
+    color: var(--blue)
+  }
+
+  .desktop\:focus\:placeholder-blue-light:focus::placeholder {
+    color: var(--blue-light)
+  }
+
+  .desktop\:focus\:placeholder-blue-lightest:focus::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .desktop\:focus\:placeholder-orange-active:focus::placeholder {
+    color: var(--orange-active)
+  }
+
+  .desktop\:focus\:placeholder-orange-hover:focus::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .desktop\:focus\:placeholder-orange-text:focus::placeholder {
+    color: var(--orange-text)
+  }
+
+  .desktop\:focus\:placeholder-orange:focus::placeholder {
+    color: var(--orange)
+  }
+
+  .desktop\:focus\:placeholder-orange-lightest:focus::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .desktop\:focus\:placeholder-green-active:focus::placeholder {
+    color: var(--green-active)
+  }
+
+  .desktop\:focus\:placeholder-green-hover:focus::placeholder {
+    color: var(--green-hover)
+  }
+
+  .desktop\:focus\:placeholder-green-text:focus::placeholder {
+    color: var(--green-text)
+  }
+
+  .desktop\:focus\:placeholder-green:focus::placeholder {
+    color: var(--green)
+  }
+
+  .desktop\:focus\:placeholder-green-light:focus::placeholder {
+    color: var(--green-light)
+  }
+
+  .desktop\:focus\:placeholder-green-lightest:focus::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .desktop\:focus\:placeholder-is-error:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .desktop\:focus\:placeholder-is-error-light:focus::placeholder {
+    color: var(--red-light)
   }
 
   .desktop\:pointer-events-none {
@@ -18202,6 +20052,52 @@
 }
 
 @media (min-width: 1500px) {
+  .jumbotop\:sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .jumbotop\:not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
+  .jumbotop\:focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+  }
+
+  .jumbotop\:focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal
+  }
+
   .jumbotop\:appearance-none {
     appearance: none
   }
@@ -19324,6 +21220,10 @@
 
   .jumbotop\:border-dotted {
     border-style: dotted
+  }
+
+  .jumbotop\:border-double {
+    border-style: double
   }
 
   .jumbotop\:border-none {
@@ -20470,6 +22370,54 @@
     opacity: 1
   }
 
+  .jumbotop\:hover\:opacity-0:hover {
+    opacity: 0
+  }
+
+  .jumbotop\:hover\:opacity-20:hover {
+    opacity: 0.2
+  }
+
+  .jumbotop\:hover\:opacity-40:hover {
+    opacity: 0.4
+  }
+
+  .jumbotop\:hover\:opacity-60:hover {
+    opacity: 0.6
+  }
+
+  .jumbotop\:hover\:opacity-80:hover {
+    opacity: 0.8
+  }
+
+  .jumbotop\:hover\:opacity-100:hover {
+    opacity: 1
+  }
+
+  .jumbotop\:focus\:opacity-0:focus {
+    opacity: 0
+  }
+
+  .jumbotop\:focus\:opacity-20:focus {
+    opacity: 0.2
+  }
+
+  .jumbotop\:focus\:opacity-40:focus {
+    opacity: 0.4
+  }
+
+  .jumbotop\:focus\:opacity-60:focus {
+    opacity: 0.6
+  }
+
+  .jumbotop\:focus\:opacity-80:focus {
+    opacity: 0.8
+  }
+
+  .jumbotop\:focus\:opacity-100:focus {
+    opacity: 1
+  }
+
   .jumbotop\:outline-none {
     outline: 0
   }
@@ -20952,6 +22900,278 @@
 
   .jumbotop\:pl-component {
     padding-left: calc(1.25 * var(--space-unit))
+  }
+
+  .jumbotop\:placeholder-black::placeholder {
+    color: var(--black)
+  }
+
+  .jumbotop\:placeholder-white::placeholder {
+    color: var(--white)
+  }
+
+  .jumbotop\:placeholder-gray-active::placeholder {
+    color: var(--gray-active)
+  }
+
+  .jumbotop\:placeholder-gray-hover::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .jumbotop\:placeholder-gray-dark::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .jumbotop\:placeholder-gray::placeholder {
+    color: var(--gray)
+  }
+
+  .jumbotop\:placeholder-gray-lighter::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .jumbotop\:placeholder-gray-lightest::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .jumbotop\:placeholder-red-active::placeholder {
+    color: var(--red-active)
+  }
+
+  .jumbotop\:placeholder-red-hover::placeholder {
+    color: var(--red-hover)
+  }
+
+  .jumbotop\:placeholder-red-text::placeholder {
+    color: var(--red-text)
+  }
+
+  .jumbotop\:placeholder-red-dark::placeholder {
+    color: var(--red-dark)
+  }
+
+  .jumbotop\:placeholder-red::placeholder {
+    color: var(--red)
+  }
+
+  .jumbotop\:placeholder-red-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .jumbotop\:placeholder-red-lightest::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .jumbotop\:placeholder-blue-active::placeholder {
+    color: var(--blue-active)
+  }
+
+  .jumbotop\:placeholder-blue-hover::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .jumbotop\:placeholder-blue-text::placeholder {
+    color: var(--blue-text)
+  }
+
+  .jumbotop\:placeholder-blue::placeholder {
+    color: var(--blue)
+  }
+
+  .jumbotop\:placeholder-blue-light::placeholder {
+    color: var(--blue-light)
+  }
+
+  .jumbotop\:placeholder-blue-lightest::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .jumbotop\:placeholder-orange-active::placeholder {
+    color: var(--orange-active)
+  }
+
+  .jumbotop\:placeholder-orange-hover::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .jumbotop\:placeholder-orange-text::placeholder {
+    color: var(--orange-text)
+  }
+
+  .jumbotop\:placeholder-orange::placeholder {
+    color: var(--orange)
+  }
+
+  .jumbotop\:placeholder-orange-lightest::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .jumbotop\:placeholder-green-active::placeholder {
+    color: var(--green-active)
+  }
+
+  .jumbotop\:placeholder-green-hover::placeholder {
+    color: var(--green-hover)
+  }
+
+  .jumbotop\:placeholder-green-text::placeholder {
+    color: var(--green-text)
+  }
+
+  .jumbotop\:placeholder-green::placeholder {
+    color: var(--green)
+  }
+
+  .jumbotop\:placeholder-green-light::placeholder {
+    color: var(--green-light)
+  }
+
+  .jumbotop\:placeholder-green-lightest::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .jumbotop\:placeholder-is-error::placeholder {
+    color: var(--red-dark)
+  }
+
+  .jumbotop\:placeholder-is-error-light::placeholder {
+    color: var(--red-light)
+  }
+
+  .jumbotop\:focus\:placeholder-black:focus::placeholder {
+    color: var(--black)
+  }
+
+  .jumbotop\:focus\:placeholder-white:focus::placeholder {
+    color: var(--white)
+  }
+
+  .jumbotop\:focus\:placeholder-gray-active:focus::placeholder {
+    color: var(--gray-active)
+  }
+
+  .jumbotop\:focus\:placeholder-gray-hover:focus::placeholder {
+    color: var(--gray-hover)
+  }
+
+  .jumbotop\:focus\:placeholder-gray-dark:focus::placeholder {
+    color: var(--gray-dark)
+  }
+
+  .jumbotop\:focus\:placeholder-gray:focus::placeholder {
+    color: var(--gray)
+  }
+
+  .jumbotop\:focus\:placeholder-gray-lighter:focus::placeholder {
+    color: var(--gray-lighter)
+  }
+
+  .jumbotop\:focus\:placeholder-gray-lightest:focus::placeholder {
+    color: var(--gray-lightest)
+  }
+
+  .jumbotop\:focus\:placeholder-red-active:focus::placeholder {
+    color: var(--red-active)
+  }
+
+  .jumbotop\:focus\:placeholder-red-hover:focus::placeholder {
+    color: var(--red-hover)
+  }
+
+  .jumbotop\:focus\:placeholder-red-text:focus::placeholder {
+    color: var(--red-text)
+  }
+
+  .jumbotop\:focus\:placeholder-red-dark:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .jumbotop\:focus\:placeholder-red:focus::placeholder {
+    color: var(--red)
+  }
+
+  .jumbotop\:focus\:placeholder-red-light:focus::placeholder {
+    color: var(--red-light)
+  }
+
+  .jumbotop\:focus\:placeholder-red-lightest:focus::placeholder {
+    color: var(--red-lightest)
+  }
+
+  .jumbotop\:focus\:placeholder-blue-active:focus::placeholder {
+    color: var(--blue-active)
+  }
+
+  .jumbotop\:focus\:placeholder-blue-hover:focus::placeholder {
+    color: var(--blue-hover)
+  }
+
+  .jumbotop\:focus\:placeholder-blue-text:focus::placeholder {
+    color: var(--blue-text)
+  }
+
+  .jumbotop\:focus\:placeholder-blue:focus::placeholder {
+    color: var(--blue)
+  }
+
+  .jumbotop\:focus\:placeholder-blue-light:focus::placeholder {
+    color: var(--blue-light)
+  }
+
+  .jumbotop\:focus\:placeholder-blue-lightest:focus::placeholder {
+    color: var(--blue-lightest)
+  }
+
+  .jumbotop\:focus\:placeholder-orange-active:focus::placeholder {
+    color: var(--orange-active)
+  }
+
+  .jumbotop\:focus\:placeholder-orange-hover:focus::placeholder {
+    color: var(--orange-hover)
+  }
+
+  .jumbotop\:focus\:placeholder-orange-text:focus::placeholder {
+    color: var(--orange-text)
+  }
+
+  .jumbotop\:focus\:placeholder-orange:focus::placeholder {
+    color: var(--orange)
+  }
+
+  .jumbotop\:focus\:placeholder-orange-lightest:focus::placeholder {
+    color: var(--orange-lightest)
+  }
+
+  .jumbotop\:focus\:placeholder-green-active:focus::placeholder {
+    color: var(--green-active)
+  }
+
+  .jumbotop\:focus\:placeholder-green-hover:focus::placeholder {
+    color: var(--green-hover)
+  }
+
+  .jumbotop\:focus\:placeholder-green-text:focus::placeholder {
+    color: var(--green-text)
+  }
+
+  .jumbotop\:focus\:placeholder-green:focus::placeholder {
+    color: var(--green)
+  }
+
+  .jumbotop\:focus\:placeholder-green-light:focus::placeholder {
+    color: var(--green-light)
+  }
+
+  .jumbotop\:focus\:placeholder-green-lightest:focus::placeholder {
+    color: var(--green-lightest)
+  }
+
+  .jumbotop\:focus\:placeholder-is-error:focus::placeholder {
+    color: var(--red-dark)
+  }
+
+  .jumbotop\:focus\:placeholder-is-error-light:focus::placeholder {
+    color: var(--red-light)
   }
 
   .jumbotop\:pointer-events-none {
