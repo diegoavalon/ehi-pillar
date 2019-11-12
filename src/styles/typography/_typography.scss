@@ -1,90 +1,90 @@
-@import "fonts";
-
 @function calculateRem($size) {
-	$remSize: $size / 16px;
-	@return $remSize * 1rem;
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
 }
 
 @function strip-unit($value) {
-	@return $value / ($value * 0 + 1);
+    @return $value / ($value * 0 + 1);
 }
 
 @mixin font-size($size) {
-	font-size: $size;
-	font-size: calculateRem($size);
+    font-size: $size;
+    font-size: calculateRem($size);
 }
 
 @mixin letter-spacing($size) {
-	letter-spacing: $size;
-	letter-spacing: calculateRem($size);
+    letter-spacing: $size;
+    letter-spacing: calculateRem($size);
 }
 
 @mixin font-smoothing {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 @mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
-	$u1: unit($min-vw);
-	$u2: unit($max-vw);
-	$u3: unit($min-font-size);
-	$u4: unit($max-font-size);
+    $u1: unit($min-vw);
+    $u2: unit($max-vw);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
 
-	@if $u1==$u2 and $u1==$u3 and $u1==$u4 {
-		& {
-			font-size: $min-font-size;
+    @if $u1==$u2 and $u1==$u3 and $u1==$u4 {
+        & {
+            font-size: $min-font-size;
 
-			@media screen and (min-width: $min-vw) {
-				font-size: calc(#{$min-font-size} + #{strip-unit(
- $max-font-size - $min-font-size)
-			}
+            @media screen and (min-width: $min-vw) {
+                font-size: calc(
+                    #{$min-font-size} + #{strip-unit(
+                            $max-font-size - $min-font-size
+                        )} *
+                        (
+                            (100vw - #{$min-vw}) / #{strip-unit(
+                                    $max-vw - $min-vw
+                                )}
+                        )
+                );
+            }
 
-			* ((100vw - #{$min-vw}) / #{strip-unit(
- $max-vw - $min-vw)
-		}
-
-		));
-	}
-
-	@media screen and (min-width: $max-vw) {
-		font-size: $max-font-size;
-	}
+            @media screen and (min-width: $max-vw) {
+                font-size: $max-font-size;
+            }
+        }
+    }
 }
-}
-}
 
-@mixin fluid-line-height($min_width,
-	$max_width,
-	$sml_line-height,
-	$mid_line-height,
-	$lrg_line-height) {
-	line-height: $sml_line-height;
+@mixin fluid-line-height(
+    $min_width,
+    $max_width,
+    $sml_line-height,
+    $mid_line-height,
+    $lrg_line-height
+) {
+    line-height: $sml_line-height;
 
-	@media screen and (min-width: $min_width) {
-		line-height: $mid_line-height;
-	}
+    @media screen and (min-width: $min_width) {
+        line-height: $mid_line-height;
+    }
 
-	@media screen and (min-width: $max_width) {
-		line-height: $lrg_line-height;
-	}
+    @media screen and (min-width: $max_width) {
+        line-height: $lrg_line-height;
+    }
 }
 
 body {
-	@include font-size(16px);
-	color: var(--black);
-	line-height: 23px;
-	font-weight: 400;
-	font-family: "Libre Baskerville", serif;
+    @include font-size(16px);
+    color: var(--black);
+    line-height: 23px;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
 
-	-webkit-overflow-scrolling: touch;
-	-webkit-text-size-adjust: none;
-	text-rendering: optimizeLegibility;
-	word-wrap: break-word;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    word-wrap: break-word;
 }
 
+@import 'form';
+@import 'headings';
 
-@import "form";
-@import "headings";
-
-@import "copy";
-@import "wysiwyg";
+@import 'copy';
+@import 'wysiwyg';
